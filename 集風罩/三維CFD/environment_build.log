@@ -1,0 +1,380 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 282B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:24.04
+#2 DONE 281.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55
+#4 resolve docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55 done
+#4 sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 0B / 28.94MB 0.1s
+#4 sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55 6.69kB / 6.69kB done
+#4 sha256:08571ca13e00ca07a2a84eab83a959b4242e22cceb16486a11bef1428c9e93a7 424B / 424B done
+#4 sha256:95d16dfcd4ab8b61154e2280ab9fe4afa2ef03e5eefa8a689e86571e8a1b32cf 2.07kB / 2.07kB done
+#4 sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 2.10MB / 28.94MB 0.5s
+#4 sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 6.29MB / 28.94MB 0.8s
+#4 sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 8.39MB / 28.94MB 1.0s
+#4 sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 10.49MB / 28.94MB 1.1s
+#4 sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 12.58MB / 28.94MB 1.3s
+#4 sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 14.68MB / 28.94MB 1.4s
+#4 sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 17.83MB / 28.94MB 1.6s
+#4 sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 22.02MB / 28.94MB 1.9s
+#4 sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 24.12MB / 28.94MB 2.1s
+#4 sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 26.21MB / 28.94MB 2.2s
+#4 sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 28.94MB / 28.94MB 2.5s done
+#4 extracting sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 0.1s
+#4 extracting sha256:90812e242c93750dbd37ce847c7d3db62c2c53035367d1d89c61184f168f5d37 0.6s done
+#4 DONE 3.1s
+
+#5 [2/3] RUN apt-get update && apt-get install -y --no-install-recommends openfoam python3-numpy python3-matplotlib python3-pil && rm -rf /var/lib/apt/lists/*
+#5 2.821 Get:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease [256 kB]
+#5 4.249 Get:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease [126 kB]
+#5 5.078 Get:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease [126 kB]
+#5 5.994 Get:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease [126 kB]
+#5 7.326 Get:5 http://ports.ubuntu.com/ubuntu-ports noble/restricted arm64 Packages [113 kB]
+#5 9.167 Get:6 http://ports.ubuntu.com/ubuntu-ports noble/multiverse arm64 Packages [274 kB]
+#5 23.09 Get:7 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 Packages [1776 kB]
+#5 45.31 Get:8 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 Packages [19.0 MB]
+#5 71.53 Get:9 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 Packages [1761 kB]
+#5 76.03 Get:10 http://ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 Packages [2212 kB]
+#5 76.68 Get:11 http://ports.ubuntu.com/ubuntu-ports noble-updates/multiverse arm64 Packages [110 kB]
+#5 83.92 Get:12 http://ports.ubuntu.com/ubuntu-ports noble-updates/restricted arm64 Packages [3185 kB]
+#5 84.53 Get:13 http://ports.ubuntu.com/ubuntu-ports noble-backports/universe arm64 Packages [36.3 kB]
+#5 85.05 Get:14 http://ports.ubuntu.com/ubuntu-ports noble-backports/main arm64 Packages [49.0 kB]
+#5 85.37 Get:15 http://ports.ubuntu.com/ubuntu-ports noble-backports/multiverse arm64 Packages [671 B]
+#5 88.32 Get:16 http://ports.ubuntu.com/ubuntu-ports noble-security/main arm64 Packages [1448 kB]
+#5 94.88 Get:17 http://ports.ubuntu.com/ubuntu-ports noble-security/restricted arm64 Packages [3063 kB]
+#5 95.69 Get:18 http://ports.ubuntu.com/ubuntu-ports noble-security/multiverse arm64 Packages [105 kB]
+#5 99.07 Get:19 http://ports.ubuntu.com/ubuntu-ports noble-security/universe arm64 Packages [1636 kB]
+#5 99.28 Fetched 35.4 MB in 1min 39s (357 kB/s)
+#5 99.28 Reading package lists...
+#5 99.71 Reading package lists...
+#5 100.1 Building dependency tree...
+#5 100.2 Reading state information...
+#5 100.3 The following additional packages will be installed:
+#5 100.3   adduser blt fontconfig-config fonts-dejavu-core fonts-dejavu-mono fonts-lyx
+#5 100.3   ibverbs-providers libatomic1 libblas3 libboost-system1.83.0 libbrotli1
+#5 100.3   libbsd0 libcbor0.10 libdeflate0 libedit2 libevent-core-2.1-7t64
+#5 100.3   libevent-pthreads-2.1-7t64 libexpat1 libfabric1 libfftw3-double3 libfido2-1
+#5 100.3   libfontconfig1 libfreetype6 libfribidi0 libgfortran5 libglib2.0-0t64
+#5 100.3   libgomp1 libgraphite2-3 libgssapi-krb5-2 libharfbuzz0b libhwloc-plugins
+#5 100.3   libhwloc15 libibverbs1 libicu74 libimagequant0 libjbig0 libjpeg-turbo8
+#5 100.3   libjpeg8 libjs-jquery libjs-jquery-ui libk5crypto3 libkeyutils1 libkrb5-3
+#5 100.3   libkrb5support0 liblapack3 liblbfgsb0 liblcms2-2 liblerc4 libmunge2
+#5 100.3   libnl-3-200 libnl-route-3-200 libopenfoam libopenjp2-7 libopenmpi3t64
+#5 100.3   libpciaccess0 libpmix2t64 libpng16-16t64 libptscotch-7.0 libpython3-stdlib
+#5 100.3   libpython3.12-minimal libpython3.12-stdlib libqhull-r8.0 libraqm0
+#5 100.3   librdmacm1t64 libreadline8t64 libscotch-7.0 libsharpyuv0 libsqlite3-0
+#5 100.3   libtcl8.6 libtiff6 libtk8.6 libucx0 libwebp7 libwebpdemux2 libwebpmux3
+#5 100.3   libx11-6 libx11-data libxau6 libxcb1 libxdmcp6 libxext6 libxft2 libxml2
+#5 100.3   libxnvctrl0 libxrender1 libxslt1.1 libxss1 media-types mpi-default-bin
+#5 100.3   netbase ocl-icd-libopencl1 openmpi-bin openmpi-common openssh-client
+#5 100.3   python-matplotlib-data python3 python3-appdirs python3-attr python3-brotli
+#5 100.3   python3-contourpy python3-cycler python3-dateutil python3-decorator
+#5 100.3   python3-fonttools python3-fs python3-kiwisolver python3-lxml python3-lz4
+#5 100.3   python3-minimal python3-mpmath python3-packaging python3-pil.imagetk
+#5 100.3   python3-pkg-resources python3-pyparsing python3-scipy python3-six
+#5 100.3   python3-sympy python3-tk python3-tz python3-ufolib2 python3-unicodedata2
+#5 100.3   python3.12 python3.12-minimal readline-common tk8.6-blt2.5 tzdata
+#5 100.3   unicode-data x11-common
+#5 100.3 Suggested packages:
+#5 100.3   liblocale-gettext-perl perl cron quota ecryptfs-utils blt-demo libfftw3-bin
+#5 100.3   libfftw3-dev low-memory-monitor krb5-doc krb5-user libjs-jquery-ui-docs
+#5 100.3   liblcms2-utils pciutils tcl8.6 tk8.6 opencl-icd gfortran | fortran-compiler
+#5 100.3   keychain libpam-ssh monkeysphere ssh-askpass python3-doc python3-venv
+#5 100.3   python-attr-doc python-cycler-doc python-lxml-doc cm-super-minimal dvipng
+#5 100.3   ffmpeg fonts-staypuft ghostscript gir1.2-gtk-3.0 inkscape ipython3
+#5 100.3   librsvg2-common python3-cairocffi python3-gi python3-gi-cairo
+#5 100.3   python3-gobject python3-pyqt5 python3-sip python3-tornado
+#5 100.3   texlive-extra-utils texlive-latex-extra python-mpmath-doc python3-gmpy2 gcc
+#5 100.3   gfortran python3-dev python3-pytest python-pil-doc python3-setuptools
+#5 100.3   python-pyparsing-doc python-scipy-doc texlive-fonts-extra python-sympy-doc
+#5 100.3   tix python3-tk-dbg python3.12-venv python3.12-doc binutils binfmt-support
+#5 100.3   readline-doc
+#5 100.3 Recommended packages:
+#5 100.3   libglib2.0-data shared-mime-info xdg-user-dirs javascript-common
+#5 100.3   krb5-locales openfoam-examples xauth python3-bs4 python3-cssselect
+#5 100.3   python3-html5lib python3-olefile g++ | c++-compiler isympy-common
+#5 100.3   ca-certificates
+#5 100.5 The following NEW packages will be installed:
+#5 100.5   adduser blt fontconfig-config fonts-dejavu-core fonts-dejavu-mono fonts-lyx
+#5 100.5   ibverbs-providers libatomic1 libblas3 libboost-system1.83.0 libbrotli1
+#5 100.5   libbsd0 libcbor0.10 libdeflate0 libedit2 libevent-core-2.1-7t64
+#5 100.5   libevent-pthreads-2.1-7t64 libexpat1 libfabric1 libfftw3-double3 libfido2-1
+#5 100.5   libfontconfig1 libfreetype6 libfribidi0 libgfortran5 libglib2.0-0t64
+#5 100.5   libgomp1 libgraphite2-3 libgssapi-krb5-2 libharfbuzz0b libhwloc-plugins
+#5 100.5   libhwloc15 libibverbs1 libicu74 libimagequant0 libjbig0 libjpeg-turbo8
+#5 100.5   libjpeg8 libjs-jquery libjs-jquery-ui libk5crypto3 libkeyutils1 libkrb5-3
+#5 100.5   libkrb5support0 liblapack3 liblbfgsb0 liblcms2-2 liblerc4 libmunge2
+#5 100.5   libnl-3-200 libnl-route-3-200 libopenfoam libopenjp2-7 libopenmpi3t64
+#5 100.5   libpciaccess0 libpmix2t64 libpng16-16t64 libptscotch-7.0 libpython3-stdlib
+#5 100.5   libpython3.12-minimal libpython3.12-stdlib libqhull-r8.0 libraqm0
+#5 100.5   librdmacm1t64 libreadline8t64 libscotch-7.0 libsharpyuv0 libsqlite3-0
+#5 100.5   libtcl8.6 libtiff6 libtk8.6 libucx0 libwebp7 libwebpdemux2 libwebpmux3
+#5 100.5   libx11-6 libx11-data libxau6 libxcb1 libxdmcp6 libxext6 libxft2 libxml2
+#5 100.5   libxnvctrl0 libxrender1 libxslt1.1 libxss1 media-types mpi-default-bin
+#5 100.5   netbase ocl-icd-libopencl1 openfoam openmpi-bin openmpi-common
+#5 100.5   openssh-client python-matplotlib-data python3 python3-appdirs python3-attr
+#5 100.5   python3-brotli python3-contourpy python3-cycler python3-dateutil
+#5 100.5   python3-decorator python3-fonttools python3-fs python3-kiwisolver
+#5 100.5   python3-lxml python3-lz4 python3-matplotlib python3-minimal python3-mpmath
+#5 100.5   python3-numpy python3-packaging python3-pil python3-pil.imagetk
+#5 100.5   python3-pkg-resources python3-pyparsing python3-scipy python3-six
+#5 100.5   python3-sympy python3-tk python3-tz python3-ufolib2 python3-unicodedata2
+#5 100.5   python3.12 python3.12-minimal readline-common tk8.6-blt2.5 tzdata
+#5 100.5   unicode-data x11-common
+#5 103.1 0 upgraded, 132 newly installed, 0 to remove and 3 not upgraded.
+#5 103.1 Need to get 142 MB of archives.
+#5 103.1 After this operation, 652 MB of additional disk space will be used.
+#5 103.1 Get:1 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12-minimal arm64 3.12.3-1ubuntu0.17 [835 kB]
+#5 103.5 Get:2 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libexpat1 arm64 2.6.1-2ubuntu0.6 [89.8 kB]
+#5 106.7 Get:3 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3.12-minimal arm64 3.12.3-1ubuntu0.17 [2253 kB]
+#5 106.9 Get:4 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-minimal arm64 3.12.3-0ubuntu2.1 [27.4 kB]
+#5 107.2 Get:5 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 media-types all 10.1.0 [27.5 kB]
+#5 107.4 Get:6 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 netbase all 6.4 [13.1 kB]
+#5 108.0 Get:7 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 tzdata all 2026c-0ubuntu0.24.04.1 [280 kB]
+#5 108.2 Get:8 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 readline-common all 8.2-4build1 [56.5 kB]
+#5 108.7 Get:9 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libreadline8t64 arm64 8.2-4build1 [153 kB]
+#5 109.7 Get:10 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libsqlite3-0 arm64 3.45.1-1ubuntu2.8 [691 kB]
+#5 112.8 Get:11 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12-stdlib arm64 3.12.3-1ubuntu0.17 [2039 kB]
+#5 113.9 Get:12 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3.12 arm64 3.12.3-1ubuntu0.17 [651 kB]
+#5 114.1 Get:13 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3-stdlib arm64 3.12.3-0ubuntu2.1 [10.1 kB]
+#5 114.3 Get:14 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3 arm64 3.12.3-0ubuntu2.1 [23.0 kB]
+#5 114.7 Get:15 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 adduser all 3.137ubuntu1 [101 kB]
+#5 114.9 Get:16 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libbsd0 arm64 0.12.1-1build1.1 [41.0 kB]
+#5 115.3 Get:17 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libfribidi0 arm64 1.0.13-3build1 [26.5 kB]
+#5 117.5 Get:18 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libglib2.0-0t64 arm64 2.80.0-6ubuntu3.9 [1533 kB]
+#5 117.7 Get:19 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libkrb5support0 arm64 1.20.1-6ubuntu2.10 [35.4 kB]
+#5 118.1 Get:20 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libk5crypto3 arm64 1.20.1-6ubuntu2.10 [85.8 kB]
+#5 118.3 Get:21 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libkeyutils1 arm64 1.6.3-3build1 [9654 B]
+#5 119.0 Get:22 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libkrb5-3 arm64 1.20.1-6ubuntu2.10 [350 kB]
+#5 119.5 Get:23 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgssapi-krb5-2 arm64 1.20.1-6ubuntu2.10 [142 kB]
+#5 133.8 Get:24 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libicu74 arm64 74.2-1ubuntu3.1 [10.8 MB]
+#5 136.4 Get:25 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libxml2 arm64 2.9.14+dfsg-1.3ubuntu3.10 [736 kB]
+#5 136.9 Get:26 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-pkg-resources all 68.1.2-2ubuntu1.2 [168 kB]
+#5 137.1 Get:27 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libnl-3-200 arm64 3.7.0-0.3build1.1 [57.5 kB]
+#5 137.6 Get:28 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libnl-route-3-200 arm64 3.7.0-0.3build1.1 [182 kB]
+#5 137.9 Get:29 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libibverbs1 arm64 50.0-2ubuntu0.2 [67.5 kB]
+#5 138.6 Get:30 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 ibverbs-providers arm64 50.0-2ubuntu0.2 [375 kB]
+#5 138.8 Get:31 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libcbor0.10 arm64 0.10.2-1.2ubuntu2 [26.0 kB]
+#5 139.2 Get:32 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libedit2 arm64 3.1-20230828-1build1 [97.5 kB]
+#5 139.5 Get:33 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libfido2-1 arm64 1.14.0-1build3 [82.5 kB]
+#5 140.0 Get:34 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpng16-16t64 arm64 1.6.43-5ubuntu0.7 [187 kB]
+#5 140.2 Get:35 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libxau6 arm64 1:1.0.9-1build6 [7264 B]
+#5 140.4 Get:36 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libxdmcp6 arm64 1:1.1.3-0ubuntu6 [10.4 kB]
+#5 140.7 Get:37 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb1 arm64 1.15-1ubuntu2 [49.4 kB]
+#5 141.1 Get:38 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libx11-data all 2:1.8.7-1build1 [115 kB]
+#5 142.2 Get:39 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libx11-6 arm64 2:1.8.7-1build1 [649 kB]
+#5 142.4 Get:40 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libxext6 arm64 2:1.3.4-1build2 [30.4 kB]
+#5 143.8 Get:41 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 openssh-client arm64 1:9.6p1-3ubuntu13.19 [890 kB]
+#5 145.6 Get:42 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libtcl8.6 arm64 8.6.14+dfsg-1build1 [978 kB]
+#5 146.2 Get:43 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libbrotli1 arm64 1.1.0-2build2 [339 kB]
+#5 147.0 Get:44 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libfreetype6 arm64 2.13.2+dfsg-1ubuntu0.2 [393 kB]
+#5 147.9 Get:45 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 fonts-dejavu-mono all 2.37-8 [502 kB]
+#5 149.2 Get:46 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 fonts-dejavu-core all 2.37-8 [835 kB]
+#5 149.5 Get:47 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 fontconfig-config arm64 2.15.0-1.1ubuntu2 [37.4 kB]
+#5 149.9 Get:48 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libfontconfig1 arm64 2.15.0-1.1ubuntu2 [142 kB]
+#5 150.1 Get:49 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libxrender1 arm64 1:0.9.10-1.1build1 [18.8 kB]
+#5 150.4 Get:50 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libxft2 arm64 2.3.6-1build1 [44.1 kB]
+#5 150.6 Get:51 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 x11-common all 1:7.7+23ubuntu3 [21.7 kB]
+#5 150.9 Get:52 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libxss1 arm64 1:1.2.3-1build3 [7244 B]
+#5 152.2 Get:53 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libtk8.6 arm64 8.6.14-1build1 [767 kB]
+#5 153.2 Get:54 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 tk8.6-blt2.5 arm64 2.5.3+dfsg-7build1 [618 kB]
+#5 153.4 Get:55 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 blt arm64 2.5.3+dfsg-7build1 [4840 B]
+#5 153.8 Get:56 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 fonts-lyx all 2.4.0~RC3-1build4 [171 kB]
+#5 153.8 Ign:57 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libatomic1 arm64 14.2.0-4ubuntu2~24.04.1
+#5 154.8 Get:58 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libblas3 arm64 3.12.0-3build1.1 [144 kB]
+#5 155.3 Get:59 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libboost-system1.83.0 arm64 1.83.0-2.1ubuntu3.2 [236 kB]
+#5 155.5 Get:60 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libdeflate0 arm64 1.19-1build1.1 [43.5 kB]
+#5 155.7 Get:61 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libevent-core-2.1-7t64 arm64 2.1.12-stable-9ubuntu2.2 [90.6 kB]
+#5 155.8 Get:62 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libevent-pthreads-2.1-7t64 arm64 2.1.12-stable-9ubuntu2.2 [7928 B]
+#5 156.0 Get:63 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 librdmacm1t64 arm64 50.0-2ubuntu0.2 [70.6 kB]
+#5 156.8 Get:64 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 libfabric1 arm64 1.17.0-3build2 [541 kB]
+#5 156.9 Ign:65 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgomp1 arm64 14.2.0-4ubuntu2~24.04.1
+#5 158.6 Get:66 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libfftw3-double3 arm64 3.3.10-1ubuntu3 [384 kB]
+#5 158.6 Ign:67 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgfortran5 arm64 14.2.0-4ubuntu2~24.04.1
+#5 159.7 Get:68 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgraphite2-3 arm64 1.3.14-2ubuntu0.24.04.1 [71.1 kB]
+#5 160.7 Get:69 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libharfbuzz0b arm64 8.3.0-2build2 [463 kB]
+#5 161.0 Get:70 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 libhwloc15 arm64 2.10.0-1build1 [159 kB]
+#5 161.3 Get:71 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libimagequant0 arm64 2.18.0-1build1 [37.1 kB]
+#5 161.7 Get:72 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg-turbo8 arm64 2.1.5-2ubuntu2 [163 kB]
+#5 161.9 Get:73 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libjpeg8 arm64 8c-2ubuntu11 [2148 B]
+#5 161.9 Err:74 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1
+#5 161.9   403  Forbidden [IP: 91.189.91.102 80]
+#5 163.5 Get:75 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 libjs-jquery-ui all 1.13.2+dfsg-1 [252 kB]
+#5 173.5 Get:76 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 liblapack3 arm64 3.12.0-3build1.1 [2241 kB]
+#5 174.0 Get:77 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 liblbfgsb0 arm64 3.0+dfsg.4-1build1 [27.7 kB]
+#5 174.5 Get:78 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 liblcms2-2 arm64 2.14-2ubuntu0.1 [161 kB]
+#5 175.4 Get:79 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 liblerc4 arm64 4.0.0+ds-4ubuntu2 [154 kB]
+#5 175.7 Get:80 http://ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 libmunge2 arm64 0.5.15-4ubuntu0.1 [15.1 kB]
+#5 175.8 Get:81 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpciaccess0 arm64 0.17-3ubuntu0.24.04.3 [19.5 kB]
+#5 176.0 Get:82 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libxnvctrl0 arm64 510.47.03-0ubuntu4.24.04.1 [12.6 kB]
+#5 176.5 Get:83 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 ocl-icd-libopencl1 arm64 2.3.2-1build1 [37.6 kB]
+#5 176.9 Get:84 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 libhwloc-plugins arm64 2.10.0-1build1 [15.7 kB]
+#5 180.9 Get:85 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 libpmix2t64 arm64 5.0.1-4.1build1 [655 kB]
+#5 185.8 Get:86 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 libucx0 arm64 1.16.0+ds-5ubuntu1 [1074 kB]
+#5 197.2 Get:87 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 libopenmpi3t64 arm64 4.1.6-7ubuntu2 [2463 kB]
+#5 200.7 Get:88 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 libptscotch-7.0 arm64 7.0.4-1ubuntu2 [709 kB]
+#5 203.0 Get:89 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 libscotch-7.0 arm64 7.0.4-1ubuntu2 [426 kB]
+#5 252.5 Get:90 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 libopenfoam arm64 1912.200626-2build3 [32.6 MB]
+#5 293.8 Get:91 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 libqhull-r8.0 arm64 2020.2-6build1 [189 kB]
+#5 294.3 Get:92 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libraqm0 arm64 0.10.1-1build1 [14.7 kB]
+#5 294.7 Get:93 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libsharpyuv0 arm64 1.3.2-0.4build3 [14.5 kB]
+#5 295.1 Get:94 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libjbig0 arm64 2.1-6.1ubuntu2 [29.3 kB]
+#5 295.8 Get:95 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libwebp7 arm64 1.3.2-0.4build3 [191 kB]
+#5 296.5 Get:96 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libtiff6 arm64 4.5.1+git230720-4ubuntu2.5 [192 kB]
+#5 297.0 Get:97 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libwebpdemux2 arm64 1.3.2-0.4build3 [12.3 kB]
+#5 297.4 Get:98 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libwebpmux3 arm64 1.3.2-0.4build3 [25.0 kB]
+#5 298.0 Get:99 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libxslt1.1 arm64 1.1.39-0exp1ubuntu0.24.04.3 [167 kB]
+#5 298.8 Get:100 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 openmpi-common all 4.1.6-7ubuntu2 [170 kB]
+#5 299.4 Get:101 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 openmpi-bin arm64 4.1.6-7ubuntu2 [113 kB]
+#5 299.8 Get:102 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 mpi-default-bin arm64 1.15build1 [2376 B]
+#5 319.2 Get:103 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 openfoam arm64 1912.200626-2build3 [21.9 MB]
+#5 348.2 Get:104 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python-matplotlib-data all 3.6.3-1ubuntu5 [2936 kB]
+#5 348.7 Get:105 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-appdirs all 1.4.4-4 [10.9 kB]
+#5 349.0 Get:106 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-attr all 23.2.0-2 [48.6 kB]
+#5 349.8 Get:107 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-brotli arm64 1.1.0-2build2 [340 kB]
+#5 354.9 Get:108 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-numpy arm64 1:1.26.4+ds-6ubuntu1 [3565 kB]
+#5 355.7 Get:109 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-contourpy arm64 1.0.7-2build1 [163 kB]
+#5 355.9 Get:110 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-cycler all 0.11.0-2 [8202 B]
+#5 356.2 Get:111 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-six all 1.16.0-4 [12.4 kB]
+#5 356.6 Get:112 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-dateutil all 2.8.2-3ubuntu1 [79.4 kB]
+#5 356.9 Get:113 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-decorator all 5.1.1-5 [10.1 kB]
+#5 371.8 Get:114 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-scipy arm64 1.11.4-6build1 [15.0 MB]
+#5 379.1 Get:115 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-ufolib2 all 0.16.0+dfsg1-1 [33.5 kB]
+#5 380.0 Get:116 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-mpmath all 1.2.1-3 [421 kB]
+#5 385.7 Get:117 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-sympy all 1.12-7 [3966 kB]
+#5 386.3 Get:118 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-tz all 2024.1-2 [31.4 kB]
+#5 386.7 Get:119 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-fs all 2.4.16-3 [91.1 kB]
+#5 388.6 Get:120 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-lxml arm64 5.2.1-1ubuntu0.2 [1183 kB]
+#5 389.0 Get:121 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-lz4 arm64 4.0.2+dfsg-1build4 [26.7 kB]
+#5 389.8 Get:122 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-unicodedata2 arm64 15.1.0+ds-1build1 [362 kB]
+#5 402.6 Get:123 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 unicode-data all 15.1.0-1 [8878 kB]
+#5 405.5 Get:124 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-fonttools arm64 4.46.0-1build2 [1398 kB]
+#5 406.0 Get:125 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-kiwisolver arm64 1.4.4-2build1 [48.5 kB]
+#5 406.5 Get:126 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libopenjp2-7 arm64 2.5.0-2ubuntu0.5 [171 kB]
+#5 407.4 Get:127 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-pil arm64 10.2.0-1ubuntu1.3 [444 kB]
+#5 407.9 Get:128 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-tk arm64 3.12.3-0ubuntu1 [102 kB]
+#5 408.2 Get:129 http://ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 python3-pil.imagetk arm64 10.2.0-1ubuntu1.3 [9310 B]
+#5 408.6 Get:130 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-pyparsing all 3.1.1-1 [86.2 kB]
+#5 408.9 Get:131 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-packaging all 24.0-1 [41.1 kB]
+#5 417.7 Get:132 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 python3-matplotlib arm64 3.6.3-1ubuntu5 [5963 kB]
+#5 418.4 Err:57 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libatomic1 arm64 14.2.0-4ubuntu2~24.04.1
+#5 418.4   403  Forbidden [IP: 91.189.91.102 80]
+#5 418.6 Err:65 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgomp1 arm64 14.2.0-4ubuntu2~24.04.1
+#5 418.6   403  Forbidden [IP: 91.189.91.102 80]
+#5 418.9 Err:67 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgfortran5 arm64 14.2.0-4ubuntu2~24.04.1
+#5 418.9   403  Forbidden [IP: 91.189.91.102 80]
+#5 418.9 E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/g/gcc-14/libatomic1_14.2.0-4ubuntu2%7e24.04.1_arm64.deb  403  Forbidden [IP: 91.189.91.102 80]
+#5 418.9 E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/g/gcc-14/libgomp1_14.2.0-4ubuntu2%7e24.04.1_arm64.deb  403  Forbidden [IP: 91.189.91.102 80]
+#5 418.9 E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/g/gcc-14/libgfortran5_14.2.0-4ubuntu2%7e24.04.1_arm64.deb  403  Forbidden [IP: 91.189.91.102 80]
+#5 418.9 E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/n/node-jquery/libjs-jquery_3.6.1%2bdfsg%2b%7e3.5.14-1_all.deb  403  Forbidden [IP: 91.189.91.102 80]
+#5 418.9 E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+#5 418.9 Fetched 141 MB in 5min 18s (442 kB/s)
+#5 ERROR: process "/bin/sh -c apt-get update && apt-get install -y --no-install-recommends openfoam python3-numpy python3-matplotlib python3-pil && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 100
+------
+ > [2/3] RUN apt-get update && apt-get install -y --no-install-recommends openfoam python3-numpy python3-matplotlib python3-pil && rm -rf /var/lib/apt/lists/*:
+418.6 Err:65 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgomp1 arm64 14.2.0-4ubuntu2~24.04.1
+418.6   403  Forbidden [IP: 91.189.91.102 80]
+418.9 Err:67 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgfortran5 arm64 14.2.0-4ubuntu2~24.04.1
+418.9   403  Forbidden [IP: 91.189.91.102 80]
+418.9 E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/g/gcc-14/libatomic1_14.2.0-4ubuntu2%7e24.04.1_arm64.deb  403  Forbidden [IP: 91.189.91.102 80]
+418.9 E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/g/gcc-14/libgomp1_14.2.0-4ubuntu2%7e24.04.1_arm64.deb  403  Forbidden [IP: 91.189.91.102 80]
+418.9 E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/g/gcc-14/libgfortran5_14.2.0-4ubuntu2%7e24.04.1_arm64.deb  403  Forbidden [IP: 91.189.91.102 80]
+418.9 E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/n/node-jquery/libjs-jquery_3.6.1%2bdfsg%2b%7e3.5.14-1_all.deb  403  Forbidden [IP: 91.189.91.102 80]
+418.9 E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+418.9 Fetched 141 MB in 5min 18s (442 kB/s)
+------
+Dockerfile:3
+--------------------
+   1 |     FROM ubuntu:24.04
+   2 |     ENV DEBIAN_FRONTEND=noninteractive
+   3 | >>> RUN apt-get update && apt-get install -y --no-install-recommends openfoam python3-numpy python3-matplotlib python3-pil && rm -rf /var/lib/apt/lists/*
+   4 |     ENV OMP_NUM_THREADS=1
+   5 |     WORKDIR /analysis
+--------------------
+ERROR: failed to build: failed to solve: process "/bin/sh -c apt-get update && apt-get install -y --no-install-recommends openfoam python3-numpy python3-matplotlib python3-pil && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 100
+13311 v0.32.1-desktop.1 /Users/alissachang/.docker/cli-plugins/docker-buildx buildx build --platform linux/arm64 -t blower-cfd-openfoam:local -f 集風罩/三維CFD/Dockerfile 集風罩/三維CFD
+github.com/docker/buildx/commands.runBuildWithOptions
+	github.com/docker/buildx/commands/build.go:479
+github.com/docker/buildx/commands.runBuild
+	github.com/docker/buildx/commands/build.go:399
+github.com/docker/buildx/commands.buildCmd.func1
+	github.com/docker/buildx/commands/build.go:515
+github.com/docker/cli/cli-plugins/plugin.RunPlugin.func1.1.2
+	github.com/docker/cli@v29.2.1+incompatible/cli-plugins/plugin/plugin.go:65
+github.com/spf13/cobra.(*Command).execute
+	github.com/spf13/cobra@v1.10.2/command.go:1015
+github.com/spf13/cobra.(*Command).ExecuteC
+	github.com/spf13/cobra@v1.10.2/command.go:1148
+github.com/spf13/cobra.(*Command).Execute
+	github.com/spf13/cobra@v1.10.2/command.go:1071
+github.com/docker/cli/cli-plugins/plugin.RunPlugin
+	github.com/docker/cli@v29.2.1+incompatible/cli-plugins/plugin/plugin.go:80
+main.runPlugin
+	github.com/docker/buildx/cmd/buildx/main.go:66
+main.run
+	github.com/docker/buildx/cmd/buildx/main.go:80
+main.main
+	github.com/docker/buildx/cmd/buildx/main.go:90
+runtime.main
+	runtime/proc.go:285
+runtime.goexit
+	runtime/asm_arm64.s:1268
+
+262  /usr/local/bin/dockerd --config-file /run/config/docker/daemon.json
+github.com/moby/buildkit/executor/runcexecutor.exitError
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/executor/runcexecutor/executor.go:395
+github.com/moby/buildkit/executor/runcexecutor.(*runcExecutor).Run
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/executor/runcexecutor/executor.go:343
+github.com/moby/buildkit/solver/llbsolver/ops.(*ExecOp).Exec
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/solver/llbsolver/ops/exec.go:498
+github.com/moby/buildkit/solver.(*sharedOp).Exec.func2
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/solver/jobs.go:1181
+github.com/moby/buildkit/util/flightcontrol.(*call[...]).run
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/util/flightcontrol/flightcontrol.go:122
+sync.(*Once).doSlow
+	/usr/local/go/src/sync/once.go:78
+sync.(*Once).Do
+	/usr/local/go/src/sync/once.go:69
+runtime.goexit
+	/usr/local/go/src/runtime/asm_arm64.s:1268
+
+13311 v0.32.1-desktop.1 /Users/alissachang/.docker/cli-plugins/docker-buildx buildx build --platform linux/arm64 -t blower-cfd-openfoam:local -f 集風罩/三維CFD/Dockerfile 集風罩/三維CFD
+google.golang.org/grpc.(*ClientConn).Invoke
+	google.golang.org/grpc@v1.78.0/call.go:35
+github.com/moby/buildkit/api/services/control.(*controlClient).Solve
+	github.com/moby/buildkit@v0.28.0/api/services/control/control_grpc.pb.go:88
+github.com/moby/buildkit/client.(*Client).solve.func2
+	github.com/moby/buildkit@v0.28.0/client/solve.go:319
+golang.org/x/sync/errgroup.(*Group).Go.func1
+	golang.org/x/sync@v0.19.0/errgroup/errgroup.go:93
+runtime.goexit
+	runtime/asm_arm64.s:1268
+
+262  /usr/local/bin/dockerd --config-file /run/config/docker/daemon.json
+github.com/moby/buildkit/solver.(*edge).execOp
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/solver/edge.go:963
+github.com/moby/buildkit/solver/internal/pipe.NewWithFunction[...].func2
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/solver/internal/pipe/pipe.go:78
+runtime.goexit
+	/usr/local/go/src/runtime/asm_arm64.s:1268
+
+13311 v0.32.1-desktop.1 /Users/alissachang/.docker/cli-plugins/docker-buildx buildx build --platform linux/arm64 -t blower-cfd-openfoam:local -f 集風罩/三維CFD/Dockerfile 集風罩/三維CFD
+github.com/moby/buildkit/client.(*Client).solve.func2
+	github.com/moby/buildkit@v0.28.0/client/solve.go:321
+golang.org/x/sync/errgroup.(*Group).Go.func1
+	golang.org/x/sync@v0.19.0/errgroup/errgroup.go:93
+
+262  /usr/local/bin/dockerd --config-file /run/config/docker/daemon.json
+github.com/moby/buildkit/solver/llbsolver/ops.(*ExecOp).Exec
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/solver/llbsolver/ops/exec.go:519
+github.com/moby/buildkit/solver.(*sharedOp).Exec.func2
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/solver/jobs.go:1181
+

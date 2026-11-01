@@ -1,0 +1,218 @@
+{
+  "source_blend": "/Users/alissachang/Desktop/大專/第一版.blend",
+  "source_sha256_before": "40aca6a034c7b6466599c3f2756e7b5827b25bfd2c4b48b3bcf7b00ceb140dd2",
+  "source_blend_modified": false,
+  "output_scope": "PNG arrangement concept only; no .blend/STL/CAD export",
+  "CFD_executed": false,
+  "pressure_loss_or_velocity_validated": false,
+  "not_for_fabrication": "Splitter interiors, nozzle feed junctions, assembly and fasteners require detailed design.",
+  "branch_inner_diameter_mm": 50,
+  "concept_wall_mm": 2,
+  "nozzles_per_blower": 3,
+  "blowers": 2,
+  "original_outlet_arc_radius_mm": 749.6789214766717,
+  "original_outlet_center_z_mm": 699.8660278320312,
+  "central_non_blowing_gap_mm": 50,
+  "slot_gap_mm": 2,
+  "branches": [
+    {
+      "side": "right",
+      "branch": 1,
+      "hose_centerline_length_mm": 230.78276378639708,
+      "segment_outer_arc_length_mm": 194.49548177306755,
+      "concept_active_slit_arc_length_mm": 194.49548177306755,
+      "pipe_outer_bounds_m": [
+        [
+          -0.29894234728813174,
+          -0.24510486912727356,
+          0.3310000102519989
+        ],
+        [
+          -0.10760624217987061,
+          -0.10208637523651123,
+          0.5368659992218018
+        ]
+      ],
+      "nozzle_feed_m": [
+        -0.1346062421798706,
+        -0.21810486912727356,
+        0.5098659992218018
+      ]
+    },
+    {
+      "side": "right",
+      "branch": 2,
+      "hose_centerline_length_mm": 163.32415178275997,
+      "segment_outer_arc_length_mm": 191.49548177306758,
+      "concept_active_slit_arc_length_mm": 191.49548177306758,
+      "pipe_outer_bounds_m": [
+        [
+          -0.37150948238372805,
+          -0.1811403979063034,
+          0.3310000102519989
+        ],
+        [
+          -0.30861325073242185,
+          -0.07300000894069672,
+          0.5368659992218018
+        ]
+      ],
+      "nozzle_feed_m": [
+        -0.344509482383728,
+        -0.1541403979063034,
+        0.5098659992218018
+      ]
+    },
+    {
+      "side": "right",
+      "branch": 3,
+      "hose_centerline_length_mm": 209.73146652292283,
+      "segment_outer_arc_length_mm": 194.49548177306764,
+      "concept_active_slit_arc_length_mm": 194.49548177306764,
+      "pipe_outer_bounds_m": [
+        [
+          -0.5572811861038208,
+          -0.0979136426448822,
+          0.3310000102519989
+        ],
+        [
+          -0.372284154176712,
+          -0.01035121712088585,
+          0.5368659992218018
+        ]
+      ],
+      "nozzle_feed_m": [
+        -0.5302811861038208,
+        -0.03735121712088585,
+        0.5098659992218018
+      ]
+    },
+    {
+      "side": "left",
+      "branch": 1,
+      "hose_centerline_length_mm": 226.8027935633992,
+      "segment_outer_arc_length_mm": 194.49548177306755,
+      "concept_active_slit_arc_length_mm": 194.49548177306755,
+      "pipe_outer_bounds_m": [
+        [
+          0.10760624217987061,
+          -0.24510486912727356,
+          0.3309999804496765
+        ],
+        [
+          0.2989423770904541,
+          -0.11208639550209046,
+          0.5368659992218018
+        ]
+      ],
+      "nozzle_feed_m": [
+        0.1346062421798706,
+        -0.21810486912727356,
+        0.5098659992218018
+      ]
+    },
+    {
+      "side": "left",
+      "branch": 2,
+      "hose_centerline_length_mm": 159.7118424956165,
+      "segment_outer_arc_length_mm": 191.49548177306758,
+      "concept_active_slit_arc_length_mm": 191.49548177306758,
+      "pipe_outer_bounds_m": [
+        [
+          0.30861328053474424,
+          -0.1811403979063034,
+          0.3309999804496765
+        ],
+        [
+          0.37150948238372805,
+          -0.08300002175569535,
+          0.5368659992218018
+        ]
+      ],
+      "nozzle_feed_m": [
+        0.344509482383728,
+        -0.1541403979063034,
+        0.5098659992218018
+      ]
+    },
+    {
+      "side": "left",
+      "branch": 3,
+      "hose_centerline_length_mm": 211.7450067520522,
+      "segment_outer_arc_length_mm": 194.49548177306764,
+      "concept_active_slit_arc_length_mm": 194.49548177306764,
+      "pipe_outer_bounds_m": [
+        [
+          0.3722841839790344,
+          -0.10791364800930023,
+          0.3309999804496765
+        ],
+        [
+          0.5572811861038208,
+          -0.01035121712088585,
+          0.5368659992218018
+        ]
+      ],
+      "nozzle_feed_m": [
+        0.5302811861038208,
+        -0.03735121712088585,
+        0.5098659992218018
+      ]
+    }
+  ],
+  "revision": "Smooth rectangular-to-round splitter and original thin-turn/nozzle profile",
+  "terminal_loft_length_mm": 150,
+  "terminal_straight_before_bend_mm": 12,
+  "terminal_inlet_center_z_mm": 509.8660278320312,
+  "bend_radius_mm": 28.0,
+  "nozzle_length_mm": 51.42645372522041,
+  "max_nozzle_wall_angle_deg": 7,
+  "placement_note": "Existing blowers stay in place; revised routes are visual candidates, not optimized flow paths.",
+  "port_locations_m": {
+    "right": [
+      -0.3356132507324219,
+      -0.10000000894069672,
+      0.20800000429153442
+    ],
+    "left": [
+      0.33561328053474426,
+      -0.020000016316771507,
+      0.20799997448921204
+    ]
+  },
+  "concept_total_active_slit_per_side_mm": 580.4864453192027,
+  "joints_note": "6-mm gaps between neighboring module flow paths; seam uniformity remains unverified.",
+  "flow_balance_note": "Branch lengths differ. Equal flow/velocity is not established and requires resistance matching.",
+  "pipe_shell_surface_checks": [
+    {
+      "pipe": "PNG_內徑50導管_right_1",
+      "surface_intersections": 0
+    },
+    {
+      "pipe": "PNG_內徑50導管_right_2",
+      "surface_intersections": 0
+    },
+    {
+      "pipe": "PNG_內徑50導管_right_3",
+      "surface_intersections": 0
+    },
+    {
+      "pipe": "PNG_內徑50導管_left_1",
+      "surface_intersections": 0
+    },
+    {
+      "pipe": "PNG_內徑50導管_left_2",
+      "surface_intersections": 0
+    },
+    {
+      "pipe": "PNG_內徑50導管_left_3",
+      "surface_intersections": 0
+    }
+  ],
+  "views": [
+    "平順修正版_雙側機殼內配置.png",
+    "平順修正版_單側立體配置.png",
+    "平順修正版_末端集風罩近照.png"
+  ],
+  "source_sha256_after": "40aca6a034c7b6466599c3f2756e7b5827b25bfd2c4b48b3bcf7b00ceb140dd2"
+}

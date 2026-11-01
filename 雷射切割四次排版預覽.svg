@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2440" height="1010" viewBox="0 0 2440 1010">
+<rect width="100%" height="100%" fill="#f5f7fa"/>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif;fill:#172033;letter-spacing:0}.title{font-size:30px;font-weight:750}.subtitle{font-size:18px}.sheet-title{font-size:21px;font-weight:750}.piece{font-size:13px;font-weight:750;fill:#121826}.legend{font-size:17px}.small{font-size:14px;fill:#526070}</style>
+<text x="35" y="45" class="title">木板雷射切割四次排版預覽</text>
+<text x="35" y="78" class="subtitle">按實際板件尺寸等比例排列｜共 36 片：三角形 12、內圈梯形 12、外圈梯形 12｜單位：cm</text>
+<line x1="35" y1="103" x2="2405" y2="103" stroke="#c7cdd6" stroke-width="1"/>
+<text x="35" y="137" class="sheet-title">切割 1 · 90 × 60 cm</text>
+<text x="35" y="158" class="small">預覽方向 60 × 90</text>
+<rect x="35" y="165.00" width="480.00" height="720.00" fill="#ffffff" stroke="#141b26" stroke-width="3"/>
+<polygon points="67.18,169.50 259.02,169.50 290.98,347.25 35.22,347.25" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="163.10" y="263.37" class="piece" text-anchor="middle">O01</text>
+<polygon points="259.02,169.50 514.78,169.50 482.82,347.25 290.98,347.25" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="386.90" y="263.37" class="piece" text-anchor="middle">O02</text>
+<polygon points="67.18,347.25 259.02,347.25 290.98,525.00 35.22,525.00" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="163.10" y="441.12" class="piece" text-anchor="middle">O03</text>
+<polygon points="259.02,347.25 514.78,347.25 482.82,525.00 290.98,525.00" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="386.90" y="441.12" class="piece" text-anchor="middle">O04</text>
+<polygon points="67.18,525.00 259.02,525.00 290.98,702.75 35.22,702.75" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="163.10" y="618.88" class="piece" text-anchor="middle">O05</text>
+<polygon points="259.02,525.00 514.78,525.00 482.82,702.75 290.98,702.75" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="386.90" y="618.88" class="piece" text-anchor="middle">O06</text>
+<polygon points="67.18,702.75 259.02,702.75 290.98,880.50 35.22,880.50" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="163.10" y="796.63" class="piece" text-anchor="middle">O07</text>
+<polygon points="259.02,702.75 514.78,702.75 482.82,880.50 290.98,880.50" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="386.90" y="796.63" class="piece" text-anchor="middle">O08</text>
+<rect x="35" y="165.00" width="480.00" height="720.00" fill="none" stroke="#141b26" stroke-width="3"/>
+<text x="585" y="137" class="sheet-title">切割 2 · 90 × 60 cm</text>
+<text x="585" y="158" class="small">預覽方向 60 × 90</text>
+<rect x="585" y="165.00" width="480.00" height="720.00" fill="#ffffff" stroke="#141b26" stroke-width="3"/>
+<polygon points="754.55,196.96 754.55,324.88 613.64,356.84 613.64,165.00" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="684.09" y="265.92" class="piece" text-anchor="middle">I01</text>
+<polygon points="754.55,324.88 754.55,516.72 613.64,484.76 613.64,356.84" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="684.09" y="425.80" class="piece" text-anchor="middle">I02</text>
+<polygon points="895.45,196.96 895.45,324.88 754.55,356.84 754.55,165.00" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="825.00" y="265.92" class="piece" text-anchor="middle">I03</text>
+<polygon points="895.45,324.88 895.45,516.72 754.55,484.76 754.55,356.84" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="825.00" y="425.80" class="piece" text-anchor="middle">I04</text>
+<polygon points="1036.36,196.96 1036.36,324.88 895.45,356.84 895.45,165.00" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="965.91" y="265.92" class="piece" text-anchor="middle">I05</text>
+<polygon points="1036.36,324.88 1036.36,516.72 895.45,484.76 895.45,356.84" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="965.91" y="425.80" class="piece" text-anchor="middle">I06</text>
+<polygon points="617.18,516.72 809.02,516.72 840.98,694.47 585.22,694.47" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="713.10" y="610.60" class="piece" text-anchor="middle">O09</text>
+<polygon points="809.02,516.72 1064.78,516.72 1032.82,694.47 840.98,694.47" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="936.90" y="610.60" class="piece" text-anchor="middle">O10</text>
+<polygon points="617.18,694.47 809.02,694.47 840.98,872.22 585.22,872.22" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="713.10" y="788.35" class="piece" text-anchor="middle">O11</text>
+<polygon points="809.02,694.47 1064.78,694.47 1032.82,872.22 840.98,872.22" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="936.90" y="788.35" class="piece" text-anchor="middle">O12</text>
+<rect x="585" y="165.00" width="480.00" height="720.00" fill="none" stroke="#141b26" stroke-width="3"/>
+<text x="1135" y="137" class="sheet-title">切割 3 · 45 × 60 cm</text>
+<text x="1135" y="158" class="small">預覽方向 60 × 45</text>
+<rect x="1135" y="345.00" width="480.00" height="360.00" fill="#ffffff" stroke="#141b26" stroke-width="3"/>
+<polygon points="1304.55,381.10 1304.55,509.02 1163.64,540.98 1163.64,349.14" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="1234.09" y="450.06" class="piece" text-anchor="middle">I07</text>
+<polygon points="1304.55,509.02 1304.55,700.86 1163.64,668.90 1163.64,540.98" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="1234.09" y="609.94" class="piece" text-anchor="middle">I08</text>
+<polygon points="1445.45,381.10 1445.45,509.02 1304.55,540.98 1304.55,349.14" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="1375.00" y="450.06" class="piece" text-anchor="middle">I09</text>
+<polygon points="1445.45,509.02 1445.45,700.86 1304.55,668.90 1304.55,540.98" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="1375.00" y="609.94" class="piece" text-anchor="middle">I10</text>
+<polygon points="1586.36,381.10 1586.36,509.02 1445.45,540.98 1445.45,349.14" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="1515.91" y="450.06" class="piece" text-anchor="middle">I11</text>
+<polygon points="1586.36,509.02 1586.36,700.86 1445.45,668.90 1445.45,540.98" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="1515.91" y="609.94" class="piece" text-anchor="middle">I12</text>
+<rect x="1135" y="345.00" width="480.00" height="360.00" fill="none" stroke="#141b26" stroke-width="3"/>
+<text x="1685" y="137" class="sheet-title">切割 4 · 90 × 60 cm</text>
+<rect x="1685" y="285.00" width="720.00" height="480.00" fill="#ffffff" stroke="#141b26" stroke-width="3"/>
+<polygon points="1693.22,518.20 1821.14,518.20 1757.18,762.65" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="1757.18" y="604.68" class="piece" text-anchor="middle">T01</text>
+<polygon points="1757.18,762.65 1885.10,762.65 1821.14,518.20" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="1821.14" y="686.17" class="piece" text-anchor="middle">T02</text>
+<polygon points="1821.14,518.20 1949.06,518.20 1885.10,762.65" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="1885.10" y="604.68" class="piece" text-anchor="middle">T03</text>
+<polygon points="1885.10,762.65 2013.02,762.65 1949.06,518.20" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="1949.06" y="686.17" class="piece" text-anchor="middle">T04</text>
+<polygon points="1949.06,518.20 2076.98,518.20 2013.02,762.65" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="2013.02" y="604.68" class="piece" text-anchor="middle">T05</text>
+<polygon points="2013.02,762.65 2140.94,762.65 2076.98,518.20" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="2076.98" y="686.17" class="piece" text-anchor="middle">T06</text>
+<polygon points="2076.98,518.20 2204.90,518.20 2140.94,762.65" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="2140.94" y="604.68" class="piece" text-anchor="middle">T07</text>
+<polygon points="2140.94,762.65 2268.86,762.65 2204.90,518.20" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="2204.90" y="686.17" class="piece" text-anchor="middle">T08</text>
+<polygon points="2204.90,518.20 2332.82,518.20 2268.86,762.65" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="2268.86" y="604.68" class="piece" text-anchor="middle">T09</text>
+<polygon points="2268.86,762.65 2396.78,762.65 2332.82,518.20" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="2332.82" y="686.17" class="piece" text-anchor="middle">T10</text>
+<polygon points="2405.00,285.00 2405.00,412.92 2160.55,348.96" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="2323.52" y="353.96" class="piece" text-anchor="middle">T11</text>
+<polygon points="2160.55,348.96 2160.55,476.88 2405.00,412.92" fill="#f28c00" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="2242.03" y="417.92" class="piece" text-anchor="middle">T12</text>
+<rect x="1685" y="285.00" width="720.00" height="480.00" fill="none" stroke="#141b26" stroke-width="3"/>
+<line x1="35" y1="897" x2="2405" y2="897" stroke="#c7cdd6" stroke-width="1"/>
+<text x="35" y="930" class="legend"><tspan font-weight="750">T 三角形</tspan>：12 片｜三邊 31.59、31.59、15.99｜高 30.56</text>
+<text x="790" y="930" class="legend"><tspan font-weight="750">I 內圈梯形</tspan>：12 片｜平行邊 15.99、23.98｜腰 18.06｜高 17.61</text>
+<text x="35" y="966" class="legend"><tspan font-weight="750">O 外圈梯形</tspan>：12 片｜平行邊 23.98、31.97｜腰 22.58｜高 22.22</text>
+<text x="790" y="966" class="small">橘色為保留板件；白線為裁切線。此圖尚未加入雷射機安全邊距、切縫補償與定位標記。</text>
+</svg>

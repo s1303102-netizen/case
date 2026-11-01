@@ -1,0 +1,145 @@
+[
+  {
+    "file": "01_集風罩本體_整件_mm.stl",
+    "triangles": 179718,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "size_mm": [
+      270.8245,
+      179.3288,
+      278.0
+    ],
+    "lowest_Z_mm": 0.0,
+    "sha256": "a01311f0639f2a8590ce2d4cc6744a0a4b60644d3eecb9c67399ac7f33b2159b"
+  },
+  {
+    "file": "02_本體右半片_切面朝下_mm.stl",
+    "triangles": 93800,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "size_mm": [
+      278.0,
+      179.3288,
+      135.4123
+    ],
+    "lowest_Z_mm": 0.0,
+    "sha256": "0d780167b1b8c1afae86bbe8526eb450b25ddf0ab2f4c54c4be445192a41a470"
+  },
+  {
+    "file": "02_本體左半片_切面朝下_mm.stl",
+    "triangles": 92758,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "size_mm": [
+      278.0,
+      179.3288,
+      135.4122
+    ],
+    "lowest_Z_mm": 0.0,
+    "sha256": "697644d41b946875b2e3adba6c87ea1993595951ef82794f3eb246484f6f8235"
+  },
+  {
+    "file": "03_旁通孔片_00_封閉.stl",
+    "triangles": 958,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "size_mm": [
+      64.0,
+      64.0,
+      3.0
+    ],
+    "lowest_Z_mm": 0.0,
+    "sha256": "7e8388fb1fdbdb4e47f9256ccbfa3b5d39d10dbbbf2d8712b486368f995b1adc"
+  },
+  {
+    "file": "03_旁通孔片_28mm.stl",
+    "triangles": 1366,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "size_mm": [
+      64.0,
+      64.0,
+      3.0
+    ],
+    "lowest_Z_mm": 0.0,
+    "sha256": "6d393e03fb50ed32f6077ae6bd80a37f5f097ba6f2ce23d3c62d2e9dbf1b5ad0"
+  },
+  {
+    "file": "03_旁通孔片_32mm.stl",
+    "triangles": 1370,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "size_mm": [
+      64.0,
+      64.0,
+      3.0
+    ],
+    "lowest_Z_mm": 0.0,
+    "sha256": "5ad60dcb0c38f62fcd05dea542316f7cf181aef1272321e78f9c166c93f6568e"
+  },
+  {
+    "file": "03_旁通孔片_36mm.stl",
+    "triangles": 1370,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "size_mm": [
+      64.0,
+      64.0,
+      3.0
+    ],
+    "lowest_Z_mm": 0.0,
+    "sha256": "e214a5811a80f5b040487c58f9548feb1e516ea1a5720ec7ceb5484ccdeba909"
+  },
+  {
+    "file": "03_旁通孔片_38mm.stl",
+    "triangles": 1362,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "size_mm": [
+      64.0,
+      64.0,
+      3.0
+    ],
+    "lowest_Z_mm": 0.0,
+    "sha256": "029cf631f1b6f23346708ab846bea95b69567aede899380241c6d2d3ccf20510"
+  },
+  {
+    "file": "03_旁通孔片_40mm.stl",
+    "triangles": 1362,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "size_mm": [
+      64.0,
+      64.0,
+      3.0
+    ],
+    "lowest_Z_mm": 0.0,
+    "sha256": "d923f22040605fc1c0282644f86aaa88acae59107bf14bce37a06213ee9af572"
+  },
+  {
+    "file": "03_旁通孔片_44mm.stl",
+    "triangles": 1362,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "size_mm": [
+      64.0,
+      64.0,
+      3.0
+    ],
+    "lowest_Z_mm": 0.0,
+    "sha256": "8ae2788fec5227250b7ce43dad3c2c1bf4372d9961f6279ebff6d8d66c2a3cc8"
+  },
+  {
+    "file": "04_測壓口封帽_平底朝下_mm.stl",
+    "triangles": 764,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "size_mm": [
+      10.0,
+      10.0,
+      14.0
+    ],
+    "lowest_Z_mm": 0.0,
+    "sha256": "9d91880d4727a8ce30fcc3664731308ee4971c562717e3d9d4df1ed9b71ca421"
+  }
+]

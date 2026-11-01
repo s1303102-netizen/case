@@ -1,0 +1,596 @@
+{
+  "source_file": "/Users/alissachang/Desktop/大專/第一版.blend",
+  "source_sha256": "1c60cac51c4a4d4e293adf458cf5e52914976ff5140b679e2a3e98c29da3d3ca",
+  "units": "geometry mm; original Blender coordinates interpreted as cm",
+  "measured": {
+    "shell_envelope_mm": [
+      1400,
+      500,
+      1250
+    ],
+    "right_X_range_mm": [
+      -550,
+      -25
+    ],
+    "right_projected_width_mm": 525,
+    "center_excluded_width_mm": 50,
+    "right_arc_length_mm": 592.784498562071,
+    "opening_height_mm": 20,
+    "opening_center_Z_mm": 699.8660278320312,
+    "fitted_arc_radius_mm": 749.6789214766717,
+    "fitted_arc_center_Y_mm": 600.0007963866815,
+    "actual_arc_polyline_cm": [
+      [
+        -55.0,
+        9.11415958404541
+      ],
+      [
+        -53.010257720947266,
+        6.989738941192627
+      ],
+      [
+        -49.42972183227539,
+        3.636200428009033
+      ],
+      [
+        -45.63752365112305,
+        0.5240203738212585
+      ],
+      [
+        -41.64989471435547,
+        -2.333470582962036
+      ],
+      [
+        -37.483909606933594,
+        -4.924047946929932
+      ],
+      [
+        -33.15742111206055,
+        -7.236603736877441
+      ],
+      [
+        -28.688941955566406,
+        -9.261237144470215
+      ],
+      [
+        -24.097614288330078,
+        -10.989289283752441
+      ],
+      [
+        -19.403095245361328,
+        -12.41335391998291
+      ],
+      [
+        -14.625493049621582,
+        -13.527332305908203
+      ],
+      [
+        -9.785261154174805,
+        -14.32645034790039
+      ],
+      [
+        -4.903127670288086,
+        -14.807293891906738
+      ],
+      [
+        -2.5,
+        -14.885960949527634
+      ]
+    ],
+    "arc_theta_degrees": [
+      1.9110315966341846,
+      47.19304735430317
+    ]
+  },
+  "fan_catalog_photo": {
+    "power_W": 330,
+    "rpm": 2800,
+    "airflow_m3_min": 11,
+    "static_Pa": 460,
+    "current_A": 1.6,
+    "capacitor_uF": [
+      5,
+      6
+    ],
+    "curve_available": false,
+    "frequency_available": false,
+    "same_working_point_confirmed": false
+  },
+  "design": {
+    "slot_gap_mm": 2,
+    "adjustment_range_mm": [
+      1.5,
+      3
+    ],
+    "slot_area_mm2": 1185.568997124142,
+    "fan_port_mm": [
+      82,
+      88
+    ],
+    "fan_flange_mm": [
+      118,
+      120
+    ],
+    "neck_height_mm": 50,
+    "riser_transition_mm": [
+      82,
+      88,
+      100,
+      70
+    ],
+    "plenum_core_mm": [
+      50,
+      70
+    ],
+    "contraction_depth_mm": 35,
+    "plenum_total_depth_mm": 85,
+    "wall_mm": 2,
+    "bend_center_radius_mm": 65,
+    "bend_inner_radius_mm": 30,
+    "bend_outer_radius_mm": 100,
+    "vane_radius_mm": 54.772255750516614,
+    "vane_thickness_mm": 1,
+    "upper_straight_length_mm": 130,
+    "plenum_feed_point_mm": [
+      -374.83909606933594,
+      -49.240479469299316,
+      699.8660278320312
+    ],
+    "feed_theta_degrees": 29.999964965797556,
+    "branch_lengths_mm": [
+      367.710756771312,
+      225.07374179075916
+    ],
+    "jet_direction": "horizontal, normal to local arc, toward +Y and +X on this half"
+  },
+  "blower_position": {
+    "old_port_center_cm": [
+      -63.47562328946092,
+      -12.56576194986701,
+      20.79999947337202
+    ],
+    "proposed_port_center_cm": [
+      -37.483909606933594,
+      -10,
+      20.79999947337202
+    ],
+    "port_shift_cm": [
+      25.991713682527326,
+      2.56576194986701,
+      0.0
+    ],
+    "Z_rotation_about_port_degrees": -29.999964965797556,
+    "proposed_object_origin_cm": [
+      -23.63910027100317,
+      -17.820088087354318,
+      9.5
+    ],
+    "proposed_rotation_degrees": [
+      0,
+      -90,
+      -29.999964965797556
+    ],
+    "proposed_bounds_cm": {
+      "min": [
+        -45.61939458906403,
+        -21.9234535000184,
+        0.2000003159046173
+      ],
+      "max": [
+        -15.297617595407848,
+        5.011668190674847,
+        20.799999237060547
+      ]
+    },
+    "floor_clearance_mm": 2.000003159046173,
+    "current_side_envelope_clearance_mm": 4.2437744140625
+  },
+  "clearance": {
+    "plenum_back_wall_clearance_mm": 13.787224183831086,
+    "bend_back_wall_clearance_mm": 14.544791806535159
+  },
+  "model": {
+    "kind": "1-D Darcy/manifold pressure and discharge network; not CFD",
+    "rho_kg_m3": 1.2,
+    "mu_Pa_s": 1.8185e-05,
+    "nozzle_Cd_assumed": 0.94,
+    "Kfeed_assumed_normalized_to_fan_port": 0.9,
+    "core_area_mm2": 3500.0000000000005,
+    "core_Dh_mm": 58.333333333333336,
+    "roughness_mm": 0.05,
+    "fan_curve_assumed": false,
+    "limitations": [
+      "Kfeed and Cd are assumed, not validated for this CAD geometry.",
+      "1-D distribution excludes inlet jet and bend-induced secondary vortices.",
+      "Flow rate and static pressure at the real operating point remain unknown.",
+      "Slots are pressure-limited; reducing gap does not double air speed.",
+      "Dimensions are preliminary clear flow dimensions, not a fabrication drawing."
+    ]
+  },
+  "conditional_cases": [
+    {
+      "fan_static_Pa": 250,
+      "flow_m3_s": 0.022647311231503348,
+      "flow_m3_min": 1.358838673890201,
+      "flow_m3_h": 81.53032043341206,
+      "mean_velocity_m_s": 19.10248267830837,
+      "min_velocity_m_s": 18.8417534523447,
+      "max_velocity_m_s": 19.20395320447854,
+      "velocity_spread_pct": 1.8960873213885034,
+      "feed_velocity_m_s": 3.138485481084167,
+      "feed_loss_Pa": 5.319049202087101,
+      "fan_total_Pa": 255.91005466898568,
+      "manifold_total_Pa": 250.59100539269753,
+      "branch_flows_m3_min": [
+        0.841378283725678,
+        0.5174603901645228
+      ],
+      "branch_friction_loss_Pa": [
+        0.6381948130228596,
+        0.16636282239561442
+      ]
+    },
+    {
+      "fan_static_Pa": 300,
+      "flow_m3_s": 0.0248092408835794,
+      "flow_m3_min": 1.488554453014764,
+      "flow_m3_h": 89.31326718088584,
+      "mean_velocity_m_s": 20.926020285415408,
+      "min_velocity_m_s": 20.640100571106135,
+      "max_velocity_m_s": 21.0370438877902,
+      "velocity_spread_pct": 1.8968887120917082,
+      "feed_velocity_m_s": 3.438087705595815,
+      "feed_loss_Pa": 6.383041418539311,
+      "fan_total_Pa": 307.09226824282143,
+      "manifold_total_Pa": 300.70922673523825,
+      "branch_flows_m3_min": [
+        0.9217017448608066,
+        0.5668527081539574
+      ],
+      "branch_friction_loss_Pa": [
+        0.7495602426209431,
+        0.19487948457868184
+      ]
+    },
+    {
+      "fan_static_Pa": 350,
+      "flow_m3_s": 0.026797352564480424,
+      "flow_m3_min": 1.6078411538688255,
+      "flow_m3_h": 96.47046923212953,
+      "mean_velocity_m_s": 22.602946458184455,
+      "min_velocity_m_s": 22.293851212153186,
+      "max_velocity_m_s": 22.722742116484785,
+      "velocity_spread_pct": 1.8974999791511646,
+      "feed_velocity_m_s": 3.713602073791633,
+      "feed_loss_Pa": 7.44705379573354,
+      "fan_total_Pa": 358.2745042174817,
+      "manifold_total_Pa": 350.8274503696821,
+      "branch_flows_m3_min": [
+        0.9955674475658063,
+        0.6122737063030191
+      ],
+      "branch_friction_loss_Pa": [
+        0.8591256766505028,
+        0.22312889981792722
+      ]
+    },
+    {
+      "fan_static_Pa": 400,
+      "flow_m3_s": 0.028647852393308505,
+      "flow_m3_min": 1.7188711435985102,
+      "flow_m3_h": 103.13226861591062,
+      "mean_velocity_m_s": 24.163800219810202,
+      "min_velocity_m_s": 23.833124595800356,
+      "max_velocity_m_s": 24.291762583020702,
+      "velocity_spread_pct": 1.898037490164071,
+      "feed_velocity_m_s": 3.9700460633742383,
+      "feed_loss_Pa": 8.511083502469175,
+      "fan_total_Pa": 409.45675944718795,
+      "manifold_total_Pa": 400.9456758852135,
+      "branch_flows_m3_min": [
+        1.0643204720976467,
+        0.6545506715008637
+      ],
+      "branch_friction_loss_Pa": [
+        0.9671922138462107,
+        0.25075114923693964
+      ]
+    },
+    {
+      "fan_static_Pa": 420,
+      "flow_m3_s": 0.029355415397795397,
+      "flow_m3_min": 1.7613249238677238,
+      "flow_m3_h": 105.67949543206343,
+      "mean_velocity_m_s": 24.76061323213023,
+      "min_velocity_m_s": 24.421683639329014,
+      "max_velocity_m_s": 24.891699302643815,
+      "velocity_spread_pct": 1.8982391870040274,
+      "feed_velocity_m_s": 4.068100803463885,
+      "feed_loss_Pa": 8.936699839457495,
+      "fan_total_Pa": 429.9296664882861,
+      "manifold_total_Pa": 420.9929665863476,
+      "branch_flows_m3_min": [
+        1.0906091284095496,
+        0.6707157954581744
+      ],
+      "branch_friction_loss_Pa": [
+        1.009919755921188,
+        0.26161261778294764
+      ]
+    },
+    {
+      "fan_static_Pa": 450,
+      "flow_m3_s": 0.03038588845137514,
+      "flow_m3_min": 1.8231533070825083,
+      "flow_m3_h": 109.3891984249505,
+      "mean_velocity_m_s": 25.629793394633953,
+      "min_velocity_m_s": 25.278841581483363,
+      "max_velocity_m_s": 25.765422058337883,
+      "velocity_spread_pct": 1.8984955101370207,
+      "feed_velocity_m_s": 4.210904718871277,
+      "feed_loss_Pa": 9.575128017762692,
+      "fan_total_Pa": 460.63903113084746,
+      "manifold_total_Pa": 451.0639030461401,
+      "branch_flows_m3_min": [
+        1.1288951687608795,
+        0.694258138321629
+      ],
+      "branch_friction_loss_Pa": [
+        1.073649767297817,
+        0.27801896576166873
+      ]
+    },
+    {
+      "fan_static_Pa": 460,
+      "flow_m3_s": 0.030721701201124173,
+      "flow_m3_min": 1.8433020720674504,
+      "flow_m3_h": 110.59812432404702,
+      "mean_velocity_m_s": 25.913043674089323,
+      "min_velocity_m_s": 25.558173453076517,
+      "max_velocity_m_s": 26.050154317879535,
+      "velocity_spread_pct": 1.8985838598919753,
+      "feed_velocity_m_s": 4.257441962461775,
+      "feed_loss_Pa": 9.787938514414401,
+      "fan_total_Pa": 470.87548723823824,
+      "manifold_total_Pa": 461.0875486553914,
+      "branch_flows_m3_min": [
+        1.1413719061898,
+        0.7019301658776504
+      ],
+      "branch_friction_loss_Pa": [
+        1.0948022531526571,
+        0.2833930865199583
+      ]
+    }
+  ],
+  "required_cases": [
+    {
+      "fan_static_Pa": 154.16236098740774,
+      "flow_m3_s": 0.017783534955219466,
+      "flow_m3_min": 1.067012097313168,
+      "flow_m3_h": 64.02072583879009,
+      "mean_velocity_m_s": 14.99999999861445,
+      "min_velocity_m_s": 14.795882045211615,
+      "max_velocity_m_s": 15.079977580515799,
+      "velocity_spread_pct": 1.8939702355361716,
+      "feed_velocity_m_s": 2.4644588352576866,
+      "feed_loss_Pa": 3.2797209693670233,
+      "fan_total_Pa": 157.80649539781555,
+      "manifold_total_Pa": 154.52677433715954,
+      "branch_flows_m3_min": [
+        0.6606722871891086,
+        0.40633981012405923
+      ],
+      "branch_friction_loss_Pa": [
+        0.41747092536222125,
+        0.10904060306906935
+      ]
+    },
+    {
+      "fan_static_Pa": 274.040083483691,
+      "flow_m3_s": 0.023711379941741315,
+      "flow_m3_min": 1.4226827965044788,
+      "flow_m3_h": 85.36096779026873,
+      "mean_velocity_m_s": 19.99999999937454,
+      "min_velocity_m_s": 19.72687499073152,
+      "max_velocity_m_s": 20.106170242307687,
+      "velocity_spread_pct": 1.896476257940143,
+      "feed_velocity_m_s": 3.2859451138776765,
+      "feed_loss_Pa": 5.830615057364951,
+      "fan_total_Pa": 280.5185446585409,
+      "manifold_total_Pa": 274.6879295198386,
+      "branch_flows_m3_min": [
+        0.8809122356791734,
+        0.5417705608253054
+      ],
+      "branch_friction_loss_Pa": [
+        0.6921707222933348,
+        0.18025178904218156
+      ]
+    },
+    {
+      "fan_static_Pa": 428.1592527253815,
+      "flow_m3_s": 0.02963922492820691,
+      "flow_m3_min": 1.7783534956924145,
+      "flow_m3_h": 106.70120974154487,
+      "mean_velocity_m_s": 25.00000000008718,
+      "min_velocity_m_s": 24.657759380580615,
+      "max_velocity_m_s": 25.13233889176254,
+      "velocity_spread_pct": 1.8983180447210823,
+      "feed_velocity_m_s": 4.107431392489871,
+      "feed_loss_Pa": 9.110336027766092,
+      "fan_total_Pa": 438.2818483117883,
+      "manifold_total_Pa": 429.17151222032726,
+      "branch_flows_m3_min": [
+        1.1011537362979955,
+        0.6771997593944191
+      ],
+      "branch_friction_loss_Pa": [
+        1.0272944582440544,
+        0.2660268816933932
+      ]
+    },
+    {
+      "fan_static_Pa": 616.5191266376205,
+      "flow_m3_s": 0.03556706991396018,
+      "flow_m3_min": 2.1340241948376106,
+      "flow_m3_h": 128.04145169025665,
+      "mean_velocity_m_s": 30.00000000019899,
+      "min_velocity_m_s": 29.588571301504498,
+      "max_velocity_m_s": 30.1584737180016,
+      "velocity_spread_pct": 1.8996747216444019,
+      "feed_velocity_m_s": 4.928917671003351,
+      "feed_loss_Pa": 13.118883880065713,
+      "fan_total_Pa": 631.0956642821379,
+      "manifold_total_Pa": 617.9767803103514,
+      "branch_flows_m3_min": [
+        1.3213963823551595,
+        0.8126278124824511
+      ],
+      "branch_friction_loss_Pa": [
+        1.4213513394946877,
+        0.3665171756578943
+      ]
+    },
+    {
+      "fan_static_Pa": 1095.958803184607,
+      "flow_m3_s": 0.04742275988462127,
+      "flow_m3_min": 2.845365593077276,
+      "flow_m3_h": 170.72193558463655,
+      "mean_velocity_m_s": 39.999999999709495,
+      "min_velocity_m_s": 39.45004618800125,
+      "max_velocity_m_s": 40.21069512678311,
+      "velocity_spread_pct": 1.9016223469684497,
+      "feed_velocity_m_s": 6.571890227913147,
+      "feed_loss_Pa": 23.322460230579768,
+      "fan_total_Pa": 1121.8726478852511,
+      "manifold_total_Pa": 1098.5501875729492,
+      "branch_flows_m3_min": [
+        1.7618839223996723,
+        1.0834816706776038
+      ],
+      "branch_friction_loss_Pa": [
+        2.3828622677799496,
+        0.609322499843088
+      ]
+    }
+  ],
+  "gap_cases_at_460Pa": [
+    {
+      "fan_static_Pa": 460,
+      "flow_m3_s": 0.015411255299942181,
+      "flow_m3_min": 0.9246753179965308,
+      "flow_m3_h": 55.480519079791854,
+      "mean_velocity_m_s": 25.998074067937953,
+      "min_velocity_m_s": 25.909795578023907,
+      "max_velocity_m_s": 26.032772414876547,
+      "velocity_spread_pct": 0.47302287289157646,
+      "feed_velocity_m_s": 2.1357061114110563,
+      "feed_loss_Pa": 2.4630699209320093,
+      "fan_total_Pa": 462.73674435659115,
+      "manifold_total_Pa": 460.2736743695904,
+      "branch_flows_m3_min": [
+        0.5733232097291029,
+        0.351352108267428
+      ],
+      "branch_friction_loss_Pa": [
+        0.32484709824138086,
+        0.08444919073490031
+      ]
+    },
+    {
+      "fan_static_Pa": 460,
+      "flow_m3_s": 0.02308520116073754,
+      "flow_m3_min": 1.3851120696442525,
+      "flow_m3_h": 83.10672417865514,
+      "mean_velocity_m_s": 25.962443593735177,
+      "min_velocity_m_s": 25.76307335994914,
+      "max_velocity_m_s": 26.03993738270866,
+      "velocity_spread_pct": 1.0664020193628085,
+      "feed_velocity_m_s": 3.1991686752685062,
+      "feed_loss_Pa": 5.526727314922395,
+      "fan_total_Pa": 466.14080812769157,
+      "manifold_total_Pa": 460.61408073738755,
+      "branch_flows_m3_min": [
+        0.8583266681386696,
+        0.526785401505583
+      ],
+      "branch_friction_loss_Pa": [
+        0.6596435608971145,
+        0.1714251134541616
+      ]
+    },
+    {
+      "fan_static_Pa": 460,
+      "flow_m3_s": 0.030721701201124173,
+      "flow_m3_min": 1.8433020720674504,
+      "flow_m3_h": 110.59812432404702,
+      "mean_velocity_m_s": 25.913043674089323,
+      "min_velocity_m_s": 25.558173453076517,
+      "max_velocity_m_s": 26.050154317879535,
+      "velocity_spread_pct": 1.8985838598919753,
+      "feed_velocity_m_s": 4.257441962461775,
+      "feed_loss_Pa": 9.787938514414401,
+      "fan_total_Pa": 470.87548723823824,
+      "manifold_total_Pa": 461.0875486553914,
+      "branch_flows_m3_min": [
+        1.1413719061898,
+        0.7019301658776504
+      ],
+      "branch_friction_loss_Pa": [
+        1.0948022531526571,
+        0.2833930865199583
+      ]
+    },
+    {
+      "fan_static_Pa": 460,
+      "flow_m3_s": 0.04583376855338166,
+      "flow_m3_min": 2.7500261132028996,
+      "flow_m3_h": 165.00156679217397,
+      "mean_velocity_m_s": 25.77314840078844,
+      "min_velocity_m_s": 24.975886982911984,
+      "max_velocity_m_s": 26.07947246674615,
+      "velocity_spread_pct": 4.281919564783967,
+      "feed_velocity_m_s": 6.351686329459763,
+      "feed_loss_Pa": 21.785716383036863,
+      "fan_total_Pa": 484.20635153670764,
+      "manifold_total_Pa": 462.4206350718996,
+      "branch_flows_m3_min": [
+        1.6990649652114682,
+        1.0509611479914311
+      ],
+      "branch_friction_loss_Pa": [
+        2.2448534905559527,
+        0.5783444754614558
+      ]
+    },
+    {
+      "fan_static_Pa": 460,
+      "flow_m3_s": 0.06065058937668046,
+      "flow_m3_min": 3.639035362600828,
+      "flow_m3_h": 218.34212175604966,
+      "mean_velocity_m_s": 25.57868395842072,
+      "min_velocity_m_s": 24.16831498645651,
+      "max_velocity_m_s": 26.11986135718173,
+      "velocity_spread_pct": 7.629580841209591,
+      "feed_velocity_m_s": 8.405015157522238,
+      "feed_loss_Pa": 38.147911091016425,
+      "fan_total_Pa": 502.38656787890716,
+      "manifold_total_Pa": 464.2386567086168,
+      "branch_flows_m3_min": [
+        2.241412808946811,
+        1.3976225536540168
+      ],
+      "branch_friction_loss_Pa": [
+        3.7389322075430624,
+        0.9643015001341922
+      ]
+    }
+  ],
+  "sensitivity_at_460Pa": {
+    "velocity_range_m_s": [
+      24.048583689073702,
+      26.590880564886106
+    ]
+  }
+}

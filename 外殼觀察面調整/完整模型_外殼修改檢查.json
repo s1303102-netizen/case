@@ -1,0 +1,91 @@
+{
+  "source": "/Users/alissachang/Desktop/大專/完整模型.blend",
+  "backup": "/Users/alissachang/Desktop/大專/外殼觀察面調整/完整模型_更改觀察面前備份_20261030_203834.blend",
+  "source_sha256_before": "af975cc309ea0b31f7962d464528d62ab01836d9f3954546ea23952eaef71bf8",
+  "source_sha256_after": "9d6f7e6c25c7cc9e067e0b955b253d5f401627157be3ea83dfc515c9188a772b",
+  "restored_side": "X=-70 cm",
+  "restored_face_vertices": 33,
+  "removed_back_face": {
+    "face_index": 3,
+    "world_y_cm": -25,
+    "size_cm": [
+      140,
+      125
+    ],
+    "area_cm2": 17499.999778956408,
+    "vertices": [
+      [
+        70.0,
+        -25.0,
+        0.0
+      ],
+      [
+        70.0,
+        -25.0,
+        125.0
+      ],
+      [
+        -70.0,
+        -25.0,
+        125.0
+      ],
+      [
+        -70.0,
+        -25.0,
+        0.0
+      ]
+    ]
+  },
+  "all_shell_vertices_unchanged": true,
+  "other_shell_faces_unchanged": true,
+  "vent_and_umbrella_groove_preserved": true,
+  "other_objects_verified": [
+    "Camera",
+    "Light",
+    "三路分流接頭_右側",
+    "三路分流接頭_左側",
+    "外購導風管_右側_1",
+    "外購導風管_右側_2",
+    "外購導風管_右側_3",
+    "外購導風管_左側_1",
+    "外購導風管_左側_2",
+    "外購導風管_左側_3",
+    "小型集風罩_右側_1",
+    "小型集風罩_右側_2",
+    "小型集風罩_右側_3",
+    "小型集風罩_左側_1",
+    "小型集風罩_左側_2",
+    "小型集風罩_左側_3",
+    "鼓風機_150FLJ330W_左側_整體網格",
+    "鼓風機_150FLJ330W_整體網格"
+  ],
+  "other_object_fingerprints": {
+    "Camera": "83a622a57f5c86a965420f4dc5eac3112ebd5ba093c24da8b8c4ee93ca20b780",
+    "Light": "cca4a08adc2ea7703d98ee2e8d85ae86828444be011b4693b423f9ee2dca93e4",
+    "三路分流接頭_右側": "085edc84aaa8a32e55c8efeb3343d8632ac5b397cfa69660bbd1e369ebd38644",
+    "三路分流接頭_左側": "2cf5e63e2a2ddf72af3889b6bd9ed765023d1478a0730e9cd3d50083782a1475",
+    "外購導風管_右側_1": "23e922561f68beba8f6353f5d385ea450e1a1eb18bf67c01e8e86bce8f13fe49",
+    "外購導風管_右側_2": "7495d9f714f6ed381ec37c41380ce7ec6178f6bc0eb751cfeca2440d983a9e0e",
+    "外購導風管_右側_3": "21d0bece3b23ca0184eb39dfec29791bb849a4b17f5bca6d42bf8c8614349699",
+    "外購導風管_左側_1": "cf48fb7e303f6caddd5cd365e7685d46d88729441358cd0ef75d09634cc28e39",
+    "外購導風管_左側_2": "e36f982b6a2449bd13e91f706d4e1e87287285eb88946185d61192bca2f59442",
+    "外購導風管_左側_3": "5e262fba13c086aa3ddeff15c54b40d782aab1c81b5cbe639b51ab84957c5b34",
+    "小型集風罩_右側_1": "0c2ad0fd7316925f7e898c9e1f276f1dd4862f458bfe0177de442ac5aa322702",
+    "小型集風罩_右側_2": "fe1f427ba5cc36dc837719dddf7d3e1ac24a6f21e72508e32aeeb55b72e25f74",
+    "小型集風罩_右側_3": "74a8e662d0d3128f185fbf61fabac6da30574707cd4ad68c6e14a93d66f59862",
+    "小型集風罩_左側_1": "40d955dd615f5f7ff15c9160623360213229852effcae58d85ef58e9f80010c4",
+    "小型集風罩_左側_2": "027a62e5ad386399e85cf8b4dc85f583dc8181b5ce6859a193c31823be083d89",
+    "小型集風罩_左側_3": "040beafde7062bd163bbebea33ad40fb4a7f04169f94f8518b09cb57a9aa4125",
+    "鼓風機_150FLJ330W_左側_整體網格": "e52b3ef2afe1fc6e91563a616820208e38e936b1f3f84c34098b23bc76afd95b",
+    "鼓風機_150FLJ330W_整體網格": "21647f8ae413e1224b04a5b2f850b23f8685eb88132291ba025dbac50fa265e2"
+  },
+  "saved_file_reopened_and_verified": true,
+  "original_units_preserved": [
+    "METRIC",
+    1.0,
+    "METERS"
+  ],
+  "restored_side_surface_ray_checks_passed": true,
+  "back_opening_ray_checks_passed": true,
+  "preview_png": "/Users/alissachang/Desktop/大專/外殼觀察面調整/完整模型_背面開口預覽.png"
+}

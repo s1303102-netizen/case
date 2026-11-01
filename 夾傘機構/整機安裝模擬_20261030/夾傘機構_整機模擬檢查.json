@@ -1,0 +1,70 @@
+{
+  "preview_only": true,
+  "source_blend_modified": false,
+  "umbrella_imported": false,
+  "source_blend": "/Users/alissachang/Desktop/大專/完整模型.blend",
+  "source_sha256": "2b8913445e1512fdcc40d777d5b871f97b66361e2f08f7696fba36effd3fb6a4",
+  "clamp_source": "/Users/alissachang/Desktop/大專/夾傘機構/夾傘旋轉機構_10mm_含雨傘.blend",
+  "clamp_sha256": "3beeb1e264cb56e21c9d02b6a6ce45b10b435b609d0e33f3968384a84c7db18e",
+  "original_numeric_length_unit": "cm (model geometry convention)",
+  "preview_world_length_unit": "m",
+  "shaft_diameter_mm": 10,
+  "shaft_axis_source_cm": [
+    0.0,
+    20.000001788139343,
+    69.45000886917114
+  ],
+  "measured_groove_cm": {
+    "width": 0.9999999776482582,
+    "floor": 68.9500093460083,
+    "top": 69.9999988079071,
+    "y_min": 15.000000596046448,
+    "y_max": 25.00000298023224
+  },
+  "mechanism_source_millimetres_to_preview_metres": 0.001,
+  "upper_center_spacing_mm": 17.7482393493,
+  "verified_mechanism_centers_preview_metres": {
+    "左_橘色尼龍輪_直徑12_寬9mm": [
+      -0.008874120190739632,
+      0.20000001788139343,
+      0.7010000944137573
+    ],
+    "右_橘色尼龍輪_直徑12_寬9mm": [
+      0.008874120190739632,
+      0.20000001788139343,
+      0.7010000944137573
+    ],
+    "驅動輪_基本圓柱": [
+      0.0,
+      0.20000001788139343,
+      0.6515001058578491
+    ]
+  },
+  "upper_height_above_shaft_mm": 6.5,
+  "upper_height_above_drive_axis_mm": 49.5,
+  "cutout_mm": {
+    "width": 90.0,
+    "visible_front_height": 92.49994227907099,
+    "front_entry_depth": 60.00001192092896,
+    "bottom_corner_radius": 4.0,
+    "bottom_z_source_cm": 60.75000458,
+    "back_y_source_cm": 19.000001788139343
+  },
+  "retained_rear_groove_length_mm": 40.00001192092895,
+  "changed_original_shell_faces_in_preview": [
+    668,
+    672,
+    673,
+    674,
+    675,
+    676
+  ],
+  "front_view_path_open_checked": true,
+  "rear_groove_support_preserved_checked": true,
+  "images": [
+    "01_夾傘機構_整體位置模擬.png",
+    "02_夾傘機構_局部觀察孔近照.png",
+    "03_夾傘機構_正面孔位.png"
+  ],
+  "note": "Floating mechanism only. Local shell cutout is for visualization; mounts and drive motor are not added."
+}

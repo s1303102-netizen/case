@@ -1,0 +1,83 @@
+{
+  "source": "/Users/alissachang/Desktop/大專/完整模型.blend",
+  "source_sha256": "7b92f2cd122d4ce1af11e36d1c9dce02b173607bb4641f6612c8ca785964665c",
+  "source_modified": false,
+  "blend_saved": false,
+  "umbrella_geometry_reused_from": "/Users/alissachang/Desktop/大專/雨傘架設預覽/折疊傘修正版/render_folding_umbrella_preview.py",
+  "assumed_umbrella": {
+    "open": true,
+    "rib_length_mm": 584.2,
+    "open_tip_to_tip_mm": 1030,
+    "dome_depth_mm": 235.64857989549617,
+    "shaft_contact_diameter_mm": 10,
+    "handle_length_mm": 60,
+    "overall_length_mm": 650,
+    "note": "Reused illustrative dimensions; not measured from user umbrella."
+  },
+  "shaft_axis_m": [
+    0,
+    0.2,
+    0.6945000457763671
+  ],
+  "two_clamps_center_spacing_mm": 60,
+  "six_wheel_geometric_contacts": [
+    {
+      "name": "夾傘_後組_左_定向輪_12x9mm",
+      "center_m": [
+        -0.008874120190739632,
+        0.17000001668930054,
+        0.7010000348091125
+      ],
+      "shaft_contact_gap_mm": -6.064296976908412e-06
+    },
+    {
+      "name": "夾傘_後組_右_定向輪_12x9mm",
+      "center_m": [
+        0.008874120190739632,
+        0.17000001668930054,
+        0.7010000348091125
+      ],
+      "shaft_contact_gap_mm": -6.064296976908412e-06
+    },
+    {
+      "name": "夾傘_後組_大驅動輪_76x18mm",
+      "center_m": [
+        0.0,
+        0.17000001668930054,
+        0.6515001058578491
+      ],
+      "shaft_contact_gap_mm": -6.008148197272217e-05
+    },
+    {
+      "name": "夾傘_前組_左_定向輪_12x9mm",
+      "center_m": [
+        -0.008874120190739632,
+        0.23000001907348633,
+        0.7010000348091125
+      ],
+      "shaft_contact_gap_mm": -6.064296976908412e-06
+    },
+    {
+      "name": "夾傘_前組_右_定向輪_12x9mm",
+      "center_m": [
+        0.008874120190739632,
+        0.23000001907348633,
+        0.7010000348091125
+      ],
+      "shaft_contact_gap_mm": -6.064296976908412e-06
+    },
+    {
+      "name": "夾傘_前組_大驅動輪_76x18mm",
+      "center_m": [
+        0.0,
+        0.23000001907348633,
+        0.6515001058578491
+      ],
+      "shaft_contact_gap_mm": -6.008148197272217e-05
+    }
+  ],
+  "fabric_shell_triangle_intersections": 0,
+  "sampled_fabric_shell_minimum_gap_mm": 24.35143291950226,
+  "limits": "Static geometric placement only; not preload, friction, load, drive-torque or dynamic simulation.",
+  "cutaway": "Image 03 only: temporary removal of two front-wall faces; actual model is unchanged."
+}

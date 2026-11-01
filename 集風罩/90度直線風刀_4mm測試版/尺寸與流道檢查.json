@@ -1,0 +1,6261 @@
+{
+  "date": "2026-11-01",
+  "variant": "216 x 4 mm straight slot / 90-degree turn",
+  "blend": "/Users/alissachang/Desktop/大專/集風罩/90度直線風刀_4mm測試版/90度直線風刀_216x4mm.blend",
+  "STL": "/Users/alissachang/Desktop/大專/集風罩/90度直線風刀_4mm測試版/90度直線風刀_216x4mm_單件_mm.stl",
+  "bounds_mm": {
+    "min": [
+      -110.0,
+      -60.0,
+      0.0
+    ],
+    "max": [
+      110.0,
+      130.0,
+      243.0
+    ],
+    "size": [
+      220.0,
+      190.0,
+      243.0
+    ]
+  },
+  "mesh": {
+    "nonmanifold_edges": 0,
+    "material_components": 1,
+    "volume_mm3": 307249.8874367804,
+    "vertices": 146445,
+    "triangles": 292938
+  },
+  "saved_blend_reopened": true,
+  "net_outlet_mm": [
+    216.0,
+    4.0
+  ],
+  "outlet_area_mm2": 864.0,
+  "outlet_center_mm": [
+    0,
+    130.0,
+    239.0
+  ],
+  "outlet_normal": [
+    0,
+    1,
+    0
+  ],
+  "inlet_normal": [
+    0,
+    0,
+    1
+  ],
+  "direction_change_deg": 90,
+  "original_inlet_mm": [
+    82,
+    88
+  ],
+  "original_flange_mm": [
+    118,
+    120,
+    3
+  ],
+  "original_hole_count": 12,
+  "all_mounting_holes_clear": true,
+  "neck_mm": 12.0,
+  "width_transition_height_mm": 145.0,
+  "bend_center_radius_mm": 70.0,
+  "bend_inner_air_radius_mm": 56.0,
+  "bend_outer_air_radius_mm": 84.0,
+  "bend_section_mm": [
+    216.0,
+    28.0
+  ],
+  "bend_hydraulic_diameter_mm": 49.57377049180328,
+  "contraction_length_mm": 50.0,
+  "terminal_straight_mm": 10.0,
+  "contraction_style": "level upper air wall; lower wall rises smoothly; upper lip not recessed",
+  "nominal_cross_section_wall_mm": 2.0,
+  "cross_section_area_nonincreasing": true,
+  "slot_gap_range_mm": [
+    3.999999761581421,
+    4.0
+  ],
+  "slot_sample_count": 43,
+  "all_sampled_horizontal_exit_paths_clear": true,
+  "clear_widthwise_geometric_paths": 19,
+  "geometric_paths_are_not_simulated_streamlines": true,
+  "max_sampled_section_gap_error_mm": 0.0009527206420898438,
+  "source_hashes": {
+    "/Users/alissachang/Desktop/大專/第一版.blend": "40aca6a034c7b6466599c3f2756e7b5827b25bfd2c4b48b3bcf7b00ceb140dd2",
+    "/Users/alissachang/Desktop/大專/完整模型.blend": "67f947d172fdb580a772747dbab61033cdb5d9a42cf283ab815a6a45967025e9",
+    "/Users/alissachang/Desktop/大專/集風罩/直通長型風刀測試版/直通風刀_216x4mm.blend": "e3d7b736776d7c1e7bdd8f653da76ffcc9a353deafc6fba72d154aa205f3b19f",
+    "/Users/alissachang/Desktop/大專/集風罩/直通長型風刀測試版/STL_毫米/直通風刀_216x4mm_單件_mm.stl": "90a8b03197ac3a9de0778039ed0feea0dac7df9ee313e4edb943168455da023b"
+  },
+  "source_files_unchanged": true,
+  "blend_sha256": "2c4cb3f8f35b5d6bb43f4197bf0b2cb1dfc94b48818f60f8d5d35cf94c1015b0",
+  "STL_sha256": "5029cc0fc712cf857bb850f9d6921acaf4f0812371d2c0b26de083c8450ff3bf",
+  "CFD_executed": false,
+  "airflow_uniformity_or_speed_validated": false,
+  "physical_print_validated": false,
+  "sections": [
+    {
+      "stage": "original_inlet",
+      "center_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 82,
+      "depth_mm": 88,
+      "area_mm2": 7206.92339764288
+    },
+    {
+      "stage": "original_inlet",
+      "center_mm": [
+        0.0,
+        0.0,
+        3.0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 82,
+      "depth_mm": 88,
+      "area_mm2": 7206.92339764288
+    },
+    {
+      "stage": "original_inlet",
+      "center_mm": [
+        0.0,
+        0.0,
+        12.0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 82,
+      "depth_mm": 88,
+      "area_mm2": 7206.92339764288
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        13.208333015441895
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 82.00237283588928,
+      "depth_mm": 87.99720139576985,
+      "area_mm2": 7206.902874303312
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        14.416666984558105
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 82.01857880015432,
+      "depth_mm": 87.97809185398863,
+      "area_mm2": 7206.763325237378
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        15.625
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 82.06134033203125,
+      "depth_mm": 87.92770509032029,
+      "area_mm2": 7206.396032417397
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        16.83333396911621
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 82.14216820987654,
+      "depth_mm": 87.83260729172783,
+      "area_mm2": 7205.7015022922715
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        18.04166603088379
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 82.27136155116705,
+      "depth_mm": 87.68099328013216,
+      "area_mm2": 7204.590865789505
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        19.25
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 82.4580078125,
+      "depth_mm": 87.46279474637896,
+      "area_mm2": 7202.98632112419
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        20.45833396911621
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 82.70998278959298,
+      "depth_mm": 87.16978592097905,
+      "area_mm2": 7200.820783914271
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        21.66666603088379
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 83.03395061728395,
+      "depth_mm": 86.79567334498012,
+      "area_mm2": 7198.035955177882
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        22.875
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 83.43536376953125,
+      "depth_mm": 86.33615824375185,
+      "area_mm2": 7194.5861393862
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        24.08333396911621
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 83.91846305941358,
+      "depth_mm": 85.78896242572229,
+      "area_mm2": 7190.434091480332
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        25.29166603088379
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 84.48627763913001,
+      "depth_mm": 85.15381155488228,
+      "area_mm2": 7185.553162620257
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        26.5
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 85.140625,
+      "depth_mm": 84.432372912461,
+      "area_mm2": 7179.929754025448
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        27.70833396911621
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 85.88211097246335,
+      "depth_mm": 83.62814813310905,
+      "area_mm2": 7173.55704412912
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        28.91666603088379
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 86.71012972608024,
+      "depth_mm": 82.74632460545169,
+      "area_mm2": 7166.439956392132
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        30.125
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 87.62286376953125,
+      "depth_mm": 81.79359200564498,
+      "area_mm2": 7158.595395852026
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        31.33333396911621
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 88.61728395061728,
+      "depth_mm": 80.777932571747,
+      "area_mm2": 7150.047798373649
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        32.54166793823242
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 89.68914945625964,
+      "depth_mm": 79.70839508796794,
+      "area_mm2": 7140.8338479697995
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        33.75
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 90.8330078125,
+      "depth_mm": 78.59486308365497,
+      "area_mm2": 7131.0000083500345
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        34.95833206176758
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 92.04219488450039,
+      "depth_mm": 77.44782750556664,
+      "area_mm2": 7120.603366655589
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        36.16666793823242
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 93.3088348765432,
+      "depth_mm": 76.27817321428203,
+      "area_mm2": 7109.710040847509
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        37.375
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 94.62384033203125,
+      "depth_mm": 75.09698726131495,
+      "area_mm2": 7098.3972972696065
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        38.58333206176758
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 95.97691213348764,
+      "depth_mm": 73.91539522421935,
+      "area_mm2": 7086.754479110561
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        39.79166793823242
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 97.35653950255595,
+      "depth_mm": 72.74443011454296,
+      "area_mm2": 7074.877458765055
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        41.0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 98.75,
+      "depth_mm": 71.59493670886076,
+      "area_mm2": 7062.876377622859
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        42.20833206176758
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 100.14583333333333,
+      "depth_mm": 70.47555648013314,
+      "area_mm2": 7050.847084675421
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        43.41666793823242
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 101.54166666666666,
+      "depth_mm": 69.38695116947066,
+      "area_mm2": 7038.809017500491
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        44.625
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 102.9375,
+      "depth_mm": 68.32786885245902,
+      "area_mm2": 7026.761454448628
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        45.83333206176758
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 104.33333333333333,
+      "depth_mm": 67.29712460063898,
+      "area_mm2": 7014.70204976754
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        47.04166793823242
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 105.72916666666666,
+      "depth_mm": 66.29359605911331,
+      "area_mm2": 7002.634609891014
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        48.25
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 107.125,
+      "depth_mm": 65.31621936989498,
+      "area_mm2": 6990.569585910707
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        49.45833206176758
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 108.52083333333334,
+      "depth_mm": 64.36398540986752,
+      "area_mm2": 6978.504200512121
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        50.66666793823242
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 109.91666666666666,
+      "depth_mm": 63.43593631539046,
+      "area_mm2": 6966.439948024854
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        51.875
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 111.3125,
+      "depth_mm": 62.53116226838855,
+      "area_mm2": 6954.376659656176
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        53.08333206176758
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 112.70833333333333,
+      "depth_mm": 61.64879852125693,
+      "area_mm2": 6942.314057417927
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        54.29166793823242
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 114.10416666666667,
+      "depth_mm": 60.78802264013146,
+      "area_mm2": 6930.25104211118
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        55.5
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 115.5,
+      "depth_mm": 59.94805194805195,
+      "area_mm2": 6918.1893417700485
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        56.70833206176758
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 116.89583333333334,
+      "depth_mm": 59.12814115130992,
+      "area_mm2": 6906.127711154666
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        57.91666793823242
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 118.29166666666666,
+      "depth_mm": 58.327580133849956,
+      "area_mm2": 6894.0662020259915
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        59.125
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 119.6875,
+      "depth_mm": 57.545691906005224,
+      "area_mm2": 6882.0053086033
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        60.33333206176758
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 121.08333333333333,
+      "depth_mm": 56.781830695113555,
+      "area_mm2": 6869.944237893273
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        61.54166793823242
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 122.47916666666666,
+      "depth_mm": 56.03538016669502,
+      "area_mm2": 6857.883241406482
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        62.75
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 123.875,
+      "depth_mm": 55.305751765893035,
+      "area_mm2": 6845.8223023360915
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        63.95833206176758
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 125.27083333333333,
+      "depth_mm": 54.59238316979877,
+      "area_mm2": 6833.7615421756345
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        65.16666412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 126.66666666666666,
+      "depth_mm": 53.89473684210527,
+      "area_mm2": 6821.700088295736
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        66.375
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 128.0625,
+      "depth_mm": 53.21229868228404,
+      "area_mm2": 6809.63894439151
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        67.58333587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 129.45833333333331,
+      "depth_mm": 52.54457676214999,
+      "area_mm2": 6797.577315250426
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        68.79166412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 130.85416666666666,
+      "depth_mm": 51.89110014328929,
+      "area_mm2": 6785.516012218373
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        70.0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 132.25,
+      "depth_mm": 51.25141776937618,
+      "area_mm2": 6773.453618050975
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        71.20833587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 133.64583333333334,
+      "depth_mm": 50.62509742790335,
+      "area_mm2": 6761.390969667467
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        72.41666412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 135.04166666666666,
+      "depth_mm": 50.011724776303616,
+      "area_mm2": 6749.32850169632
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        73.625
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 136.4375,
+      "depth_mm": 49.41090242785158,
+      "area_mm2": 6737.26489901921
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        74.83333587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 137.83333333333334,
+      "depth_mm": 48.822249093107615,
+      "area_mm2": 6725.200748907402
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        76.04166412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 139.22916666666666,
+      "depth_mm": 48.24539877300614,
+      "area_mm2": 6713.136702491087
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        77.25
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 140.625,
+      "depth_mm": 47.68,
+      "area_mm2": 6701.071398108121
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        78.45833587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 142.02083333333331,
+      "depth_mm": 47.125715123954826,
+      "area_mm2": 6689.005217429949
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        79.66666412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 143.41666666666669,
+      "depth_mm": 46.58221963974433,
+      "area_mm2": 6676.939364761987
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        80.875
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 144.8125,
+      "depth_mm": 46.049201553733276,
+      "area_mm2": 6664.872334592452
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        82.08333587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 146.20833333333331,
+      "depth_mm": 45.52636078654888,
+      "area_mm2": 6652.804046217148
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        83.29166412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 147.60416666666666,
+      "depth_mm": 45.01340860973889,
+      "area_mm2": 6640.7360245841555
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        84.5
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 149.0,
+      "depth_mm": 44.51006711409396,
+      "area_mm2": 6628.666293828632
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        85.70833587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 150.39583333333331,
+      "depth_mm": 44.01606870757723,
+      "area_mm2": 6616.595570595615
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        86.91666412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 151.79166666666669,
+      "depth_mm": 43.531155640955255,
+      "area_mm2": 6604.52473458281
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        88.125
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 153.1875,
+      "depth_mm": 43.05507955936353,
+      "area_mm2": 6592.452555480413
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        89.33333587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 154.58333333333331,
+      "depth_mm": 42.58760107816712,
+      "area_mm2": 6580.378914996516
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        90.54166412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 155.97916666666666,
+      "depth_mm": 42.12848938159477,
+      "area_mm2": 6568.305211149767
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        91.75
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 157.375,
+      "depth_mm": 41.677521842732325,
+      "area_mm2": 6556.229272872675
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        92.95833587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 158.77083333333331,
+      "depth_mm": 41.234483663561214,
+      "area_mm2": 6544.15236666915
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        94.16666412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 160.16666666666666,
+      "depth_mm": 40.799167533818945,
+      "area_mm2": 6532.075288310909
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        95.375
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 161.5625,
+      "depth_mm": 40.37137330754352,
+      "area_mm2": 6519.9958969723375
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        96.58333587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 162.95833333333334,
+      "depth_mm": 39.950907696241366,
+      "area_mm2": 6507.915694556141
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        97.79166412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 164.35416666666669,
+      "depth_mm": 39.53758397769045,
+      "area_mm2": 6495.833959624579
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        99.0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 165.75,
+      "depth_mm": 39.13122171945702,
+      "area_mm2": 6483.750866562885
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        100.20833587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 167.14583333333331,
+      "depth_mm": 38.73164651626574,
+      "area_mm2": 6471.666209432471
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        101.41666412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 168.54166666666669,
+      "depth_mm": 38.33868974042027,
+      "area_mm2": 6459.579850570357
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        102.625
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 169.9375,
+      "depth_mm": 37.95218830452372,
+      "area_mm2": 6447.491777494171
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        103.83333587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 171.33333333333331,
+      "depth_mm": 37.57198443579767,
+      "area_mm2": 6435.402008909878
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        105.04166412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 172.72916666666669,
+      "depth_mm": 37.19792546134362,
+      "area_mm2": 6423.310985302349
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        106.25
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 174.125,
+      "depth_mm": 36.82986360373295,
+      "area_mm2": 6411.217352867854
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        107.45833587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 175.52083333333331,
+      "depth_mm": 36.46765578635015,
+      "area_mm2": 6399.12118002522
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        108.66666412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 176.91666666666666,
+      "depth_mm": 36.111163447951014,
+      "area_mm2": 6387.023660766194
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        109.875
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 178.3125,
+      "depth_mm": 35.7602523659306,
+      "area_mm2": 6374.923380885011
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        111.08333587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 179.70833333333331,
+      "depth_mm": 35.4147924878275,
+      "area_mm2": 6362.821679614717
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        112.29166412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 181.10416666666666,
+      "depth_mm": 35.07465777062004,
+      "area_mm2": 6350.720624782785
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        113.5
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 182.5,
+      "depth_mm": 34.73972602739726,
+      "area_mm2": 6338.618536468362
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        114.70833587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 183.89583333333334,
+      "depth_mm": 34.4098787810128,
+      "area_mm2": 6326.515265979222
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        115.91666412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 185.29166666666669,
+      "depth_mm": 34.0850011243535,
+      "area_mm2": 6314.412821242644
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        117.125
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 186.6875,
+      "depth_mm": 33.764981586876466,
+      "area_mm2": 6302.308237047022
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        118.33333587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 188.08333333333331,
+      "depth_mm": 33.449712007089055,
+      "area_mm2": 6290.203656220037
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        119.54166412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 189.47916666666669,
+      "depth_mm": 33.1390874106652,
+      "area_mm2": 6278.099227465689
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        120.75
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 190.875,
+      "depth_mm": 32.83300589390963,
+      "area_mm2": 6265.993115411518
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        121.95833587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 192.27083333333331,
+      "depth_mm": 32.531368512298194,
+      "area_mm2": 6253.887116826241
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        123.16666412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 193.66666666666669,
+      "depth_mm": 32.23407917383821,
+      "area_mm2": 6241.7804904735385
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        124.375
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 195.0625,
+      "depth_mm": 31.941044537007368,
+      "area_mm2": 6229.673279736613
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        125.58333587646484
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 196.45833333333331,
+      "depth_mm": 31.65217391304348,
+      "area_mm2": 6217.5654777899035
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        126.79166412353516
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 197.85416666666666,
+      "depth_mm": 31.367379172370224,
+      "area_mm2": 6205.457248068429
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        128.0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 199.25,
+      "depth_mm": 31.086574654956085,
+      "area_mm2": 6193.348368205974
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        129.2083282470703
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 200.64346049744407,
+      "depth_mm": 30.81014452520034,
+      "area_mm2": 6181.259590660979
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        130.4166717529297
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 202.02308786651236,
+      "depth_mm": 30.540215340782375,
+      "area_mm2": 6169.289964692405
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        131.625
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 203.37615966796875,
+      "depth_mm": 30.27903898875039,
+      "area_mm2": 6157.550741579791
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        132.8333282470703
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 204.6911651234568,
+      "depth_mm": 30.02851895027796,
+      "area_mm2": 6146.1408174987155
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        134.0416717529297
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 205.9578051154996,
+      "depth_mm": 29.7902376844165,
+      "area_mm2": 6135.150516041249
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        135.25
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 207.1669921875,
+      "depth_mm": 29.565483008781978,
+      "area_mm2": 6124.658059001318
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        136.4583282470703
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 208.31085054374034,
+      "depth_mm": 29.355272776598074,
+      "area_mm2": 6114.732080450602
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        137.6666717529297
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 209.38271604938274,
+      "depth_mm": 29.160377358490564,
+      "area_mm2": 6105.430806331671
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        138.875
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 210.37713623046875,
+      "depth_mm": 28.98133960617021,
+      "area_mm2": 6096.80109369909
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        140.0833282470703
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 211.28987027391975,
+      "depth_mm": 28.818492108547296,
+      "area_mm2": 6088.880049319079
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        141.2916717529297
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 212.11788902753665,
+      "depth_mm": 28.671971654503857,
+      "area_mm2": 6081.693939459059
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        142.5
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 212.859375,
+      "depth_mm": 28.541730896278352,
+      "area_mm2": 6075.258567918849
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        143.7083282470703
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 213.51372236087,
+      "depth_mm": 28.427547268767157,
+      "area_mm2": 6069.579382223485
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        144.9166717529297
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 214.08153694058643,
+      "depth_mm": 28.329029268202298,
+      "area_mm2": 6064.651438075816
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        146.125
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 214.56463623046875,
+      "depth_mm": 28.24562023333154,
+      "area_mm2": 6060.458443359166
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        147.3333282470703
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 214.96604938271605,
+      "depth_mm": 28.176599807606713,
+      "area_mm2": 6056.974228269013
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        148.5416717529297
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 215.29001721040703,
+      "depth_mm": 28.121083295685022,
+      "area_mm2": 6054.162786420871
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        149.75
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 215.5419921875,
+      "depth_mm": 28.07801916498652,
+      "area_mm2": 6051.975568376802
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        150.9583282470703
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 215.72863844883295,
+      "depth_mm": 28.046184985865196,
+      "area_mm2": 6050.35522114487
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        152.1666717529297
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 215.85783179012347,
+      "depth_mm": 28.02418215435649,
+      "area_mm2": 6049.23386840109
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        153.375
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 215.93865966796875,
+      "depth_mm": 28.010429801079102,
+      "area_mm2": 6048.5323260357545
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        154.5833282470703
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 215.98142119984567,
+      "depth_mm": 28.003158359579967,
+      "area_mm2": 6048.16112320371
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        155.7916717529297
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 215.99762716411072,
+      "depth_mm": 28.00040334718157,
+      "area_mm2": 6048.020197539008
+    },
+    {
+      "stage": "width_distribution",
+      "center_mm": [
+        0.0,
+        0.0,
+        157.0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "depth_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "angle_deg": 0.0,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        0.009370346553623676,
+        158.14532470703125
+      ],
+      "tangent": [
+        0.0,
+        0.01636173203587532,
+        0.9998661279678345
+      ],
+      "depth_normal": [
+        0.0,
+        0.9998661279678345,
+        -0.01636173203587532
+      ],
+      "angle_deg": 0.9374999999999999,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        0.03747887536883354,
+        159.2903289794922
+      ],
+      "tangent": [
+        0.0,
+        0.03271908313035965,
+        0.9994645714759827
+      ],
+      "depth_normal": [
+        0.0,
+        0.9994645714759827,
+        -0.03271908313035965
+      ],
+      "angle_deg": 1.8749999999999998,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        0.08431806415319443,
+        160.4347381591797
+      ],
+      "tangent": [
+        0.0,
+        0.049067676067352295,
+        0.9987954497337341
+      ],
+      "depth_normal": [
+        0.0,
+        0.9987954497337341,
+        -0.049067676067352295
+      ],
+      "angle_deg": 2.8125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        0.14987537264823914,
+        161.57821655273438
+      ],
+      "tangent": [
+        0.0,
+        0.06540312618017197,
+        0.9978589415550232
+      ],
+      "depth_normal": [
+        0.0,
+        0.9978589415550232,
+        -0.06540312618017197
+      ],
+      "angle_deg": 3.7499999999999996,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        0.23413324356079102,
+        162.72047424316406
+      ],
+      "tangent": [
+        0.0,
+        0.08172107487916946,
+        0.9966552257537842
+      ],
+      "depth_normal": [
+        0.0,
+        0.9966552257537842,
+        -0.08172107487916946
+      ],
+      "angle_deg": 4.6875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        0.3370691239833832,
+        163.8612060546875
+      ],
+      "tangent": [
+        0.0,
+        0.0980171412229538,
+        0.9951847195625305
+      ],
+      "depth_normal": [
+        0.0,
+        0.9951847195625305,
+        -0.0980171412229538
+      ],
+      "angle_deg": 5.625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        0.4586554765701294,
+        165.00009155273438
+      ],
+      "tangent": [
+        0.0,
+        0.11428696662187576,
+        0.9934477806091309
+      ],
+      "depth_normal": [
+        0.0,
+        0.9934477806091309,
+        -0.11428696662187576
+      ],
+      "angle_deg": 6.5625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        0.5988597273826599,
+        166.1368408203125
+      ],
+      "tangent": [
+        0.0,
+        0.13052618503570557,
+        0.9914448857307434
+      ],
+      "depth_normal": [
+        0.0,
+        0.9914448857307434,
+        -0.13052618503570557
+      ],
+      "angle_deg": 7.499999999999999,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        0.7576442956924438,
+        167.27113342285156
+      ],
+      "tangent": [
+        0.0,
+        0.1467304676771164,
+        0.9891765117645264
+      ],
+      "depth_normal": [
+        0.0,
+        0.9891765117645264,
+        -0.1467304676771164
+      ],
+      "angle_deg": 8.4375,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        0.9349667429924011,
+        168.40267944335938
+      ],
+      "tangent": [
+        0.0,
+        0.16289547085762024,
+        0.9866433143615723
+      ],
+      "depth_normal": [
+        0.0,
+        0.9866433143615723,
+        -0.16289547085762024
+      ],
+      "angle_deg": 9.375,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        1.1307796239852905,
+        169.5311737060547
+      ],
+      "tangent": [
+        0.0,
+        0.1790168583393097,
+        0.9838460087776184
+      ],
+      "depth_normal": [
+        0.0,
+        0.9838460087776184,
+        -0.1790168583393097
+      ],
+      "angle_deg": 10.3125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        1.345030426979065,
+        170.6563262939453
+      ],
+      "tangent": [
+        0.0,
+        0.19509032368659973,
+        0.9807852506637573
+      ],
+      "depth_normal": [
+        0.0,
+        0.9807852506637573,
+        -0.19509032368659973
+      ],
+      "angle_deg": 11.25,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        1.5776617527008057,
+        171.77780151367188
+      ],
+      "tangent": [
+        0.0,
+        0.21111154556274414,
+        0.9774619936943054
+      ],
+      "depth_normal": [
+        0.0,
+        0.9774619936943054,
+        -0.21111154556274414
+      ],
+      "angle_deg": 12.1875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        1.8286114931106567,
+        172.8953399658203
+      ],
+      "tangent": [
+        0.0,
+        0.22707626223564148,
+        0.973876953125
+      ],
+      "depth_normal": [
+        0.0,
+        0.973876953125,
+        -0.22707626223564148
+      ],
+      "angle_deg": 13.125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        2.0978121757507324,
+        174.00860595703125
+      ],
+      "tangent": [
+        0.0,
+        0.24298018217086792,
+        0.9700312614440918
+      ],
+      "depth_normal": [
+        0.0,
+        0.9700312614440918,
+        -0.24298018217086792
+      ],
+      "angle_deg": 14.062499999999998,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        2.3851921558380127,
+        175.11734008789062
+      ],
+      "tangent": [
+        0.0,
+        0.258819043636322,
+        0.9659258127212524
+      ],
+      "depth_normal": [
+        0.0,
+        0.9659258127212524,
+        -0.258819043636322
+      ],
+      "angle_deg": 14.999999999999998,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        2.690674066543579,
+        176.22120666503906
+      ],
+      "tangent": [
+        0.0,
+        0.27458861470222473,
+        0.9615617990493774
+      ],
+      "depth_normal": [
+        0.0,
+        0.9615617990493774,
+        -0.27458861470222473
+      ],
+      "angle_deg": 15.937500000000002,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        3.014176607131958,
+        177.31993103027344
+      ],
+      "tangent": [
+        0.0,
+        0.290284663438797,
+        0.9569403529167175
+      ],
+      "depth_normal": [
+        0.0,
+        0.9569403529167175,
+        -0.290284663438797
+      ],
+      "angle_deg": 16.875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        3.3556125164031982,
+        178.4132080078125
+      ],
+      "tangent": [
+        0.0,
+        0.30590301752090454,
+        0.9520626664161682
+      ],
+      "depth_normal": [
+        0.0,
+        0.9520626664161682,
+        -0.30590301752090454
+      ],
+      "angle_deg": 17.8125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        3.714890956878662,
+        179.50076293945312
+      ],
+      "tangent": [
+        0.0,
+        0.3214394748210907,
+        0.9469301104545593
+      ],
+      "depth_normal": [
+        0.0,
+        0.9469301104545593,
+        -0.3214394748210907
+      ],
+      "angle_deg": 18.75,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        4.091915607452393,
+        180.58229064941406
+      ],
+      "tangent": [
+        0.0,
+        0.3368898630142212,
+        0.9415440559387207
+      ],
+      "depth_normal": [
+        0.0,
+        0.9415440559387207,
+        -0.3368898630142212
+      ],
+      "angle_deg": 19.6875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        4.4865851402282715,
+        181.65750122070312
+      ],
+      "tangent": [
+        0.0,
+        0.35225003957748413,
+        0.935905933380127
+      ],
+      "depth_normal": [
+        0.0,
+        0.935905933380127,
+        -0.35225003957748413
+      ],
+      "angle_deg": 20.625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        4.898794174194336,
+        182.7261199951172
+      ],
+      "tangent": [
+        0.0,
+        0.3675159513950348,
+        0.9300172328948975
+      ],
+      "depth_normal": [
+        0.0,
+        0.9300172328948975,
+        -0.3675159513950348
+      ],
+      "angle_deg": 21.562499999999996,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        5.328432559967041,
+        183.787841796875
+      ],
+      "tangent": [
+        0.0,
+        0.3826834261417389,
+        0.9238795042037964
+      ],
+      "depth_normal": [
+        0.0,
+        0.9238795042037964,
+        -0.3826834261417389
+      ],
+      "angle_deg": 22.5,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        5.77538537979126,
+        184.84239196777344
+      ],
+      "tangent": [
+        0.0,
+        0.3977484703063965,
+        0.9174944758415222
+      ],
+      "depth_normal": [
+        0.0,
+        0.9174944758415222,
+        -0.3977484703063965
+      ],
+      "angle_deg": 23.437500000000004,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        6.239532470703125,
+        185.88949584960938
+      ],
+      "tangent": [
+        0.0,
+        0.41270703077316284,
+        0.9108638167381287
+      ],
+      "depth_normal": [
+        0.0,
+        0.9108638167381287,
+        -0.41270703077316284
+      ],
+      "angle_deg": 24.375,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        6.720749378204346,
+        186.92886352539062
+      ],
+      "tangent": [
+        0.0,
+        0.4275550842285156,
+        0.903989315032959
+      ],
+      "depth_normal": [
+        0.0,
+        0.903989315032959,
+        -0.4275550842285156
+      ],
+      "angle_deg": 25.3125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        7.218908309936523,
+        187.960205078125
+      ],
+      "tangent": [
+        0.0,
+        0.44228869676589966,
+        0.8968727588653564
+      ],
+      "depth_normal": [
+        0.0,
+        0.8968727588653564,
+        -0.44228869676589966
+      ],
+      "angle_deg": 26.25,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        7.733874797821045,
+        188.9832763671875
+      ],
+      "tangent": [
+        0.0,
+        0.456903874874115,
+        0.8895160555839539
+      ],
+      "depth_normal": [
+        0.0,
+        0.8895160555839539,
+        -0.456903874874115
+      ],
+      "angle_deg": 27.1875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        8.265511512756348,
+        189.99777221679688
+      ],
+      "tangent": [
+        0.0,
+        0.4713967442512512,
+        0.8819212913513184
+      ],
+      "depth_normal": [
+        0.0,
+        0.8819212913513184,
+        -0.4713967442512512
+      ],
+      "angle_deg": 28.124999999999996,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        8.813675880432129,
+        191.00343322753906
+      ],
+      "tangent": [
+        0.0,
+        0.48576340079307556,
+        0.874090313911438
+      ],
+      "depth_normal": [
+        0.0,
+        0.874090313911438,
+        -0.48576340079307556
+      ],
+      "angle_deg": 29.0625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        9.37822151184082,
+        192.0
+      ],
+      "tangent": [
+        0.0,
+        0.5,
+        0.8660253882408142
+      ],
+      "depth_normal": [
+        0.0,
+        0.8660253882408142,
+        -0.5
+      ],
+      "angle_deg": 29.999999999999996,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        9.95899772644043,
+        192.98719787597656
+      ],
+      "tangent": [
+        0.0,
+        0.5141027569770813,
+        0.8577286005020142
+      ],
+      "depth_normal": [
+        0.0,
+        0.8577286005020142,
+        -0.5141027569770813
+      ],
+      "angle_deg": 30.937500000000004,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        10.55584716796875,
+        193.96475219726562
+      ],
+      "tangent": [
+        0.0,
+        0.5280678272247314,
+        0.8492021560668945
+      ],
+      "depth_normal": [
+        0.0,
+        0.8492021560668945,
+        -0.5280678272247314
+      ],
+      "angle_deg": 31.875000000000004,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        11.168611526489258,
+        194.93240356445312
+      ],
+      "tangent": [
+        0.0,
+        0.5418915748596191,
+        0.8404483795166016
+      ],
+      "depth_normal": [
+        0.0,
+        0.8404483795166016,
+        -0.5418915748596191
+      ],
+      "angle_deg": 32.8125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        11.797126770019531,
+        195.88992309570312
+      ],
+      "tangent": [
+        0.0,
+        0.5555702447891235,
+        0.8314695954322815
+      ],
+      "depth_normal": [
+        0.0,
+        0.8314695954322815,
+        -0.5555702447891235
+      ],
+      "angle_deg": 33.75,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        12.441225051879883,
+        196.83700561523438
+      ],
+      "tangent": [
+        0.0,
+        0.5691001415252686,
+        0.8222682476043701
+      ],
+      "depth_normal": [
+        0.0,
+        0.8222682476043701,
+        -0.5691001415252686
+      ],
+      "angle_deg": 34.6875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        13.10073184967041,
+        197.7734375
+      ],
+      "tangent": [
+        0.0,
+        0.5824776887893677,
+        0.8128466606140137
+      ],
+      "depth_normal": [
+        0.0,
+        0.8128466606140137,
+        -0.5824776887893677
+      ],
+      "angle_deg": 35.625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        13.775472640991211,
+        198.69894409179688
+      ],
+      "tangent": [
+        0.0,
+        0.5956993103027344,
+        0.803207516670227
+      ],
+      "depth_normal": [
+        0.0,
+        0.803207516670227,
+        -0.5956993103027344
+      ],
+      "angle_deg": 36.5625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        14.465266227722168,
+        199.61329650878906
+      ],
+      "tangent": [
+        0.0,
+        0.6087614297866821,
+        0.7933533191680908
+      ],
+      "depth_normal": [
+        0.0,
+        0.7933533191680908,
+        -0.6087614297866821
+      ],
+      "angle_deg": 37.5,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        15.169927597045898,
+        200.5162353515625
+      ],
+      "tangent": [
+        0.0,
+        0.621660590171814,
+        0.7832867503166199
+      ],
+      "depth_normal": [
+        0.0,
+        0.7832867503166199,
+        -0.621660590171814
+      ],
+      "angle_deg": 38.43749999999999,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        15.889267921447754,
+        201.40753173828125
+      ],
+      "tangent": [
+        0.0,
+        0.6343932747840881,
+        0.7730104327201843
+      ],
+      "depth_normal": [
+        0.0,
+        0.7730104327201843,
+        -0.6343932747840881
+      ],
+      "angle_deg": 39.375,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        16.623096466064453,
+        202.28692626953125
+      ],
+      "tangent": [
+        0.0,
+        0.6469561457633972,
+        0.7625272274017334
+      ],
+      "depth_normal": [
+        0.0,
+        0.7625272274017334,
+        -0.6469561457633972
+      ],
+      "angle_deg": 40.3125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        17.371213912963867,
+        203.15420532226562
+      ],
+      "tangent": [
+        0.0,
+        0.659345805644989,
+        0.751839816570282
+      ],
+      "depth_normal": [
+        0.0,
+        0.751839816570282,
+        -0.659345805644989
+      ],
+      "angle_deg": 41.25,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        18.133420944213867,
+        204.00912475585938
+      ],
+      "tangent": [
+        0.0,
+        0.6715589761734009,
+        0.7409511208534241
+      ],
+      "depth_normal": [
+        0.0,
+        0.7409511208534241,
+        -0.6715589761734009
+      ],
+      "angle_deg": 42.1875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        18.909515380859375,
+        204.85145568847656
+      ],
+      "tangent": [
+        0.0,
+        0.6835923194885254,
+        0.7298640608787537
+      ],
+      "depth_normal": [
+        0.0,
+        0.7298640608787537,
+        -0.6835923194885254
+      ],
+      "angle_deg": 43.12499999999999,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        19.69928741455078,
+        205.6809844970703
+      ],
+      "tangent": [
+        0.0,
+        0.6954426169395447,
+        0.7185816168785095
+      ],
+      "depth_normal": [
+        0.0,
+        0.7185816168785095,
+        -0.6954426169395447
+      ],
+      "angle_deg": 44.0625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        20.502525329589844,
+        206.4974822998047
+      ],
+      "tangent": [
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304
+      ],
+      "depth_normal": [
+        0.0,
+        0.7071067690849304,
+        -0.7071067690849304
+      ],
+      "angle_deg": 45.0,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        21.319015502929688,
+        207.30072021484375
+      ],
+      "tangent": [
+        0.0,
+        0.7185816168785095,
+        0.6954426169395447
+      ],
+      "depth_normal": [
+        0.0,
+        0.6954426169395447,
+        -0.7185816168785095
+      ],
+      "angle_deg": 45.9375,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        22.14853858947754,
+        208.09048461914062
+      ],
+      "tangent": [
+        0.0,
+        0.7298640608787537,
+        0.6835923194885254
+      ],
+      "depth_normal": [
+        0.0,
+        0.6835923194885254,
+        -0.7298640608787537
+      ],
+      "angle_deg": 46.87500000000001,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        22.990873336791992,
+        208.8665771484375
+      ],
+      "tangent": [
+        0.0,
+        0.7409511208534241,
+        0.6715589761734009
+      ],
+      "depth_normal": [
+        0.0,
+        0.6715589761734009,
+        -0.7409511208534241
+      ],
+      "angle_deg": 47.8125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        23.845792770385742,
+        209.6287841796875
+      ],
+      "tangent": [
+        0.0,
+        0.751839816570282,
+        0.659345805644989
+      ],
+      "depth_normal": [
+        0.0,
+        0.659345805644989,
+        -0.751839816570282
+      ],
+      "angle_deg": 48.75,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        24.713069915771484,
+        210.3769073486328
+      ],
+      "tangent": [
+        0.0,
+        0.7625272274017334,
+        0.6469561457633972
+      ],
+      "depth_normal": [
+        0.0,
+        0.6469561457633972,
+        -0.7625272274017334
+      ],
+      "angle_deg": 49.6875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        25.592470169067383,
+        211.11073303222656
+      ],
+      "tangent": [
+        0.0,
+        0.7730104327201843,
+        0.6343932747840881
+      ],
+      "depth_normal": [
+        0.0,
+        0.6343932747840881,
+        -0.7730104327201843
+      ],
+      "angle_deg": 50.625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        26.4837589263916,
+        211.830078125
+      ],
+      "tangent": [
+        0.0,
+        0.7832867503166199,
+        0.621660590171814
+      ],
+      "depth_normal": [
+        0.0,
+        0.621660590171814,
+        -0.7832867503166199
+      ],
+      "angle_deg": 51.56250000000001,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        27.386699676513672,
+        212.53472900390625
+      ],
+      "tangent": [
+        0.0,
+        0.7933533191680908,
+        0.6087614297866821
+      ],
+      "depth_normal": [
+        0.0,
+        0.6087614297866821,
+        -0.7933533191680908
+      ],
+      "angle_deg": 52.5,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        28.301048278808594,
+        213.2245330810547
+      ],
+      "tangent": [
+        0.0,
+        0.803207516670227,
+        0.5956993103027344
+      ],
+      "depth_normal": [
+        0.0,
+        0.5956993103027344,
+        -0.803207516670227
+      ],
+      "angle_deg": 53.4375,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        29.226560592651367,
+        213.89926147460938
+      ],
+      "tangent": [
+        0.0,
+        0.8128466606140137,
+        0.5824776887893677
+      ],
+      "depth_normal": [
+        0.0,
+        0.5824776887893677,
+        -0.8128466606140137
+      ],
+      "angle_deg": 54.375,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        30.16299057006836,
+        214.55877685546875
+      ],
+      "tangent": [
+        0.0,
+        0.8222682476043701,
+        0.5691001415252686
+      ],
+      "depth_normal": [
+        0.0,
+        0.5691001415252686,
+        -0.8222682476043701
+      ],
+      "angle_deg": 55.3125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        31.110084533691406,
+        215.20286560058594
+      ],
+      "tangent": [
+        0.0,
+        0.8314695954322815,
+        0.5555702447891235
+      ],
+      "depth_normal": [
+        0.0,
+        0.5555702447891235,
+        -0.8314695954322815
+      ],
+      "angle_deg": 56.24999999999999,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        32.067588806152344,
+        215.83139038085938
+      ],
+      "tangent": [
+        0.0,
+        0.8404483795166016,
+        0.5418915748596191
+      ],
+      "depth_normal": [
+        0.0,
+        0.5418915748596191,
+        -0.8404483795166016
+      ],
+      "angle_deg": 57.1875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        33.03525161743164,
+        216.44415283203125
+      ],
+      "tangent": [
+        0.0,
+        0.8492021560668945,
+        0.5280678272247314
+      ],
+      "depth_normal": [
+        0.0,
+        0.5280678272247314,
+        -0.8492021560668945
+      ],
+      "angle_deg": 58.125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        34.01280975341797,
+        217.04100036621094
+      ],
+      "tangent": [
+        0.0,
+        0.8577286005020142,
+        0.5141027569770813
+      ],
+      "depth_normal": [
+        0.0,
+        0.5141027569770813,
+        -0.8577286005020142
+      ],
+      "angle_deg": 59.0625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        35.0,
+        217.6217803955078
+      ],
+      "tangent": [
+        0.0,
+        0.8660253882408142,
+        0.5
+      ],
+      "depth_normal": [
+        0.0,
+        0.5,
+        -0.8660253882408142
+      ],
+      "angle_deg": 59.99999999999999,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        35.99656295776367,
+        218.1863250732422
+      ],
+      "tangent": [
+        0.0,
+        0.874090313911438,
+        0.48576340079307556
+      ],
+      "depth_normal": [
+        0.0,
+        0.48576340079307556,
+        -0.874090313911438
+      ],
+      "angle_deg": 60.9375,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        37.002227783203125,
+        218.73448181152344
+      ],
+      "tangent": [
+        0.0,
+        0.8819212913513184,
+        0.4713967442512512
+      ],
+      "depth_normal": [
+        0.0,
+        0.4713967442512512,
+        -0.8819212913513184
+      ],
+      "angle_deg": 61.87500000000001,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        38.016727447509766,
+        219.26612854003906
+      ],
+      "tangent": [
+        0.0,
+        0.8895160555839539,
+        0.456903874874115
+      ],
+      "depth_normal": [
+        0.0,
+        0.456903874874115,
+        -0.8895160555839539
+      ],
+      "angle_deg": 62.8125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        39.039791107177734,
+        219.78109741210938
+      ],
+      "tangent": [
+        0.0,
+        0.8968727588653564,
+        0.44228869676589966
+      ],
+      "depth_normal": [
+        0.0,
+        0.44228869676589966,
+        -0.8968727588653564
+      ],
+      "angle_deg": 63.75000000000001,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        40.071144104003906,
+        220.2792510986328
+      ],
+      "tangent": [
+        0.0,
+        0.903989315032959,
+        0.4275550842285156
+      ],
+      "depth_normal": [
+        0.0,
+        0.4275550842285156,
+        -0.903989315032959
+      ],
+      "angle_deg": 64.6875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        41.11050796508789,
+        220.76046752929688
+      ],
+      "tangent": [
+        0.0,
+        0.9108638167381287,
+        0.41270703077316284
+      ],
+      "depth_normal": [
+        0.0,
+        0.41270703077316284,
+        -0.9108638167381287
+      ],
+      "angle_deg": 65.625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        42.15760803222656,
+        221.224609375
+      ],
+      "tangent": [
+        0.0,
+        0.9174944758415222,
+        0.3977484703063965
+      ],
+      "depth_normal": [
+        0.0,
+        0.3977484703063965,
+        -0.9174944758415222
+      ],
+      "angle_deg": 66.56250000000001,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        43.212158203125,
+        221.67156982421875
+      ],
+      "tangent": [
+        0.0,
+        0.9238795042037964,
+        0.3826834261417389
+      ],
+      "depth_normal": [
+        0.0,
+        0.3826834261417389,
+        -0.9238795042037964
+      ],
+      "angle_deg": 67.5,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        44.27388381958008,
+        222.10121154785156
+      ],
+      "tangent": [
+        0.0,
+        0.9300172328948975,
+        0.3675159513950348
+      ],
+      "depth_normal": [
+        0.0,
+        0.3675159513950348,
+        -0.9300172328948975
+      ],
+      "angle_deg": 68.43749999999999,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        45.34249496459961,
+        222.51341247558594
+      ],
+      "tangent": [
+        0.0,
+        0.935905933380127,
+        0.35225003957748413
+      ],
+      "depth_normal": [
+        0.0,
+        0.35225003957748413,
+        -0.935905933380127
+      ],
+      "angle_deg": 69.375,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        46.41770935058594,
+        222.9080810546875
+      ],
+      "tangent": [
+        0.0,
+        0.9415440559387207,
+        0.3368898630142212
+      ],
+      "depth_normal": [
+        0.0,
+        0.3368898630142212,
+        -0.9415440559387207
+      ],
+      "angle_deg": 70.3125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        47.499237060546875,
+        223.2851104736328
+      ],
+      "tangent": [
+        0.0,
+        0.9469301104545593,
+        0.3214394748210907
+      ],
+      "depth_normal": [
+        0.0,
+        0.3214394748210907,
+        -0.9469301104545593
+      ],
+      "angle_deg": 71.25,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        48.586788177490234,
+        223.64439392089844
+      ],
+      "tangent": [
+        0.0,
+        0.9520626664161682,
+        0.30590301752090454
+      ],
+      "depth_normal": [
+        0.0,
+        0.30590301752090454,
+        -0.9520626664161682
+      ],
+      "angle_deg": 72.1875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        49.68007278442383,
+        223.98582458496094
+      ],
+      "tangent": [
+        0.0,
+        0.9569403529167175,
+        0.290284663438797
+      ],
+      "depth_normal": [
+        0.0,
+        0.290284663438797,
+        -0.9569403529167175
+      ],
+      "angle_deg": 73.125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        50.7787971496582,
+        224.309326171875
+      ],
+      "tangent": [
+        0.0,
+        0.9615617990493774,
+        0.27458861470222473
+      ],
+      "depth_normal": [
+        0.0,
+        0.27458861470222473,
+        -0.9615617990493774
+      ],
+      "angle_deg": 74.0625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        51.882667541503906,
+        224.61480712890625
+      ],
+      "tangent": [
+        0.0,
+        0.9659258127212524,
+        0.258819043636322
+      ],
+      "depth_normal": [
+        0.0,
+        0.258819043636322,
+        -0.9659258127212524
+      ],
+      "angle_deg": 75.0,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        52.99138641357422,
+        224.90219116210938
+      ],
+      "tangent": [
+        0.0,
+        0.9700312614440918,
+        0.24298018217086792
+      ],
+      "depth_normal": [
+        0.0,
+        0.24298018217086792,
+        -0.9700312614440918
+      ],
+      "angle_deg": 75.9375,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        54.10466003417969,
+        225.17138671875
+      ],
+      "tangent": [
+        0.0,
+        0.973876953125,
+        0.22707626223564148
+      ],
+      "depth_normal": [
+        0.0,
+        0.22707626223564148,
+        -0.973876953125
+      ],
+      "angle_deg": 76.87499999999999,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        55.222190856933594,
+        225.42233276367188
+      ],
+      "tangent": [
+        0.0,
+        0.9774619936943054,
+        0.21111154556274414
+      ],
+      "depth_normal": [
+        0.0,
+        0.21111154556274414,
+        -0.9774619936943054
+      ],
+      "angle_deg": 77.8125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        56.34367752075195,
+        225.65496826171875
+      ],
+      "tangent": [
+        0.0,
+        0.9807852506637573,
+        0.19509032368659973
+      ],
+      "depth_normal": [
+        0.0,
+        0.19509032368659973,
+        -0.9807852506637573
+      ],
+      "angle_deg": 78.75,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        57.46881866455078,
+        225.8692169189453
+      ],
+      "tangent": [
+        0.0,
+        0.9838460087776184,
+        0.1790168583393097
+      ],
+      "depth_normal": [
+        0.0,
+        0.1790168583393097,
+        -0.9838460087776184
+      ],
+      "angle_deg": 79.6875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        58.59731674194336,
+        226.06503295898438
+      ],
+      "tangent": [
+        0.0,
+        0.9866433143615723,
+        0.16289547085762024
+      ],
+      "depth_normal": [
+        0.0,
+        0.16289547085762024,
+        -0.9866433143615723
+      ],
+      "angle_deg": 80.625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        59.72886657714844,
+        226.2423553466797
+      ],
+      "tangent": [
+        0.0,
+        0.9891765117645264,
+        0.1467304676771164
+      ],
+      "depth_normal": [
+        0.0,
+        0.1467304676771164,
+        -0.9891765117645264
+      ],
+      "angle_deg": 81.56249999999999,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        60.86316680908203,
+        226.40113830566406
+      ],
+      "tangent": [
+        0.0,
+        0.9914448857307434,
+        0.13052618503570557
+      ],
+      "depth_normal": [
+        0.0,
+        0.13052618503570557,
+        -0.9914448857307434
+      ],
+      "angle_deg": 82.5,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        61.99991226196289,
+        226.54135131835938
+      ],
+      "tangent": [
+        0.0,
+        0.9934477806091309,
+        0.11428696662187576
+      ],
+      "depth_normal": [
+        0.0,
+        0.11428696662187576,
+        -0.9934477806091309
+      ],
+      "angle_deg": 83.4375,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        63.13880157470703,
+        226.66293334960938
+      ],
+      "tangent": [
+        0.0,
+        0.9951847195625305,
+        0.0980171412229538
+      ],
+      "depth_normal": [
+        0.0,
+        0.0980171412229538,
+        -0.9951847195625305
+      ],
+      "angle_deg": 84.375,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        64.27952575683594,
+        226.765869140625
+      ],
+      "tangent": [
+        0.0,
+        0.9966552257537842,
+        0.08172107487916946
+      ],
+      "depth_normal": [
+        0.0,
+        0.08172107487916946,
+        -0.9966552257537842
+      ],
+      "angle_deg": 85.3125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        65.42178344726562,
+        226.85012817382812
+      ],
+      "tangent": [
+        0.0,
+        0.9978589415550232,
+        0.06540312618017197
+      ],
+      "depth_normal": [
+        0.0,
+        0.06540312618017197,
+        -0.9978589415550232
+      ],
+      "angle_deg": 86.24999999999999,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        66.56526184082031,
+        226.91567993164062
+      ],
+      "tangent": [
+        0.0,
+        0.9987954497337341,
+        0.049067676067352295
+      ],
+      "depth_normal": [
+        0.0,
+        0.049067676067352295,
+        -0.9987954497337341
+      ],
+      "angle_deg": 87.1875,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        67.70966339111328,
+        226.9625244140625
+      ],
+      "tangent": [
+        0.0,
+        0.9994645714759827,
+        0.03271908313035965
+      ],
+      "depth_normal": [
+        0.0,
+        0.03271908313035965,
+        -0.9994645714759827
+      ],
+      "angle_deg": 88.125,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        68.85467529296875,
+        226.99063110351562
+      ],
+      "tangent": [
+        0.0,
+        0.9998661279678345,
+        0.01636173203587532
+      ],
+      "depth_normal": [
+        0.0,
+        0.01636173203587532,
+        -0.9998661279678345
+      ],
+      "angle_deg": 89.0625,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "90_degree_bend",
+      "center_mm": [
+        0.0,
+        70.0,
+        227.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 28.0,
+      "area_mm2": 6048.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        70.83333587646484,
+        227.0016632080078
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 27.996672453703702,
+      "area_mm2": 6047.28108215332
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        71.66666412353516,
+        227.01272583007812
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 27.974537037037038,
+      "area_mm2": 6042.499969482422
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        72.5,
+        227.041015625
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 27.91796875,
+      "area_mm2": 6030.28125
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        73.33333587646484,
+        227.09259033203125
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 27.814814814814817,
+      "area_mm2": 6008.000152587891
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        74.16666412353516,
+        227.1717987060547
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 27.656394675925927,
+      "area_mm2": 5973.781311035156
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        75.0,
+        227.28125
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 27.4375,
+      "area_mm2": 5926.5
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        75.83333587646484,
+        227.4217987060547
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 27.156394675925927,
+      "area_mm2": 5865.781311035156
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        76.66666412353516,
+        227.59259033203125
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 26.814814814814817,
+      "area_mm2": 5792.000152587891
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        77.5,
+        227.791015625
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 26.41796875,
+      "area_mm2": 5706.28125
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        78.33333587646484,
+        228.01272583007812
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 25.974537037037038,
+      "area_mm2": 5610.499969482422
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        79.16666412353516,
+        228.2516632080078
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 25.496672453703706,
+      "area_mm2": 5507.28108215332
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        80.0,
+        228.5
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 25.0,
+      "area_mm2": 5400.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        80.83333587646484,
+        228.75
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 24.5,
+      "area_mm2": 5292.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        81.66666412353516,
+        229.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 24.0,
+      "area_mm2": 5184.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        82.5,
+        229.25
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 23.5,
+      "area_mm2": 5076.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        83.33333587646484,
+        229.5
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 23.0,
+      "area_mm2": 4968.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        84.16666412353516,
+        229.75
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 22.5,
+      "area_mm2": 4860.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        85.0,
+        230.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 22.0,
+      "area_mm2": 4752.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        85.83333587646484,
+        230.25
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 21.5,
+      "area_mm2": 4644.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        86.66666412353516,
+        230.5
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 21.0,
+      "area_mm2": 4536.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        87.5,
+        230.75
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 20.5,
+      "area_mm2": 4428.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        88.33333587646484,
+        231.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 20.0,
+      "area_mm2": 4320.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        89.16666412353516,
+        231.25
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 19.5,
+      "area_mm2": 4212.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        90.0,
+        231.5
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 19.0,
+      "area_mm2": 4104.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        90.83333587646484,
+        231.75
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 18.5,
+      "area_mm2": 3996.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        91.66666412353516,
+        232.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 18.0,
+      "area_mm2": 3888.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        92.5,
+        232.25
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 17.5,
+      "area_mm2": 3780.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        93.33333587646484,
+        232.5
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 17.0,
+      "area_mm2": 3672.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        94.16666412353516,
+        232.75
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 16.5,
+      "area_mm2": 3564.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        95.0,
+        233.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 16.0,
+      "area_mm2": 3456.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        95.83333587646484,
+        233.25
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 15.5,
+      "area_mm2": 3348.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        96.66666412353516,
+        233.5
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 15.0,
+      "area_mm2": 3240.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        97.5,
+        233.75
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 14.5,
+      "area_mm2": 3132.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        98.33333587646484,
+        234.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 14.000000000000002,
+      "area_mm2": 3024.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        99.16666412353516,
+        234.25
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 13.499999999999998,
+      "area_mm2": 2916.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        100.0,
+        234.5
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 13.0,
+      "area_mm2": 2808.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        100.83333587646484,
+        234.75
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 12.5,
+      "area_mm2": 2700.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        101.66666412353516,
+        235.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 12.0,
+      "area_mm2": 2592.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        102.5,
+        235.25
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 11.5,
+      "area_mm2": 2484.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        103.33333587646484,
+        235.5
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 11.0,
+      "area_mm2": 2376.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        104.16666412353516,
+        235.75
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 10.5,
+      "area_mm2": 2268.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        105.0,
+        236.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 10.000000000000004,
+      "area_mm2": 2160.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        105.83333587646484,
+        236.25
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 9.5,
+      "area_mm2": 2052.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        106.66666412353516,
+        236.5
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 9.0,
+      "area_mm2": 1944.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        107.5,
+        236.75
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 8.5,
+      "area_mm2": 1836.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        108.33333587646484,
+        237.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 8.0,
+      "area_mm2": 1728.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        109.16666412353516,
+        237.25
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 7.5,
+      "area_mm2": 1620.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        110.0,
+        237.5
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 7.0,
+      "area_mm2": 1512.0
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        110.83333587646484,
+        237.7483367919922
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 6.503327546296298,
+      "area_mm2": 1404.7187118530273
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        111.66666412353516,
+        237.98727416992188
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 6.025462962962962,
+      "area_mm2": 1301.5000305175781
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        112.5,
+        238.208984375
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 5.58203125,
+      "area_mm2": 1205.71875
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        113.33333587646484,
+        238.40740966796875
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 5.185185185185183,
+      "area_mm2": 1119.9999504089355
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        114.16666412353516,
+        238.5782012939453
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 4.843605324074076,
+      "area_mm2": 1046.21879196167
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        115.0,
+        238.71875
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 4.5625,
+      "area_mm2": 985.5
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        115.83333587646484,
+        238.8282012939453
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 4.343605324074076,
+      "area_mm2": 938.2187919616699
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        116.66666412353516,
+        238.90740966796875
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 4.185185185185187,
+      "area_mm2": 903.9999504089355
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        117.5,
+        238.958984375
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 4.08203125,
+      "area_mm2": 881.71875
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        118.33333587646484,
+        238.98727416992188
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 4.025462962962962,
+      "area_mm2": 869.5000305175781
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        119.16666412353516,
+        238.9983367919922
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 4.003327546296298,
+      "area_mm2": 864.7187118530273
+    },
+    {
+      "stage": "final_contraction",
+      "center_mm": [
+        0.0,
+        120.0,
+        239.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 4.0,
+      "area_mm2": 864.0
+    },
+    {
+      "stage": "straight_outlet_lip",
+      "center_mm": [
+        0.0,
+        130.0,
+        239.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        6.123234262925839e-17
+      ],
+      "depth_normal": [
+        0.0,
+        6.123234262925839e-17,
+        -1.0
+      ],
+      "angle_deg": 90.0,
+      "width_mm": 216.0,
+      "depth_mm": 4.0,
+      "area_mm2": 864.0
+    }
+  ]
+}

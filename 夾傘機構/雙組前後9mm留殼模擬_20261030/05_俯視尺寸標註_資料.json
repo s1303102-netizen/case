@@ -1,0 +1,24 @@
+{
+  "original_top_view_modified": false,
+  "source_image_sha256": "c1f800b9f74b9412ba8318e16dad47e314d100ccf477904d2863e7d9b1e462a3",
+  "dimension_values_mm": {
+    "center_distance": 60,
+    "wheel_face_gap": 42,
+    "wheel_thickness_each": 18,
+    "front_rear_wheel_face_clearance_each": 2,
+    "left_right_radial_clearance_each": 7,
+    "front_rear_skin_thickness_each": 9,
+    "bottom_clearance_not_visible_in_top_view": 6,
+    "hub_to_end_wall_clearance_each": 0.4,
+    "shaft_end_clearance_each": 0.2,
+    "internal_axial_length": 82,
+    "internal_width": 90,
+    "wheel_diameter": 76
+  },
+  "annotations": "Camera-projected engineering vector dimensions",
+  "source_render_embedded_unchanged": true,
+  "output_files": [
+    "05_俯視尺寸標註.png",
+    "05_俯視尺寸標註.svg"
+  ]
+}

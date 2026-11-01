@@ -1,0 +1,11 @@
+{
+  "model_modified_by_render": false,
+  "rendered_from_verified_staged_file": true,
+  "cutaway_front_panel_removal": "Only in image 03 disposable preview; saved model retains both front skins.",
+  "cutaway_inner_surface_color": "Blue-gray inspection color in image 03 only; production model is unchanged.",
+  "images": [
+    "01_正式整合_整體外觀.png",
+    "02_正式整合_雙組共軸近照.png",
+    "03_正式整合_全中空與9mm底殼剖視.png"
+  ]
+}

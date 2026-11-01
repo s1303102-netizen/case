@@ -1,0 +1,55 @@
+{
+  "units": "mm",
+  "casters": [
+    {
+      "side": "左",
+      "wheel_diameter_mm": 12.0,
+      "wheel_width_mm": 9.0,
+      "plate_length_mm": 27.0,
+      "plate_width_mm": 11.4,
+      "installation_height_mm": 13.0,
+      "hole_spacing_mm": 18.0,
+      "mounting_holes": [
+        {
+          "center_z_mm": 23.049835205078125,
+          "diameter_mm": 4,
+          "through_hole_verified": true
+        },
+        {
+          "center_z_mm": 41.049835205078125,
+          "diameter_mm": 4,
+          "through_hole_verified": true
+        }
+      ],
+      "nominal_shaft_contact_gap_mm": 5.201859778480866e-07
+    },
+    {
+      "side": "右",
+      "wheel_diameter_mm": 12.0,
+      "wheel_width_mm": 9.0,
+      "plate_length_mm": 27.0,
+      "plate_width_mm": 11.4,
+      "installation_height_mm": 13.0,
+      "hole_spacing_mm": 18.0,
+      "mounting_holes": [
+        {
+          "center_z_mm": 23.049835205078125,
+          "diameter_mm": 4,
+          "through_hole_verified": true
+        },
+        {
+          "center_z_mm": 41.049835205078125,
+          "diameter_mm": 4,
+          "through_hole_verified": true
+        }
+      ],
+      "nominal_shaft_contact_gap_mm": 5.201859778480866e-07
+    }
+  ],
+  "frame_removed": true,
+  "estimated_dimensions": {
+    "sheet_thickness": 0.8,
+    "axle_diameter": 3.0
+  },
+  "source_width_note": "Use drawing width 11.4; product table rounds to 11."
+}

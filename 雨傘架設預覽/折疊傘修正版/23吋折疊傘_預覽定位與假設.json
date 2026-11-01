@@ -1,0 +1,195 @@
+{
+  "source_blend": "/Users/alissachang/Desktop/大專/第一版.blend",
+  "source_sha256_before": "40aca6a034c7b6466599c3f2756e7b5827b25bfd2c4b48b3bcf7b00ceb140dd2",
+  "source_blend_saved_or_modified": false,
+  "output": "PNG preview only",
+  "umbrella_assumptions": {
+    "nominal_size_inch": 23,
+    "rib_meridian_cm": 58.42,
+    "open_tip_to_tip_cm": 103.0,
+    "rib_curve_depth_cm": 23.56485798954962,
+    "handle_length_cm": 6,
+    "handle_max_width_cm": 3.2,
+    "open_total_length_cm": 65,
+    "handle_dimensions_status": "Illustrative assumption, not measured from user umbrella.",
+    "outline": "8 rib-tip corners; chord-spanning fabric gores with inward-bowed hems; not a surface of revolution.",
+    "shaft_diameter_cm": 1,
+    "shaft_axis_z_cm": 69.4500093460083,
+    "canopy_tip_y_cm": -11.0,
+    "shape_note": "Open three-fold 8-rib illustrative umbrella; telescopic shaft, articulated ribs, short straight grip. No individual umbrella measurements supplied.",
+    "diameter_reference": "https://www.kinyo.tw/products/ku-9765"
+  },
+  "support_measured": {
+    "shaft_center_cm": [
+      0,
+      20,
+      69.4500093460083
+    ],
+    "low_plane_z_cm": 69.9999988079071,
+    "groove_width_cm": 0.9999999776482582,
+    "groove_depth_cm": 1.0499894618988037,
+    "groove_bottom_z_cm": 68.9500093460083,
+    "groove_y_range_cm": [
+      15.000000596046448,
+      25.00000298023224
+    ],
+    "small_groove_detected_in_saved_file": true,
+    "note": "D10 shaft rests on the saved groove bottom; existing groove is unchanged. Nominal width equals shaft diameter."
+  },
+  "fabric_shell_surface_intersections": 0,
+  "sampled_fabric_shell_clearance_cm": 2.435143291950226,
+  "clearance_sample_count": 16385,
+  "sample_clearance_points_m": [
+    [
+      0.5149999856948853,
+      0.12564857989549616,
+      0.694500093460083
+    ],
+    [
+      0.5149999856948853,
+      0.15000000596046448,
+      0.6945000886917114
+    ]
+  ],
+  "clearance_note": "Vertex-to-triangle sample for assumed rigid fabric; excludes shaft support contact and fabric deflection.",
+  "CFD_executed": false,
+  "views": {
+    "23吋折疊傘_立體架設模擬.png": {
+      "markers_px": {
+        "support": [
+          802.6202023029327,
+          711.0096722841263
+        ],
+        "canopy_tip": [
+          686.1040592193604,
+          658.101212978363
+        ],
+        "canopy_rim": [
+          517.5068378448486,
+          764.4783928990364
+        ],
+        "gap_canopy": [
+          517.5068378448486,
+          764.4783928990364
+        ],
+        "gap_shell": [
+          526.6595184803009,
+          768.6345249414444
+        ]
+      },
+      "camera_m": [
+        2.1,
+        2.85,
+        1.9
+      ],
+      "target_m": [
+        0,
+        0.06,
+        0.63
+      ]
+    },
+    "23吋折疊傘_側面間隙模擬.png": {
+      "markers_px": {
+        "support": [
+          704.2681574821472,
+          748.323205113411
+        ],
+        "canopy_tip": [
+          987.8047406673431,
+          748.323205113411
+        ],
+        "canopy_rim": [
+          772.272527217865,
+          748.3232483267784
+        ],
+        "gap_canopy": [
+          772.272527217865,
+          748.3232483267784
+        ],
+        "gap_shell": [
+          749.9998658895493,
+          748.3232483267784
+        ]
+      },
+      "camera_m": [
+        -3,
+        0.15,
+        0.72
+      ],
+      "target_m": [
+        0,
+        0.15,
+        0.72
+      ]
+    },
+    "23吋折疊傘_短握把與凹槽.png": {
+      "markers_px": {
+        "support": [
+          648.6081182956696,
+          667.5466179847717
+        ],
+        "canopy_tip": [
+          334.29285138845444,
+          489.44082260131836
+        ],
+        "canopy_rim": [
+          -239.041306078434,
+          815.0410577654839
+        ],
+        "gap_canopy": [
+          -239.041306078434,
+          815.0410577654839
+        ],
+        "gap_shell": [
+          -214.35090154409409,
+          829.0318176150322
+        ]
+      },
+      "camera_m": [
+        0.45,
+        1.0,
+        1.02
+      ],
+      "target_m": [
+        0,
+        0.3,
+        0.694500093460083
+      ]
+    },
+    "23吋折疊傘_八片傘面輪廓.png": {
+      "markers_px": {
+        "support": [
+          749.9995976686478,
+          725.0004753470421
+        ],
+        "canopy_tip": [
+          749.9995529651642,
+          725.0005185604095
+        ],
+        "canopy_rim": [
+          121.95081263780594,
+          725.0003889203072
+        ],
+        "gap_canopy": [
+          121.95081263780594,
+          725.0003889203072
+        ],
+        "gap_shell": [
+          121.95081263780594,
+          725.0003889203072
+        ]
+      },
+      "camera_m": [
+        0,
+        2.4,
+        0.694500093460083
+      ],
+      "target_m": [
+        0,
+        0,
+        0.694500093460083
+      ]
+    }
+  },
+  "source_sha256_after": "40aca6a034c7b6466599c3f2756e7b5827b25bfd2c4b48b3bcf7b00ceb140dd2"
+}

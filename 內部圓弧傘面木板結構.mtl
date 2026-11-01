@@ -1,0 +1,6 @@
+newmtl panel_a
+Kd 0.78 0.50 0.24
+newmtl panel_b
+Kd 0.92 0.68 0.38
+newmtl seam
+Kd 0.08 0.06 0.04

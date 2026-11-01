@@ -1,0 +1,116 @@
+{
+  "preview_only": true,
+  "source_blend_modified": false,
+  "umbrella_imported": false,
+  "mechanism_count": 2,
+  "axial_center_spacing_mm": 60.0,
+  "placement_convention": "Keep the original midpoint; place groups 30 mm forward and 30 mm backward along the shaft axis.",
+  "source_blend": "/Users/alissachang/Desktop/大專/完整模型.blend",
+  "source_sha256": "eb3809e28897fc5675d5e076804a293b8eead57d1b9b145cea6839df44ae6502",
+  "clamp_source": "/Users/alissachang/Desktop/大專/夾傘機構/夾傘旋轉機構_10mm_含雨傘.blend",
+  "clamp_sha256": "3beeb1e264cb56e21c9d02b6a6ce45b10b435b609d0e33f3968384a84c7db18e",
+  "original_numeric_length_unit": "cm (model geometry convention)",
+  "preview_world_length_unit": "m",
+  "shaft_diameter_mm": 10,
+  "shaft_axis_source_cm": [
+    0.0,
+    20.000001788139343,
+    69.45000886917114
+  ],
+  "measured_groove_cm": {
+    "width": 0.9999999776482582,
+    "floor": 68.9500093460083,
+    "top": 69.9999988079071,
+    "y_min": 15.000000596046448,
+    "y_max": 25.00000298023224
+  },
+  "mechanism_source_millimetres_to_preview_metres": 0.001,
+  "upper_center_spacing_mm": 17.7482393493,
+  "verified_mechanism_centers_preview_metres": {
+    "後組": {
+      "左_橘色尼龍輪_直徑12_寬9mm": [
+        -0.008874120190739632,
+        0.17000001668930054,
+        0.7010000944137573
+      ],
+      "右_橘色尼龍輪_直徑12_寬9mm": [
+        0.008874120190739632,
+        0.17000001668930054,
+        0.7010000944137573
+      ],
+      "驅動輪_基本圓柱": [
+        0.0,
+        0.17000001668930054,
+        0.6515001058578491
+      ]
+    },
+    "前組": {
+      "左_橘色尼龍輪_直徑12_寬9mm": [
+        -0.008874120190739632,
+        0.23000001907348633,
+        0.7010000944137573
+      ],
+      "右_橘色尼龍輪_直徑12_寬9mm": [
+        0.008874120190739632,
+        0.23000001907348633,
+        0.7010000944137573
+      ],
+      "驅動輪_基本圓柱": [
+        0.0,
+        0.23000001907348633,
+        0.6515001058578491
+      ]
+    }
+  },
+  "shared_drive_axle_mm": {
+    "diameter": 8.0,
+    "length": 81.60002384185788,
+    "center_spacing": 60.000001424923525,
+    "y_start_source_cm": 15.92000059604645,
+    "y_end_source_cm": 24.080002980232237,
+    "axis_direction": [
+      0,
+      1,
+      0
+    ],
+    "continuous_single_object": true,
+    "original_individual_axles_hidden": true
+  },
+  "upper_height_above_shaft_mm": 6.5,
+  "upper_height_above_drive_axis_mm": 49.5,
+  "cutout_mm": {
+    "type": "top-entry pocket with intact original-profile front/rear skins",
+    "top_opening_width": 90.0,
+    "pocket_height": 92.49994227907099,
+    "internal_axial_length": 82.0000238418579,
+    "bottom_corner_radius": 4.0,
+    "bottom_z_source_cm": 60.75000458,
+    "back_y_source_cm": 15.900000596046448
+  },
+  "shell_skins_mm": {
+    "front": 9.000003337860107,
+    "rear": 9.000003337860107,
+    "original_outer_profiles_unchanged": true
+  },
+  "retained_groove_end_lengths_mm": [
+    9.000000000000007,
+    9.000000000000007
+  ],
+  "changed_original_shell_faces_in_preview": [
+    671,
+    672,
+    673,
+    674,
+    675
+  ],
+  "front_and_rear_view_blocked_checked": true,
+  "top_access_open_checked": true,
+  "front_and_rear_groove_ends_preserved_checked": true,
+  "images": [
+    "01_前後留9mm外殼_整體位置.png",
+    "02_前後留9mm外殼_上方斜視近照.png",
+    "03_前後留9mm外殼_俯視厚度.png",
+    "04_前後留9mm外殼_正面遮蔽.png"
+  ],
+  "note": "Two floating clamps, 60 mm centers. Original front and rear external contours kept, each with 9 mm solid skin. Top-entry pocket, common axle trimmed to 81.6 mm, no umbrella or motor."
+}

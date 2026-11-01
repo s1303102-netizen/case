@@ -1,0 +1,80 @@
+[
+  {
+    "file": "直通風刀_216x2mm_單件_mm.stl",
+    "triangles": 133190,
+    "vertices": 66571,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "signed_volume_mm3": 198984.76871754212,
+    "bounds_mm": [
+      [
+        -110.0,
+        -60.0,
+        0.0
+      ],
+      [
+        110.0,
+        60.0,
+        240.0
+      ]
+    ],
+    "size_mm": [
+      220.0,
+      120.0,
+      240.0
+    ],
+    "sha256": "053f979af410845e8824e85ed11c336a4d9a4bda4b6b686555ce14e7718329b7"
+  },
+  {
+    "file": "直通風刀_216x4mm_單件_mm.stl",
+    "triangles": 133190,
+    "vertices": 66571,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "signed_volume_mm3": 199704.54159097956,
+    "bounds_mm": [
+      [
+        -110.0,
+        -60.0,
+        0.0
+      ],
+      [
+        110.0,
+        60.0,
+        240.0
+      ]
+    ],
+    "size_mm": [
+      220.0,
+      120.0,
+      240.0
+    ],
+    "sha256": "90a8b03197ac3a9de0778039ed0feea0dac7df9ee313e4edb943168455da023b"
+  },
+  {
+    "file": "直通風刀_216x6mm_單件_mm.stl",
+    "triangles": 133190,
+    "vertices": 66571,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "signed_volume_mm3": 200424.44029514666,
+    "bounds_mm": [
+      [
+        -110.0,
+        -60.0,
+        0.0
+      ],
+      [
+        110.0,
+        60.0,
+        240.0
+      ]
+    ],
+    "size_mm": [
+      220.0,
+      120.0,
+      240.0
+    ],
+    "sha256": "03e440418da5fb541751714d4fdca4d8d7df9038ca7aa7d709e599a42e8a2222"
+  }
+]

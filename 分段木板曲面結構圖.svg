@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .bg { fill: #f8fafc; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", sans-serif; font-size: 38px; font-weight: 800; fill: #0f172a; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", sans-serif; font-size: 20px; fill: #475569; }
+      .label { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", sans-serif; font-size: 20px; font-weight: 700; fill: #0f172a; }
+      .small { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", sans-serif; font-size: 17px; fill: #334155; }
+      .tiny { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", sans-serif; font-size: 15px; fill: #475569; }
+      .wood { fill: #d7a86e; stroke: #7c4a1e; stroke-width: 3; }
+      .wood2 { fill: #c99050; stroke: #7c4a1e; stroke-width: 3; }
+      .rib { fill: #8b5e34; stroke: #4a2c12; stroke-width: 3; }
+      .backer { fill: #a16207; stroke: #4a2c12; stroke-width: 2; }
+      .metal { fill: #94a3b8; stroke: #475569; stroke-width: 2; }
+      .seal { fill: none; stroke: #0ea5e9; stroke-width: 8; stroke-linecap: round; }
+      .dash { fill: none; stroke: #64748b; stroke-width: 2; stroke-dasharray: 9 8; }
+      .callout { fill: none; stroke: #334155; stroke-width: 2.2; marker-end: url(#arrow); }
+      .panel { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+      .water { fill: #bae6fd; stroke: #0284c7; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="1050"/>
+  <text class="title" x="70" y="75">快速乾傘機：分段木板曲面結構圖</text>
+  <text class="subtitle" x="70" y="112">把原本平順曲面改成 6 段折線面：大片用薄夾板，曲線靠內部肋板決定形狀，縫用背襯條、防水膠與螺絲固定。</text>
+
+  <rect class="panel" x="70" y="155" width="700" height="760" rx="8"/>
+  <text class="label" x="105" y="205">A. 側面剖面：曲面改成 6 段折線</text>
+
+  <!-- Machine section outline -->
+  <path d="M155,830 L155,250 L395,250 L405,345 L428,440 L470,520 L525,575 L610,610 L610,830 Z"
+        fill="#e2e8f0" stroke="#334155" stroke-width="4"/>
+
+  <!-- segmented curve panels -->
+  <path class="wood" d="M394,250 L405,345 L450,338 L437,244 Z"/>
+  <path class="wood2" d="M405,345 L428,440 L470,424 L450,338 Z"/>
+  <path class="wood" d="M428,440 L470,520 L508,492 L470,424 Z"/>
+  <path class="wood2" d="M470,520 L525,575 L552,538 L508,492 Z"/>
+  <path class="wood" d="M525,575 L610,610 L622,568 L552,538 Z"/>
+  <path class="wood2" d="M610,610 L610,830 L655,830 L622,568 Z"/>
+
+  <!-- ribs -->
+  <path class="rib" d="M360,250 L370,348 L392,444 L435,532 L493,595 L590,640 L590,830 L545,830 L545,668 L458,628 L394,560 L348,463 L322,358 L312,250 Z"/>
+  <path class="rib" opacity="0.38" d="M255,250 L265,348 L287,444 L330,532 L388,595 L485,640 L485,830 L440,830 L440,668 L353,628 L289,560 L243,463 L217,358 L207,250 Z"/>
+
+  <!-- inner waterproof pan -->
+  <path class="water" d="M178,790 L555,790 L555,835 L178,835 Z"/>
+  <path class="seal" d="M390,260 L400,348 L424,443 L466,521 L522,578 L610,616"/>
+
+  <!-- screw dots -->
+  <g fill="#334155">
+    <circle cx="399" cy="294" r="5"/><circle cx="413" cy="390" r="5"/>
+    <circle cx="448" cy="477" r="5"/><circle cx="500" cy="547" r="5"/>
+    <circle cx="570" cy="592" r="5"/><circle cx="630" cy="690" r="5"/>
+  </g>
+
+  <line class="callout" x1="655" y1="280" x2="428" y2="303"/>
+  <text class="small" x="675" y="275">4-6mm薄夾板或PVC發泡板</text>
+  <text class="tiny" x="675" y="300">每段都是直板，視覺上近似曲面</text>
+
+  <line class="callout" x1="660" y1="405" x2="365" y2="455"/>
+  <text class="small" x="680" y="400">12mm夾板肋板</text>
+  <text class="tiny" x="680" y="425">沿長度每 25-35cm 一片</text>
+
+  <line class="callout" x1="665" y1="535" x2="500" y2="548"/>
+  <text class="small" x="685" y="530">螺絲 + PU膠固定</text>
+  <text class="tiny" x="685" y="555">螺絲間距約 10-15cm</text>
+
+  <line class="callout" x1="660" y1="655" x2="525" y2="595"/>
+  <text class="small" x="680" y="650">外側縫隙補環氧土/玻纖膠帶</text>
+  <text class="tiny" x="680" y="675">再上底漆與防水漆</text>
+
+  <line class="callout" x1="635" y1="805" x2="500" y2="810"/>
+  <text class="small" x="655" y="800">內部另做可拆式塑膠接水盤</text>
+  <text class="tiny" x="655" y="825">不要讓水直接碰木頭</text>
+
+  <rect class="panel" x="830" y="155" width="700" height="760" rx="8"/>
+  <text class="label" x="865" y="205">B. 接縫做法：每一段都要有背襯</text>
+
+  <!-- seam detail -->
+  <text class="small" x="880" y="260">剖面放大</text>
+  <path class="wood" d="M900,390 L1120,315 L1137,365 L917,440 Z"/>
+  <path class="wood2" d="M1124,314 L1345,385 L1330,436 L1137,365 Z"/>
+  <path class="backer" d="M1045,407 L1200,407 L1200,455 L1045,455 Z"/>
+  <path class="seal" d="M1118,318 L1138,365"/>
+  <g fill="#334155">
+    <circle cx="1058" cy="385" r="5"/><circle cx="1098" cy="372" r="5"/>
+    <circle cx="1174" cy="377" r="5"/><circle cx="1215" cy="390" r="5"/>
+  </g>
+  <line class="dash" x1="1130" y1="292" x2="1130" y2="470"/>
+
+  <line class="callout" x1="960" y1="500" x2="1065" y2="430"/>
+  <text class="small" x="885" y="535">背襯條</text>
+  <text class="tiny" x="885" y="560">18x30mm木條或夾板條，先上PU膠再鎖</text>
+
+  <line class="callout" x1="1265" y1="502" x2="1132" y2="335"/>
+  <text class="small" x="1245" y="535">V形接縫</text>
+  <text class="tiny" x="1245" y="560">不必硬做斜切，留 2-4mm 縫讓膠吃進去</text>
+
+  <line class="callout" x1="1375" y1="365" x2="1215" y2="390"/>
+  <text class="small" x="1255" y="290">白鐵自攻螺絲</text>
+  <text class="tiny" x="1255" y="315">建議先鑽導孔，避免薄板裂開</text>
+
+  <!-- lengthwise rib layout -->
+  <text class="small" x="880" y="650">沿 140cm 長度配置</text>
+  <rect x="900" y="700" width="520" height="110" fill="#e2e8f0" stroke="#334155" stroke-width="3"/>
+  <g class="rib">
+    <rect x="930" y="690" width="18" height="130"/>
+    <rect x="1040" y="690" width="18" height="130"/>
+    <rect x="1150" y="690" width="18" height="130"/>
+    <rect x="1260" y="690" width="18" height="130"/>
+    <rect x="1370" y="690" width="18" height="130"/>
+  </g>
+  <path class="dash" d="M900,755 L1420,755"/>
+  <text class="tiny" x="925" y="850">端板</text>
+  <text class="tiny" x="1030" y="850">肋板</text>
+  <text class="tiny" x="1140" y="850">肋板</text>
+  <text class="tiny" x="1250" y="850">肋板</text>
+  <text class="tiny" x="1360" y="850">端板</text>
+  <line class="callout" x1="1180" y1="660" x2="1159" y2="690"/>
+  <text class="tiny" x="1210" y="665">肋板間距 25-35cm；如果會承重，縮到 20-25cm</text>
+
+  <text class="subtitle" x="70" y="970">建議施工順序：先切肋板 → 裝長向木條/背襯 → 貼每段面板 → 外縫補強 → 內部防水盤 → 整體防水塗層。</text>
+</svg>

@@ -1,0 +1,79 @@
+{
+  "assembled_size_mm": [
+    182.3169708251953,
+    143.90391540527344,
+    188.0
+  ],
+  "single_mesh": true,
+  "split": false,
+  "has_bypass": false,
+  "has_pressure_pickups": false,
+  "has_joining_lugs": false,
+  "mesh": {
+    "vertices": 88618,
+    "faces": 177284,
+    "nonmanifold_edges": 0,
+    "signed_material_volume_mm3": 211266.51890721088,
+    "material_components": 1
+  },
+  "original_blower_inlet_mm": [
+    82,
+    88
+  ],
+  "original_flange_mm": [
+    118,
+    120,
+    3
+  ],
+  "original_mount_holes_preserved": true,
+  "turn_degrees": 90,
+  "bend_center_radius_mm": 28,
+  "slot_span_mm": 160,
+  "slit_gap_sample_range_mm": [
+    1.9999998807907104,
+    2.0
+  ],
+  "saved_blend_reopened_and_checked": true,
+  "original_models_unchanged": true,
+  "original_file_hashes": {
+    "/Users/alissachang/Desktop/大專/第一版.blend": "acf2879a6acb20549de8f26922cb3d45634daec24fbd8638e3c33e6b7d7ea974",
+    "/Users/alissachang/Desktop/大專/集風罩/集風罩_單體.blend": "84c22c9ad3bd13008621dc08b69b4b91ca02b61582e0dc5ef50747163c2d4636",
+    "/Users/alissachang/Desktop/大專/集風罩/30cm單件出風口/30cm單件出風口.blend": "a2b016c047c94b207e89a0b1fd74e3304347e7bda39862767a4511c0c3dfdf04",
+    "/Users/alissachang/Desktop/大專/集風罩/30cm單件出風口/單件出風口_直接列印_mm.stl": "c2c3881284edf777a8c6764fac64e014122d4ee63217402d8c2d3f2a6b782a7a"
+  },
+  "STL": {
+    "file": "/Users/alissachang/Desktop/大專/集風罩/20cm單件出風口/單件出風口_直接列印_mm.stl",
+    "size_mm": [
+      182.3169708251953,
+      143.90391540527344,
+      188.0
+    ],
+    "triangles": 177284,
+    "grounded": true
+  },
+  "blend_file": "/Users/alissachang/Desktop/大專/集風罩/20cm單件出風口/20cm單件出風口.blend",
+  "CFD_executed": false,
+  "resistance_or_velocity_match_verified": false,
+  "print_envelope_limit_mm": [
+    200,
+    200,
+    200
+  ],
+  "inlet_straight_mm": 20,
+  "loft_height_mm": 75,
+  "bend_approach_straight_mm": 55,
+  "material_comparison": {
+    "previous_solid_volume_mm3": 351938.3123838956,
+    "new_solid_volume_mm3": 211266.51890721088,
+    "solid_volume_reduction_percent": 39.9705824932295,
+    "includes_print_supports_brim_or_infill_settings": false
+  },
+  "exported_STL_topology_checked": true,
+  "exported_STL_nonmanifold_coordinate_edges": 0,
+  "actual_STL_print_size_mm": [
+    182.3169708251953,
+    143.90391540527344,
+    188.0
+  ],
+  "STL_sha256": "6d23ae0aa13a62318968c7174e92b53ef7c7758d759fe052d1c4cec01e7e520d"
+}

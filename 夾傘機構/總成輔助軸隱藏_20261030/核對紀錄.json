@@ -1,0 +1,22 @@
+{
+  "source": "/Users/alissachang/Desktop/大專/完整模型.blend",
+  "source_sha256": "4e1fa9b90ec10e084b298737c9b60c7e2baa132e3281d9d239d745dc99fa7e5e",
+  "output": "/private/tmp/clamp-hide-axes.UN0OSA/完整模型_隱藏總成輔助軸.blend",
+  "output_sha256": "7b92f2cd122d4ce1af11e36d1c9dce02b173607bb4641f6612c8ca785964665c",
+  "backup": "/private/tmp/clamp-hide-axes.UN0OSA/完整模型_隱藏輔助軸前備份.blend",
+  "hidden_empty_controls": [
+    "夾傘機構_總成_中心距60mm",
+    "夾傘_後組_總成",
+    "夾傘_前組_總成"
+  ],
+  "verified_mesh_objects_unchanged": 52,
+  "verified": [
+    "mesh geometry",
+    "mesh world transforms",
+    "mesh visibility",
+    "parent relationships",
+    "saved hidden state",
+    "selection cleared"
+  ],
+  "note": "Only the viewport display of three Empty assembly controls was hidden. Physical parts and rotation drivers were not edited."
+}

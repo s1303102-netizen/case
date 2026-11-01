@@ -1,0 +1,56 @@
+{
+  "assembled_size_mm": [
+    270.82447814941406,
+    149.32884216308594,
+    278.0
+  ],
+  "single_mesh": true,
+  "split": false,
+  "has_bypass": false,
+  "has_pressure_pickups": false,
+  "has_joining_lugs": false,
+  "mesh": {
+    "vertices": 88591,
+    "faces": 177230,
+    "nonmanifold_edges": 0,
+    "signed_material_volume_mm3": 351938.3123838956,
+    "material_components": 1
+  },
+  "original_blower_inlet_mm": [
+    82,
+    88
+  ],
+  "original_flange_mm": [
+    118,
+    120,
+    3
+  ],
+  "original_mount_holes_preserved": true,
+  "turn_degrees": 90,
+  "bend_center_radius_mm": 28,
+  "slot_span_mm": 240,
+  "slit_gap_sample_range_mm": [
+    1.9999998807907104,
+    2.0
+  ],
+  "saved_blend_reopened_and_checked": true,
+  "original_models_unchanged": true,
+  "original_file_hashes": {
+    "/Users/alissachang/Desktop/大專/第一版.blend": "d23e972f8bf0f223dfa5794b6e811c96d6f15a5ac32a0b671bf9394e0eb57dc9",
+    "/Users/alissachang/Desktop/大專/集風罩/集風罩_單體.blend": "84c22c9ad3bd13008621dc08b69b4b91ca02b61582e0dc5ef50747163c2d4636"
+  },
+  "STL": {
+    "file": "/Users/alissachang/Desktop/大專/集風罩/30cm單件出風口/單件出風口_直接列印_mm.stl",
+    "size_mm": [
+      270.824462890625,
+      149.32884216308594,
+      278.0
+    ],
+    "triangles": 177230,
+    "grounded": true
+  },
+  "blend_file": "/Users/alissachang/Desktop/大專/集風罩/30cm單件出風口/30cm單件出風口.blend",
+  "CFD_executed": false,
+  "resistance_or_velocity_match_verified": false,
+  "exported_STL_topology_checked": true
+}

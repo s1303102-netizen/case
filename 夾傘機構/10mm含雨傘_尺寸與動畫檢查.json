@@ -1,0 +1,64 @@
+{
+  "units": "mm",
+  "source_blend": "/Users/alissachang/Desktop/大專/夾傘機構/夾傘旋轉機構_3D.blend",
+  "shaft_diameter": 10,
+  "upper_center_spacing": 17.74823934929885,
+  "upper_height_above_shaft": 6.5,
+  "upper_height_above_drive_axis": 49.5,
+  "shaft_center_above_drive_axis": 43,
+  "upper_centers_world": [
+    [
+      -8.874119758605957,
+      0.0,
+      31.0
+    ],
+    [
+      8.874119758605957,
+      0.0,
+      31.0
+    ]
+  ],
+  "shaft_center_world": [
+    0.0,
+    0.0,
+    24.5
+  ],
+  "plate_clearances": [
+    {
+      "side": "左",
+      "conservative_clearance_mm": 1.028567495444591
+    },
+    {
+      "side": "右",
+      "conservative_clearance_mm": 1.028567495444591
+    }
+  ],
+  "motion_samples": [
+    {
+      "frame": 1,
+      "drive_radians": 0.0,
+      "umbrella_radians": 0.0
+    },
+    {
+      "frame": 31,
+      "drive_radians": 1.583996295928955,
+      "umbrella_radians": -12.038372039794922
+    },
+    {
+      "frame": 61,
+      "drive_radians": 3.16799259185791,
+      "umbrella_radians": -24.076744079589844
+    },
+    {
+      "frame": 120,
+      "drive_radians": 6.2831854820251465,
+      "umbrella_radians": -47.7522087097168
+    }
+  ],
+  "animation_frames": [
+    1,
+    120
+  ],
+  "umbrella_state": "closed; body and handle sizes illustrative",
+  "motion_note": "Radius-ratio driven kinematic illustration, no preload/friction simulation."
+}

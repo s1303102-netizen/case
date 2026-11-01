@@ -1,0 +1,377 @@
+{
+  "model_type": "compact full-profile test coupon with calibrated bypass",
+  "mesh_coordinates_unit": "mm",
+  "print_limit_mm": [
+    300,
+    300,
+    300
+  ],
+  "body_bounds_mm": {
+    "min": [
+      -135.41221618652344,
+      -90.0,
+      0.0
+    ],
+    "max": [
+      135.41226196289062,
+      89.32884216308594,
+      278.0
+    ],
+    "size": [
+      270.82447814941406,
+      179.32884216308594,
+      278.0
+    ]
+  },
+  "assembled_size_mm": [
+    270.82447814941406,
+    182.62884521484375,
+    278.0
+  ],
+  "full_body_mesh": {
+    "vertices": 89815,
+    "faces": 179718,
+    "nonmanifold_edges": 0,
+    "signed_material_volume_mm3": 384975.7922659745,
+    "material_components": 1
+  },
+  "print_half_meshes": {
+    "左半片": {
+      "vertices": 46359,
+      "faces": 90202,
+      "nonmanifold_edges": 0,
+      "signed_material_volume_mm3": 191594.99781211303,
+      "material_components": 1
+    },
+    "右半片": {
+      "vertices": 46878,
+      "faces": 91237,
+      "nonmanifold_edges": 0,
+      "signed_material_volume_mm3": 193380.7947681449,
+      "material_components": 1
+    }
+  },
+  "bypass_plate_meshes": {
+    "0": {
+      "vertices": 473,
+      "faces": 246,
+      "nonmanifold_edges": 0,
+      "signed_material_volume_mm3": 12114.012171776489,
+      "material_components": 1
+    },
+    "28": {
+      "vertices": 675,
+      "faces": 342,
+      "nonmanifold_edges": 0,
+      "signed_material_volume_mm3": 10268.074237758025,
+      "material_components": 1
+    },
+    "32": {
+      "vertices": 677,
+      "faces": 342,
+      "nonmanifold_edges": 0,
+      "signed_material_volume_mm3": 9702.991243542045,
+      "material_components": 1
+    },
+    "36": {
+      "vertices": 677,
+      "faces": 342,
+      "nonmanifold_edges": 0,
+      "signed_material_volume_mm3": 9062.56376794775,
+      "material_components": 1
+    },
+    "38": {
+      "vertices": 673,
+      "faces": 342,
+      "nonmanifold_edges": 0,
+      "signed_material_volume_mm3": 8714.095869494677,
+      "material_components": 1
+    },
+    "40": {
+      "vertices": 673,
+      "faces": 342,
+      "nonmanifold_edges": 0,
+      "signed_material_volume_mm3": 8346.791959361084,
+      "material_components": 1
+    },
+    "44": {
+      "vertices": 673,
+      "faces": 342,
+      "nonmanifold_edges": 0,
+      "signed_material_volume_mm3": 7555.675686699633,
+      "material_components": 1
+    }
+  },
+  "slit_gap_mm": [
+    1.9999998807907104,
+    2.0
+  ],
+  "slit_sample_count": 39,
+  "measured_intake_mm": [
+    82.0,
+    88.0
+  ],
+  "preserved": {
+    "inlet_nominal_mm": [
+      82,
+      88
+    ],
+    "flange_mm": [
+      118,
+      120,
+      3
+    ],
+    "flange_center_offset_mm": [
+      2,
+      0
+    ],
+    "mount_holes": [
+      [
+        -51,
+        50
+      ],
+      [
+        51,
+        50
+      ],
+      [
+        -51,
+        -50
+      ],
+      [
+        51,
+        -50
+      ],
+      [
+        -25,
+        50
+      ],
+      [
+        25,
+        50
+      ],
+      [
+        -25,
+        -50
+      ],
+      [
+        25,
+        -50
+      ],
+      [
+        -51,
+        -25
+      ],
+      [
+        -51,
+        25
+      ],
+      [
+        51,
+        -25
+      ],
+      [
+        51,
+        25
+      ]
+    ],
+    "slot_height_mm": 2,
+    "arc_radius_mm": 749.6789214766717,
+    "turn_degrees": 90,
+    "bend_center_radius_mm": 28.0,
+    "pre_nozzle_height_mm": 12.173057860831369,
+    "contraction_length_mm": 47.42645372522041,
+    "straight_lip_mm": 4,
+    "nozzle_max_wall_angle_deg": 7,
+    "bend_approach_straight_mm": 55
+  },
+  "changed": {
+    "slot_arc_mm": [
+      592.784498562071,
+      240.0
+    ],
+    "loft_height_mm": [
+      358.86603309831105,
+      135
+    ],
+    "inlet_straight_mm": [
+      50,
+      50
+    ],
+    "upstream_arc_mm": 265.4273508436157,
+    "bypass_bore_mm": 44,
+    "bypass_plate_options_mm": [
+      0,
+      28,
+      32,
+      36,
+      38,
+      40,
+      44
+    ]
+  },
+  "pressure_taps": {
+    "bore_mm": 3,
+    "hose_connection_OD_mm": 6,
+    "inlet_neck_port_center_mm": [
+      25,
+      44,
+      10
+    ],
+    "pre_bend_port_center_mm": [
+      0,
+      -6.086528930415684,
+      215
+    ],
+    "pre_bend_tap_distance_before_bend_mm": 25,
+    "caps_to_print": 2,
+    "inlet_tap_before_bypass_split": true,
+    "pickups_flush_to_inner_wall_no_protruding_tubes": true
+  },
+  "conditional_sizing_at_25_m_s": {
+    "original_slot_area_mm2": 1185.568997124142,
+    "test_slot_area_mm2": 480.0,
+    "span_ratio": 0.40486888672388144,
+    "original_flow_m3_min": 1.778353495686213,
+    "main_test_flow_m3_min": 0.72,
+    "missing_flow_for_bypass_m3_min": 1.058353495686213,
+    "area_ratio_if_bypass_closed": 2.469935410675296,
+    "ideal_fixed_Q_slot_pressure_ratio_if_bypass_closed": 6.100580932907743,
+    "bypass_start_plate_mm": 38,
+    "bypass_start_is_unvalidated": true,
+    "assumed_kinematic_viscosity_m2_s": 1.5e-05,
+    "Re_gap_at_25m_s": 3333.3333333333335,
+    "Re_gap_same_as_original_at_same_velocity": true
+  },
+  "claims": {
+    "CFD_executed": false,
+    "resistance_match_verified": false,
+    "velocity_match_verified": false,
+    "full_span_uniformity_represented": false,
+    "inlet_outlet_and_bypass_geometrically_open": true
+  },
+  "original_file_hashes": {
+    "/Users/alissachang/Desktop/大專/第一版.blend": "13422c702725bc7c866e229cf8e2df3652abe5897c2dc71982c9f4a5817a6e8a",
+    "/Users/alissachang/Desktop/大專/集風罩/集風罩_單體.blend": "84c22c9ad3bd13008621dc08b69b4b91ca02b61582e0dc5ef50747163c2d4636"
+  },
+  "files": [
+    {
+      "file": "/Users/alissachang/Desktop/大專/集風罩/30cm列印測試版/01_集風罩本體_整件_mm.stl",
+      "size_mm": [
+        270.824462890625,
+        179.32884216308594,
+        278.0
+      ],
+      "triangles": 179718,
+      "grounded": true
+    },
+    {
+      "file": "/Users/alissachang/Desktop/大專/集風罩/30cm列印測試版/03_旁通孔片_00_封閉.stl",
+      "size_mm": [
+        64.0,
+        64.0,
+        3.0
+      ],
+      "triangles": 958,
+      "grounded": true
+    },
+    {
+      "file": "/Users/alissachang/Desktop/大專/集風罩/30cm列印測試版/03_旁通孔片_28mm.stl",
+      "size_mm": [
+        64.0,
+        64.0,
+        3.0
+      ],
+      "triangles": 1366,
+      "grounded": true
+    },
+    {
+      "file": "/Users/alissachang/Desktop/大專/集風罩/30cm列印測試版/03_旁通孔片_32mm.stl",
+      "size_mm": [
+        64.0,
+        64.0,
+        3.0
+      ],
+      "triangles": 1370,
+      "grounded": true
+    },
+    {
+      "file": "/Users/alissachang/Desktop/大專/集風罩/30cm列印測試版/03_旁通孔片_36mm.stl",
+      "size_mm": [
+        64.0,
+        64.0,
+        3.0
+      ],
+      "triangles": 1370,
+      "grounded": true
+    },
+    {
+      "file": "/Users/alissachang/Desktop/大專/集風罩/30cm列印測試版/03_旁通孔片_38mm.stl",
+      "size_mm": [
+        64.0,
+        64.0,
+        3.0
+      ],
+      "triangles": 1362,
+      "grounded": true
+    },
+    {
+      "file": "/Users/alissachang/Desktop/大專/集風罩/30cm列印測試版/03_旁通孔片_40mm.stl",
+      "size_mm": [
+        64.0,
+        64.0,
+        3.0
+      ],
+      "triangles": 1362,
+      "grounded": true
+    },
+    {
+      "file": "/Users/alissachang/Desktop/大專/集風罩/30cm列印測試版/03_旁通孔片_44mm.stl",
+      "size_mm": [
+        64.0,
+        64.0,
+        3.0
+      ],
+      "triangles": 1362,
+      "grounded": true
+    },
+    {
+      "file": "/Users/alissachang/Desktop/大專/集風罩/30cm列印測試版/04_測壓口封帽_平底朝下_mm.stl",
+      "size_mm": [
+        10.0,
+        10.000001907348633,
+        14.0
+      ],
+      "triangles": 764,
+      "grounded": true
+    },
+    {
+      "file": "/Users/alissachang/Desktop/大專/集風罩/30cm列印測試版/02_本體左半片_切面朝下_mm.stl",
+      "size_mm": [
+        278.0,
+        179.32884216308594,
+        135.4122314453125
+      ],
+      "triangles": 92758,
+      "grounded": true
+    },
+    {
+      "file": "/Users/alissachang/Desktop/大專/集風罩/30cm列印測試版/02_本體右半片_切面朝下_mm.stl",
+      "size_mm": [
+        278.0,
+        179.32884216308594,
+        135.41226196289062
+      ],
+      "triangles": 93800,
+      "grounded": true
+    }
+  ],
+  "blend_file": "/Users/alissachang/Desktop/大專/集風罩/30cm列印測試版/30cm測試集風罩_組裝.blend",
+  "saved_blend_reopened_and_checked": true,
+  "original_models_unchanged": true,
+  "original_12_flange_holes_clear": true,
+  "split_halves_volume_sum_error_mm3": 0.0003142834175378084,
+  "binary_stl_files_reopened_and_checked": true,
+  "static_pickups_flush_geometry_checked": true,
+  "blend_sha256": "98dfa3ea0fb90a7938402bb64ba8eb32fcdb2d725d0c9a6db827a3822874ced4"
+}

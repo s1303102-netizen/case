@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowGray" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#475569"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#dc2626"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-size: 42px; font-weight: 800; fill: #0f172a; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-size: 20px; fill: #475569; }
+      .label { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-size: 20px; font-weight: 700; fill: #0f172a; }
+      .small { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-size: 16px; fill: #334155; }
+      .tiny { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-size: 14px; fill: #475569; }
+      .note { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-size: 17px; fill: #1e293b; }
+      .panel { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; rx: 8; filter: url(#shadow); }
+      .machine { fill: #e2e8f0; stroke: #334155; stroke-width: 4; }
+      .cutaway { fill: #f8fafc; stroke: #64748b; stroke-width: 2; stroke-dasharray: 10 8; }
+      .air { fill: none; stroke: #2563eb; stroke-width: 5; marker-end: url(#arrow); stroke-linecap: round; }
+      .airThin { fill: none; stroke: #38bdf8; stroke-width: 3.5; marker-end: url(#arrow); stroke-linecap: round; }
+      .motion { fill: none; stroke: #dc2626; stroke-width: 5; marker-end: url(#arrowRed); stroke-linecap: round; }
+      .callout { fill: none; stroke: #475569; stroke-width: 2.5; marker-end: url(#arrowGray); stroke-linecap: round; }
+      .metal { fill: #94a3b8; stroke: #334155; stroke-width: 3; }
+      .dark { fill: #334155; stroke: #0f172a; stroke-width: 3; }
+      .water { fill: #7dd3fc; stroke: #0284c7; stroke-width: 2; }
+      .umbrella { fill: #f87171; stroke: #991b1b; stroke-width: 3; }
+      .umbrellaDark { fill: #ef4444; stroke: #991b1b; stroke-width: 3; }
+      .handle { fill: none; stroke: #334155; stroke-width: 8; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1100" fill="#f1f5f9"/>
+
+  <text x="80" y="75" class="title">折疊傘快速乾燥機：初步構造概念圖</text>
+  <text x="82" y="112" class="subtitle">雨傘維持收合狀態，利用旋轉夾頭與多角度強力風槍，將氣流打入收傘後上方開口並收集滴水。</text>
+
+  <!-- Main side section panel -->
+  <rect x="60" y="150" width="980" height="820" class="panel"/>
+  <text x="95" y="195" class="label">A. 側視剖面：水平放入後翻轉入艙</text>
+
+  <!-- Machine body -->
+  <path d="M210 305 L870 305 Q910 305 910 345 L910 810 Q910 850 870 850 L210 850 Q170 850 170 810 L170 345 Q170 305 210 305 Z" class="machine"/>
+  <path d="M235 350 L845 350 L845 780 L235 780 Z" class="cutaway"/>
+  <rect x="280" y="255" width="520" height="70" rx="8" fill="#cbd5e1" stroke="#334155" stroke-width="3"/>
+  <text x="412" y="298" class="small">可掀式安全上蓋 / 透明觀察窗</text>
+
+  <!-- Insertion guide -->
+  <rect x="105" y="230" width="360" height="52" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="3"/>
+  <text x="138" y="264" class="small">折疊傘水平放入口與導軌</text>
+  <line x1="145" y1="282" x2="315" y2="346" class="callout"/>
+
+  <!-- Rotating hinge and chuck -->
+  <circle cx="365" cy="405" r="40" class="metal"/>
+  <circle cx="365" cy="405" r="17" class="dark"/>
+  <rect x="390" y="388" width="125" height="34" rx="17" class="metal"/>
+  <path d="M505 372 L552 390 L552 420 L505 438 Z" fill="#64748b" stroke="#334155" stroke-width="3"/>
+  <path d="M530 390 C558 385 570 386 590 398 C570 410 558 414 530 408 Z" fill="#f8fafc" stroke="#334155" stroke-width="3"/>
+  <text x="108" y="382" class="small">翻轉軸 + 旋轉馬達</text>
+  <line x1="278" y1="376" x2="340" y2="397" class="callout"/>
+  <text x="112" y="435" class="small">可旋轉夾頭</text>
+  <line x1="250" y1="428" x2="528" y2="408" class="callout"/>
+
+  <!-- Umbrella in chamber -->
+  <g transform="translate(540 535) rotate(8)">
+    <path d="M-15 -35 C55 -62 225 -62 315 -25 L315 25 C225 62 55 62 -15 35 Z" class="umbrella"/>
+    <ellipse cx="38" cy="-38" rx="18" ry="7" fill="#f8fafc" stroke="#7f1d1d" stroke-width="2"/>
+    <ellipse cx="102" cy="-51" rx="18" ry="7" fill="#f8fafc" stroke="#7f1d1d" stroke-width="2"/>
+    <ellipse cx="168" cy="-53" rx="18" ry="7" fill="#f8fafc" stroke="#7f1d1d" stroke-width="2"/>
+    <ellipse cx="236" cy="-44" rx="18" ry="7" fill="#f8fafc" stroke="#7f1d1d" stroke-width="2"/>
+    <path d="M5 -28 C50 -8 50 8 5 28" fill="none" stroke="#991b1b" stroke-width="2"/>
+    <path d="M75 -48 C118 -12 118 12 75 48" fill="none" stroke="#991b1b" stroke-width="2"/>
+    <path d="M148 -54 C190 -14 190 14 148 54" fill="none" stroke="#991b1b" stroke-width="2"/>
+    <path d="M225 -48 C262 -12 262 12 225 48" fill="none" stroke="#991b1b" stroke-width="2"/>
+    <path d="M307 -18 L375 -10" class="handle"/>
+    <path d="M375 -10 C420 -8 420 50 378 50" class="handle"/>
+    <circle cx="-15" cy="0" r="15" fill="#7f1d1d"/>
+  </g>
+  <text x="610" y="625" class="small">收合折疊傘本體</text>
+  <line x1="703" y1="604" x2="703" y2="565" class="callout"/>
+
+  <!-- Rotation arrows -->
+  <path d="M565 475 C628 426 734 426 799 478" class="motion"/>
+  <path d="M815 595 C746 660 632 660 562 602" class="motion"/>
+  <text x="592" y="440" class="small" fill="#b91c1c">夾頭連續旋轉，使上方開口逐面對準風槍</text>
+
+  <!-- Air guns top -->
+  <g>
+    <rect x="475" y="350" width="70" height="42" rx="8" class="dark"/>
+    <path d="M508 392 C512 426 547 457 575 489" class="air"/>
+    <rect x="600" y="350" width="70" height="42" rx="8" class="dark"/>
+    <path d="M635 392 C642 432 648 463 660 494" class="air"/>
+    <rect x="725" y="350" width="70" height="42" rx="8" class="dark"/>
+    <path d="M755 392 C746 430 735 461 724 495" class="air"/>
+    <rect x="790" y="455" width="42" height="70" rx="8" class="dark"/>
+    <path d="M790 490 C755 483 722 482 690 493" class="air"/>
+  </g>
+  <text x="670" y="330" class="small">多支強力風槍</text>
+  <line x1="735" y1="335" x2="758" y2="358" class="callout"/>
+  <text x="485" y="474" class="small">收傘後上方開口</text>
+  <line x1="605" y1="469" x2="633" y2="492" class="callout"/>
+
+  <!-- Air duct / blower -->
+  <rect x="250" y="665" width="210" height="92" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <circle cx="315" cy="711" r="34" fill="#bfdbfe" stroke="#2563eb" stroke-width="3"/>
+  <path d="M315 677 L330 711 L315 745 L300 711 Z" fill="#2563eb" opacity="0.8"/>
+  <text x="348" y="704" class="small">高壓鼓風機</text>
+  <text x="350" y="729" class="tiny">可加熱 / 除濕選配</text>
+  <path d="M458 704 C520 688 555 634 590 580" class="airThin"/>
+  <path d="M458 730 C548 727 625 680 685 605" class="airThin"/>
+
+  <!-- Drain tray -->
+  <path d="M240 805 L850 805 L815 850 L275 850 Z" class="water"/>
+  <path d="M520 850 L520 885 L610 885 L610 850" fill="#bae6fd" stroke="#0284c7" stroke-width="3"/>
+  <text x="370" y="834" class="small">傾斜集水槽</text>
+  <text x="527" y="910" class="small">排水口</text>
+
+  <!-- Exhaust -->
+  <rect x="840" y="610" width="70" height="120" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+  <path d="M910 650 C965 642 980 615 1015 590" class="airThin"/>
+  <path d="M910 695 C970 702 988 735 1025 752" class="airThin"/>
+  <text x="742" y="758" class="small">排濕風道</text>
+  <line x1="835" y1="752" x2="872" y2="710" class="callout"/>
+
+  <!-- Support rollers -->
+  <circle cx="620" cy="680" r="28" class="metal"/>
+  <circle cx="790" cy="670" r="28" class="metal"/>
+  <text x="655" y="724" class="small">低摩擦支撐滾輪</text>
+  <line x1="705" y1="707" x2="624" y2="682" class="callout"/>
+
+  <!-- Process arrows -->
+  <path d="M265 245 C345 210 440 220 505 278" class="motion"/>
+  <text x="505" y="240" class="small" fill="#b91c1c">夾住傘頂後向下翻入</text>
+
+  <!-- Top view panel -->
+  <rect x="1080" y="150" width="460" height="420" class="panel"/>
+  <text x="1115" y="195" class="label">B. 頂部配置：對準上方開口吹風</text>
+  <ellipse cx="1310" cy="370" rx="170" ry="95" fill="#f8fafc" stroke="#64748b" stroke-width="3" stroke-dasharray="8 7"/>
+  <path d="M1170 370 C1240 312 1375 312 1450 370 C1375 430 1240 430 1170 370 Z" class="umbrella"/>
+  <path d="M1195 370 C1245 342 1245 398 1195 370" fill="none" stroke="#991b1b" stroke-width="2"/>
+  <path d="M1265 323 C1305 352 1305 388 1265 417" fill="none" stroke="#991b1b" stroke-width="2"/>
+  <path d="M1350 323 C1390 352 1390 388 1350 417" fill="none" stroke="#991b1b" stroke-width="2"/>
+  <ellipse cx="1218" cy="342" rx="18" ry="8" fill="#f8fafc" stroke="#7f1d1d" stroke-width="2" transform="rotate(-20 1218 342)"/>
+  <ellipse cx="1278" cy="323" rx="18" ry="8" fill="#f8fafc" stroke="#7f1d1d" stroke-width="2" transform="rotate(-8 1278 323)"/>
+  <ellipse cx="1342" cy="323" rx="18" ry="8" fill="#f8fafc" stroke="#7f1d1d" stroke-width="2" transform="rotate(8 1342 323)"/>
+  <ellipse cx="1403" cy="343" rx="18" ry="8" fill="#f8fafc" stroke="#7f1d1d" stroke-width="2" transform="rotate(20 1403 343)"/>
+  <path d="M1430 370 L1495 370" class="handle"/>
+
+  <g>
+    <rect x="1160" y="245" width="58" height="42" rx="8" class="dark"/>
+    <path d="M1195 287 L1220 337" class="air"/>
+    <rect x="1290" y="225" width="58" height="42" rx="8" class="dark"/>
+    <path d="M1320 267 L1340 320" class="air"/>
+    <rect x="1415" y="252" width="58" height="42" rx="8" class="dark"/>
+    <path d="M1425 294 L1404 338" class="air"/>
+    <rect x="1160" y="455" width="58" height="42" rx="8" class="dark"/>
+    <path d="M1198 455 C1228 420 1245 384 1218 350" class="air"/>
+    <rect x="1408" y="448" width="58" height="42" rx="8" class="dark"/>
+    <path d="M1418 448 C1392 420 1376 383 1400 350" class="air"/>
+  </g>
+  <circle cx="1310" cy="370" r="115" fill="none" stroke="#dc2626" stroke-width="4" stroke-dasharray="14 10"/>
+  <path d="M1405 318 C1438 345 1446 390 1422 427" class="motion"/>
+  <text x="1160" y="535" class="small">風槍對準收合後傘頂上緣開口，旋轉時逐一掃過每個縫隙。</text>
+
+  <!-- Components panel -->
+  <rect x="1080" y="610" width="460" height="360" class="panel"/>
+  <text x="1115" y="655" class="label">C. 建議核心模組</text>
+  <g class="note">
+    <text x="1120" y="700">1. 夾頭：橡膠內襯，夾住傘頂不傷傘布</text>
+    <text x="1120" y="736">2. 翻轉機構：0 至 90 度，放入後進入乾燥艙</text>
+    <text x="1120" y="772">3. 旋轉驅動：低速連續轉動，約 60 至 180 rpm</text>
+    <text x="1120" y="808">4. 高壓風槍：對準收合後上方開口吹入</text>
+    <text x="1120" y="844">5. 集水槽：底部斜面導水，避免水氣回彈</text>
+    <text x="1120" y="880">6. 排濕風道：將濕氣帶出，可接濾網或除濕盒</text>
+    <text x="1120" y="916">7. 安全感測：上蓋未閉合時停止旋轉與送風</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="80" y="1035" class="subtitle">概念重點：用「收合狀態旋轉」降低體積，讓高壓氣流從傘頂上方開口進入內層傘布，再由集水槽與排濕風道帶走水分。</text>
+</svg>

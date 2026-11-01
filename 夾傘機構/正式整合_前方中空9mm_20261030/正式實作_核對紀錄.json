@@ -1,0 +1,159 @@
+{
+  "source": "/Users/alissachang/Desktop/大專/完整模型.blend",
+  "source_sha256_before": "eb3809e28897fc5675d5e076804a293b8eead57d1b9b145cea6839df44ae6502",
+  "staged_file": "/Users/alissachang/Desktop/大專/夾傘機構/正式整合_前方中空9mm_20261030/完整模型_雙組夾傘_前方中空9mm.blend",
+  "staged_sha256": "4e1fa9b90ec10e084b298737c9b60c7e2baa132e3281d9d239d745dc99fa7e5e",
+  "backup_file": "/Users/alissachang/Desktop/大專/夾傘機構/正式整合_前方中空9mm_20261030/完整模型_加入夾傘與中空前備份.blend",
+  "backup_sha256": "eb3809e28897fc5675d5e076804a293b8eead57d1b9b145cea6839df44ae6502",
+  "clamp_source_sha256": "3beeb1e264cb56e21c9d02b6a6ce45b10b435b609d0e33f3968384a84c7db18e",
+  "shell_thickness_mm": 9,
+  "hollow_scope": "entire lower-front rectangular body, not a local pocket",
+  "outer_front_body_mm": [
+    1400,
+    100.00002861022949,
+    700.0
+  ],
+  "inner_cavity_mm": [
+    1382.0,
+    82.0000286102295,
+    681.9999999999999
+  ],
+  "local_top_opening_mm": [
+    90,
+    82.0000286102295
+  ],
+  "shaft_diameter_mm": 10,
+  "clamp_count": 2,
+  "clamp_center_distance_mm": 60,
+  "drive_wheel_diameter_mm": 76,
+  "drive_wheel_width_mm": 18,
+  "common_drive_shaft_diameter_mm": 8,
+  "common_drive_shaft_length_mm": 81.60002861022951,
+  "drive_bottom_to_bottom_inner_clearance_mm": 604.5000457763673,
+  "original_scene_units": [
+    "METRIC",
+    1.0,
+    "METERS"
+  ],
+  "new_scene_units": [
+    "METRIC",
+    0.009999999776482582,
+    "MILLIMETERS"
+  ],
+  "original_object_world_matrices_and_other_meshes_unchanged": true,
+  "umbrella_added": false,
+  "staged_reopened_and_verified": true,
+  "new_mesh_names": [
+    "夾傘_後組_左_固定片_27x11.4mm",
+    "夾傘_後組_左_輪架_前",
+    "夾傘_後組_左_輪架_後",
+    "夾傘_後組_左_定向輪_12x9mm",
+    "夾傘_後組_左_定向輪軸",
+    "夾傘_後組_左_鉚釘_負Y",
+    "夾傘_後組_左_鉚釘_正Y",
+    "夾傘_後組_右_固定片_27x11.4mm",
+    "夾傘_後組_右_輪架_前",
+    "夾傘_後組_右_輪架_後",
+    "夾傘_後組_右_定向輪_12x9mm",
+    "夾傘_後組_右_定向輪軸",
+    "夾傘_後組_右_鉚釘_負Y",
+    "夾傘_後組_右_鉚釘_正Y",
+    "夾傘_後組_大驅動輪_76x18mm",
+    "夾傘_後組_大輪輪轂_前",
+    "夾傘_後組_大輪輪轂_後",
+    "夾傘_前組_左_固定片_27x11.4mm",
+    "夾傘_前組_左_輪架_前",
+    "夾傘_前組_左_輪架_後",
+    "夾傘_前組_左_定向輪_12x9mm",
+    "夾傘_前組_左_定向輪軸",
+    "夾傘_前組_左_鉚釘_負Y",
+    "夾傘_前組_左_鉚釘_正Y",
+    "夾傘_前組_右_固定片_27x11.4mm",
+    "夾傘_前組_右_輪架_前",
+    "夾傘_前組_右_輪架_後",
+    "夾傘_前組_右_定向輪_12x9mm",
+    "夾傘_前組_右_定向輪軸",
+    "夾傘_前組_右_鉚釘_負Y",
+    "夾傘_前組_右_鉚釘_正Y",
+    "夾傘_前組_大驅動輪_76x18mm",
+    "夾傘_前組_大輪輪轂_前",
+    "夾傘_前組_大輪輪轂_後",
+    "夾傘_共用轉軸_直徑8mm"
+  ],
+  "verification": {
+    "front_rear_thickness_sample_range_mm": [
+      8.99998664855957,
+      9.000005722045898
+    ],
+    "side_wall_9mm_ray_checks": 6,
+    "bottom_9mm_ray_checks": 5,
+    "roof_9mm_ray_checks": 6,
+    "front_rear_wall_9mm_ray_checks": 18,
+    "full_width_cavity_checks_passed": true,
+    "top_observation_opening_verified": true,
+    "groove_ends_preserved": true,
+    "other_objects_byte_fingerprint_verified": [
+      "Camera",
+      "Light",
+      "三路分流接頭_右側",
+      "三路分流接頭_左側",
+      "外購導風管_右側_1",
+      "外購導風管_右側_2",
+      "外購導風管_右側_3",
+      "外購導風管_左側_1",
+      "外購導風管_左側_2",
+      "外購導風管_左側_3",
+      "小型集風罩_右側_1",
+      "小型集風罩_右側_2",
+      "小型集風罩_右側_3",
+      "小型集風罩_左側_1",
+      "小型集風罩_左側_2",
+      "小型集風罩_左側_3",
+      "鼓風機_150FLJ330W_左側_整體網格",
+      "鼓風機_150FLJ330W_整體網格"
+    ],
+    "unchanged_original_shell_vertices": 827,
+    "original_shell_faces_preserved_except": [
+      671,
+      672,
+      673,
+      674,
+      675
+    ],
+    "drive_centers_source_cm": [
+      [
+        0.0,
+        17.000001907348633,
+        65.15000915527344
+      ],
+      [
+        0.0,
+        23.000001907348633,
+        65.15000915527344
+      ]
+    ],
+    "motion_samples": [
+      {
+        "frame": 1,
+        "shaft_radians": 0.0
+      },
+      {
+        "frame": 31,
+        "shaft_radians": 1.583996295928955
+      },
+      {
+        "frame": 61,
+        "shaft_radians": 3.16799259185791
+      },
+      {
+        "frame": 120,
+        "shaft_radians": 6.2831854820251465
+      }
+    ]
+  },
+  "original_file_not_yet_overwritten": false,
+  "published_to_original": true,
+  "published_file": "/Users/alissachang/Desktop/大專/完整模型.blend",
+  "published_sha256": "4e1fa9b90ec10e084b298737c9b60c7e2baa132e3281d9d239d745dc99fa7e5e",
+  "published_backup_verified": true
+}

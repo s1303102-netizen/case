@@ -1,0 +1,18 @@
+{
+  "source": "/Users/alissachang/Desktop/大專/完整模型.blend",
+  "source_sha256": "7b92f2cd122d4ce1af11e36d1c9dce02b173607bb4641f6612c8ca785964665c",
+  "source_modified": false,
+  "output": "/private/tmp/umbrella-highres-no-floor.eGMbX6/加入雨傘_整體模擬_3840x3480_無地板.png",
+  "resolution": [
+    3840,
+    3480
+  ],
+  "render_engine": "Cycles",
+  "samples_max": 64,
+  "adaptive_noise_threshold": 0.02,
+  "floor_visible": false,
+  "background": "Opaque world background; no floor plane",
+  "camera_and_model_placement": "Unchanged from previous full-assembly preview",
+  "method": "Native 3D render, not bitmap upscaling",
+  "resolution_verified_from": "Saved PNG IHDR (background Render Result size metadata is unavailable)"
+}

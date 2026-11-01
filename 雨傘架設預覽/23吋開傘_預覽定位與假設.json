@@ -1,0 +1,156 @@
+{
+  "source_blend": "/Users/alissachang/Desktop/大專/第一版.blend",
+  "source_sha256_before": "40aca6a034c7b6466599c3f2756e7b5827b25bfd2c4b48b3bcf7b00ceb140dd2",
+  "source_blend_saved_or_modified": false,
+  "output": "PNG preview only",
+  "umbrella_assumptions": {
+    "nominal_size_inch": 23,
+    "rib_meridian_cm": 58.42,
+    "open_diameter_cm": 103.0,
+    "spherical_dome_depth_cm": 23.579706073412645,
+    "shaft_diameter_cm": 1,
+    "shaft_axis_z_cm": 69.4500093460083,
+    "canopy_tip_y_cm": -11.0,
+    "shape_note": "8-rib illustrative umbrella; no individual umbrella measurements supplied.",
+    "diameter_reference": "https://www.kinyo.tw/products/ku-9765"
+  },
+  "support_measured": {
+    "shaft_center_cm": [
+      0,
+      20,
+      69.4500093460083
+    ],
+    "low_plane_z_cm": 69.9999988079071,
+    "groove_width_cm": 0.9999999776482582,
+    "groove_depth_cm": 1.0499894618988037,
+    "groove_bottom_z_cm": 68.9500093460083,
+    "groove_y_range_cm": [
+      15.000000596046448,
+      25.00000298023224
+    ],
+    "small_groove_detected_in_saved_file": true,
+    "note": "D10 shaft rests on the saved groove bottom; existing groove is unchanged. Nominal width equals shaft diameter."
+  },
+  "fabric_shell_surface_intersections": 0,
+  "sampled_fabric_shell_clearance_cm": 2.4202942848205566,
+  "clearance_sample_count": 16385,
+  "sample_clearance_points_m": [
+    [
+      0.5149999999999999,
+      0.12579706073412644,
+      0.694500093460083
+    ],
+    [
+      0.5149999856948853,
+      0.15000000596046448,
+      0.6945000886917114
+    ]
+  ],
+  "clearance_note": "Vertex-to-triangle sample for assumed rigid fabric; excludes shaft support contact and fabric deflection.",
+  "CFD_executed": false,
+  "views": {
+    "23吋開傘_立體架設模擬.png": {
+      "markers_px": {
+        "support": [
+          783.5193872451782,
+          703.0377566814423
+        ],
+        "canopy_tip": [
+          668.0646389722824,
+          651.0273575782776
+        ],
+        "canopy_rim": [
+          505.6252330541611,
+          756.8106561899185
+        ],
+        "gap_canopy": [
+          505.6252330541611,
+          756.8106561899185
+        ],
+        "gap_shell": [
+          514.639288187027,
+          760.8713299036026
+        ]
+      },
+      "camera_m": [
+        2.1,
+        2.85,
+        1.9
+      ],
+      "target_m": [
+        0,
+        0.11,
+        0.63
+      ]
+    },
+    "23吋開傘_側面間隙模擬.png": {
+      "markers_px": {
+        "support": [
+          767.4417793750763,
+          747.2384199500084
+        ],
+        "canopy_tip": [
+          1037.7905666828156,
+          747.2384199500084
+        ],
+        "canopy_rim": [
+          832.1535587310791,
+          747.2384631633759
+        ],
+        "gap_canopy": [
+          832.1535587310791,
+          747.2384631633759
+        ],
+        "gap_shell": [
+          811.0463619232178,
+          747.2384631633759
+        ]
+      },
+      "camera_m": [
+        -3,
+        0.22,
+        0.72
+      ],
+      "target_m": [
+        0,
+        0.22,
+        0.72
+      ]
+    },
+    "23吋開傘_傘柄支承近照.png": {
+      "markers_px": {
+        "support": [
+          749.9997764825821,
+          724.9996542930603
+        ],
+        "canopy_tip": [
+          -396.3337540626526,
+          -60.31618118286133
+        ],
+        "canopy_rim": [
+          -1957.7819108963013,
+          1558.0438114702702
+        ],
+        "gap_canopy": [
+          -1957.7819108963013,
+          1558.0438114702702
+        ],
+        "gap_shell": [
+          -1868.2830333709717,
+          1619.3565145134926
+        ]
+      },
+      "camera_m": [
+        0.18,
+        0.43,
+        0.88
+      ],
+      "target_m": [
+        0,
+        0.2,
+        0.694500093460083
+      ]
+    }
+  },
+  "source_sha256_after": "40aca6a034c7b6466599c3f2756e7b5827b25bfd2c4b48b3bcf7b00ceb140dd2"
+}

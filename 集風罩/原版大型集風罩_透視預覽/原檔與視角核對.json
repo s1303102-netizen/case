@@ -1,0 +1,25 @@
+{
+  "source": "/Users/alissachang/Desktop/大專/第一版.blend",
+  "source_sha256_before": "40aca6a034c7b6466599c3f2756e7b5827b25bfd2c4b48b3bcf7b00ceb140dd2",
+  "source_sha256_after": "40aca6a034c7b6466599c3f2756e7b5827b25bfd2c4b48b3bcf7b00ceb140dd2",
+  "original_file_unchanged": true,
+  "original_hoods": [
+    "集風罩_右半邊_第二版_實體",
+    "集風罩_左半邊_第二版_實體"
+  ],
+  "preserved_original_blower_locations": true,
+  "camera_m": [
+    1.7,
+    -2.3,
+    1.6
+  ],
+  "target_m": [
+    0,
+    -0.015,
+    0.62
+  ],
+  "orthographic_scale_m": 2.4,
+  "same_camera_as": "三路分流_內流道平順版/05_整機_平順接頭配置.png",
+  "transparent_shell_only_in_preview": true,
+  "fluid_simulation_performed": false
+}

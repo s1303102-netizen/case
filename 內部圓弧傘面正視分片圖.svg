@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1200" viewBox="0 0 1400 1200">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif;fill:#0f172a}.title{font-size:34px;font-weight:800}.label{font-size:18px}.tiny{font-size:13px}</style>
+<text class="title" x="70" y="55">內部圓弧槽：傘面式木板分片正視圖</text>
+<text class="label" x="70" y="88">12放射區 x 3層分帶，共36片；由中心向外徑向比例 2:1:1，外圈為正12邊形。</text>
+<polygon points="510.00,510.00 565.60,302.50 454.40,302.50" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="510.00,510.00 454.40,302.50 358.10,358.10" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="510.00,510.00 358.10,358.10 302.50,454.40" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="510.00,510.00 302.50,454.40 302.50,565.60" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="510.00,510.00 302.50,565.60 358.10,661.90" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="510.00,510.00 358.10,661.90 454.40,717.50" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="510.00,510.00 454.40,717.50 565.60,717.50" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="510.00,510.00 565.60,717.50 661.90,661.90" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="510.00,510.00 661.90,661.90 717.50,565.60" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="510.00,510.00 717.50,565.60 717.50,454.40" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="510.00,510.00 717.50,454.40 661.90,358.10" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="510.00,510.00 661.90,358.10 565.60,302.50" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="565.60,302.50 454.40,302.50 426.60,198.75 593.40,198.75" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="454.40,302.50 358.10,358.10 282.15,282.15 426.60,198.75" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="358.10,358.10 302.50,454.40 198.75,426.60 282.15,282.15" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="302.50,454.40 302.50,565.60 198.75,593.40 198.75,426.60" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="302.50,565.60 358.10,661.90 282.15,737.85 198.75,593.40" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="358.10,661.90 454.40,717.50 426.60,821.25 282.15,737.85" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="454.40,717.50 565.60,717.50 593.40,821.25 426.60,821.25" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="565.60,717.50 661.90,661.90 737.85,737.85 593.40,821.25" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="661.90,661.90 717.50,565.60 821.25,593.40 737.85,737.85" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="717.50,565.60 717.50,454.40 821.25,426.60 821.25,593.40" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="717.50,454.40 661.90,358.10 737.85,282.15 821.25,426.60" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="661.90,358.10 565.60,302.50 593.40,198.75 737.85,282.15" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="593.40,198.75 426.60,198.75 398.80,95.00 621.20,95.00" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="426.60,198.75 282.15,282.15 206.20,206.20 398.80,95.00" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="282.15,282.15 198.75,426.60 95.00,398.80 206.20,206.20" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="198.75,426.60 198.75,593.40 95.00,621.20 95.00,398.80" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="198.75,593.40 282.15,737.85 206.20,813.80 95.00,621.20" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="282.15,737.85 426.60,821.25 398.80,925.00 206.20,813.80" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="426.60,821.25 593.40,821.25 621.20,925.00 398.80,925.00" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="593.40,821.25 737.85,737.85 813.80,813.80 621.20,925.00" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="737.85,737.85 821.25,593.40 925.00,621.20 813.80,813.80" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="821.25,593.40 821.25,426.60 925.00,398.80 925.00,621.20" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<polygon points="821.25,426.60 737.85,282.15 813.80,206.20 925.00,398.80" fill="#d6a15f" stroke="#334155" stroke-width="1.8"/>
+<polygon points="737.85,282.15 593.40,198.75 621.20,95.00 813.80,206.20" fill="#efc37a" stroke="#334155" stroke-width="1.8"/>
+<path d="M565.60,302.50 L454.40,302.50 L358.10,358.10 L302.50,454.40 L302.50,565.60 L358.10,661.90 L454.40,717.50 L565.60,717.50 L661.90,661.90 L717.50,565.60 L717.50,454.40 L661.90,358.10 Z" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M593.40,198.75 L426.60,198.75 L282.15,282.15 L198.75,426.60 L198.75,593.40 L282.15,737.85 L426.60,821.25 L593.40,821.25 L737.85,737.85 L821.25,593.40 L821.25,426.60 L737.85,282.15 Z" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M621.20,95.00 L398.80,95.00 L206.20,206.20 L95.00,398.80 L95.00,621.20 L206.20,813.80 L398.80,925.00 L621.20,925.00 L813.80,813.80 L925.00,621.20 L925.00,398.80 L813.80,206.20 Z" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M510.00,510.00 L565.60,302.50 L593.40,198.75 L621.20,95.00" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M510.00,510.00 L454.40,302.50 L426.60,198.75 L398.80,95.00" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M510.00,510.00 L358.10,358.10 L282.15,282.15 L206.20,206.20" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M510.00,510.00 L302.50,454.40 L198.75,426.60 L95.00,398.80" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M510.00,510.00 L302.50,565.60 L198.75,593.40 L95.00,621.20" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M510.00,510.00 L358.10,661.90 L282.15,737.85 L206.20,813.80" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M510.00,510.00 L454.40,717.50 L426.60,821.25 L398.80,925.00" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M510.00,510.00 L565.60,717.50 L593.40,821.25 L621.20,925.00" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M510.00,510.00 L661.90,661.90 L737.85,737.85 L813.80,813.80" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M510.00,510.00 L717.50,565.60 L821.25,593.40 L925.00,621.20" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M510.00,510.00 L717.50,454.40 L821.25,426.60 L925.00,398.80" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<path d="M510.00,510.00 L661.90,358.10 L737.85,282.15 L813.80,206.20" fill="none" stroke="#1f2937" stroke-width="2.2"/>
+<text class="tiny" x="510.00" y="371.67" text-anchor="middle">C01</text>
+<text class="tiny" x="440.83" y="390.20" text-anchor="middle">C02</text>
+<text class="tiny" x="390.20" y="440.83" text-anchor="middle">C03</text>
+<text class="tiny" x="371.67" y="510.00" text-anchor="middle">C04</text>
+<text class="tiny" x="390.20" y="579.17" text-anchor="middle">C05</text>
+<text class="tiny" x="440.83" y="629.80" text-anchor="middle">C06</text>
+<text class="tiny" x="510.00" y="648.33" text-anchor="middle">C07</text>
+<text class="tiny" x="579.17" y="629.80" text-anchor="middle">C08</text>
+<text class="tiny" x="629.80" y="579.17" text-anchor="middle">C09</text>
+<text class="tiny" x="648.33" y="510.00" text-anchor="middle">C10</text>
+<text class="tiny" x="629.80" y="440.83" text-anchor="middle">C11</text>
+<text class="tiny" x="579.17" y="390.20" text-anchor="middle">C12</text>
+<text class="tiny" x="510.00" y="146.88" text-anchor="middle">R02-01</text>
+<text class="tiny" x="328.44" y="195.52" text-anchor="middle">R02-02</text>
+<text class="tiny" x="195.52" y="328.44" text-anchor="middle">R02-03</text>
+<text class="tiny" x="146.88" y="510.00" text-anchor="middle">R02-04</text>
+<text class="tiny" x="195.52" y="691.56" text-anchor="middle">R02-05</text>
+<text class="tiny" x="328.44" y="824.48" text-anchor="middle">R02-06</text>
+<text class="tiny" x="510.00" y="873.12" text-anchor="middle">R02-07</text>
+<text class="tiny" x="691.56" y="824.48" text-anchor="middle">R02-08</text>
+<text class="tiny" x="824.48" y="691.56" text-anchor="middle">R02-09</text>
+<text class="tiny" x="873.12" y="510.00" text-anchor="middle">R02-10</text>
+<text class="tiny" x="824.48" y="328.44" text-anchor="middle">R02-11</text>
+<text class="tiny" x="691.56" y="195.52" text-anchor="middle">R02-12</text>
+<text class="label" x="70" y="1128">輸出：內部圓弧傘面木板結構.obj / 內部圓弧傘面板件尺寸.csv</text>
+<text class="label" x="70" y="1158">板厚 0.9cm；每片 CSV 內含邊長、對角線與平面裁切座標。</text>
+</svg>

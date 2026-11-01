@@ -1,0 +1,123 @@
+{
+  "concept": "Full-width thin passage before turning, gentle final nozzle; inspired by Airblade principles, not a reproduction.",
+  "source_blend_sha256": "1c60cac51c4a4d4e293adf458cf5e52914976ff5140b679e2a3e98c29da3d3ca",
+  "unchanged_blender": true,
+  "slot_span_mm": 592.784498562071,
+  "slot_gap_mm": 2.0,
+  "pre_nozzle_height_mm": 12.173057860831369,
+  "actual_upstream_arc_span_mm": 655.2579113623293,
+  "nominal_inlet_area_mm2": 7216,
+  "upper_actual_area_mm2": 7976.492468781147,
+  "nozzle": {
+    "wall_max_angle_degrees": 7,
+    "included_reference_degrees": 14,
+    "converging_length_mm": 47.42645372522041,
+    "straight_lip_mm": 4.0,
+    "total_length_mm": 51.42645372522041,
+    "blend_length_each_mm": 6.0
+  },
+  "bend": {
+    "mean_radius_mm": 28.0,
+    "inner_radius_mm": 21.913471069584315,
+    "outer_radius_mm": 34.08652893041568,
+    "R_over_passage_height": 2.3001615797863066,
+    "integrated_vane_required_in_this_concept": false,
+    "vertical_center_r_mm": 79.42645372522041,
+    "start_Z_mm": 671.8660278320312
+  },
+  "back_wall_envelope_clearance_mm": 13.274526842071396,
+  "blower": {
+    "proposed_port_center_cm": [
+      -33.56132900741951,
+      -10.0,
+      20.79999947337202
+    ],
+    "port_shift_cm": [
+      29.91429428204141,
+      2.56576194986701,
+      0.0
+    ],
+    "Z_rotation_about_port_degrees": -24.55203947546868,
+    "proposed_object_origin_cm": [
+      -19.03661089359475,
+      -16.470323558847586,
+      9.5
+    ],
+    "proposed_euler_degrees": [
+      0,
+      -90,
+      -24.55203947546868
+    ],
+    "bounds_mm": {
+      "min": [
+        -414.7261282401024,
+        -207.81612602733776,
+        2.000003159046173
+      ],
+      "max": [
+        -121.40554345183676,
+        59.31153740086028,
+        207.99999237060547
+      ]
+    }
+  },
+  "loft_stations": [
+    {
+      "Z_mm": 257.9999947337202,
+      "span_mm": 82.00000000000007,
+      "depth_mm": 87.99999999999993,
+      "area_mm2": 7216.0
+    },
+    {
+      "Z_mm": 347.716503008298,
+      "span_mm": 140.42487314507886,
+      "depth_mm": 51.947512501415524,
+      "area_mm2": 7294.722853213673
+    },
+    {
+      "Z_mm": 437.4330112828757,
+      "span_mm": 367.68585624836203,
+      "depth_mm": 20.659609569696123,
+      "area_mm2": 7596.246234390574
+    },
+    {
+      "Z_mm": 527.1495195574535,
+      "span_mm": 595.7006317249678,
+      "depth_mm": 13.257950713763616,
+      "area_mm2": 7897.769615567474
+    },
+    {
+      "Z_mm": 616.8660278320312,
+      "span_mm": 655.2579113623293,
+      "depth_mm": 12.173057860831369,
+      "area_mm2": 7976.492468781147
+    }
+  ],
+  "loft_bounds_mm": {
+    "min": [
+      -614.1881394100351,
+      -236.72467981157243,
+      257.9999947337202
+    ],
+    "max": [
+      -27.356204947186015,
+      42.11030831259779,
+      616.8660278320312
+    ]
+  },
+  "old_comparison": {
+    "max_half_angle_degrees": 47.642545294064725,
+    "old_bend_R_over_height": 0.9285714285714286
+  },
+  "pressure_sizing": {
+    "assumed_Cd": 0.94,
+    "assumed_transport_K": 1.2,
+    "target_velocity_m_s": 25,
+    "required_flow_m3_min": 1.778353495686213,
+    "required_static_Pa": 426.4247001946779,
+    "conditional_V_if_static_460Pa_m_s": 25.965563267025587,
+    "validated_pressure_loss": false,
+    "uniformity_prediction": null,
+    "note": "Scalar sizing only; does not resolve lateral expansion or secondary flow."
+  }
+}

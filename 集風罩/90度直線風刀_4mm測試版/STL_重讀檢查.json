@@ -1,0 +1,28 @@
+[
+  {
+    "file": "90度直線風刀_216x4mm_單件_mm.stl",
+    "triangles": 292938,
+    "vertices": 146445,
+    "nonmanifold_coordinate_edges": 0,
+    "collapsed_triangles": 0,
+    "signed_volume_mm3": 307249.8874367804,
+    "bounds_mm": [
+      [
+        -110.0,
+        -60.0,
+        0.0
+      ],
+      [
+        110.0,
+        130.0,
+        243.0
+      ]
+    ],
+    "size_mm": [
+      220.0,
+      190.0,
+      243.0
+    ],
+    "sha256": "5029cc0fc712cf857bb850f9d6921acaf4f0812371d2c0b26de083c8450ff3bf"
+  }
+]

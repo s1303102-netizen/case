@@ -1,0 +1,138 @@
+{
+  "source_sha256": "acf2879a6acb20549de8f26922cb3d45634daec24fbd8638e3c33e6b7d7ea974",
+  "backup": "/Users/alissachang/Desktop/大專/集風罩/第一版_新增另一側鼓風機與集風罩前備份.blend",
+  "added_objects": [
+    "鼓風機_150FLJ330W_左側_整體網格",
+    "集風罩_左半邊_第二版_實體"
+  ],
+  "original_objects_preserved": [
+    "Camera",
+    "Cube",
+    "Light",
+    "集風罩_右半邊_第二版_實體",
+    "鼓風機_150FLJ330W_整體網格"
+  ],
+  "mirror_plane": "X=0 cm",
+  "scene_units_preserved": [
+    "METRIC",
+    1.0,
+    "METERS"
+  ],
+  "blower_is_identical_mesh_rigidly_rotated": true,
+  "blower_mesh_reflected": false,
+  "new_port_center_cm": [
+    33.56132888793945,
+    -2.0000016689300537,
+    20.799997329711914
+  ],
+  "inlet_shift_from_exact_mirror_cm": [
+    0,
+    8.0,
+    0
+  ],
+  "hood_transition_adjustment": "Horizontal sections shift with quintic taper between original neck and upper straight; outlet and bend unchanged.",
+  "flange_and_bolt_alignment_max_error_mm": 6.893554828072052e-05,
+  "CFD_executed": false,
+  "集風罩_左半邊_第二版_實體": {
+    "bounds_cm": {
+      "min": [
+        2.30010986328125,
+        -23.68079376220703,
+        20.799997329711914
+      ],
+      "max": [
+        61.5567512512207,
+        9.203851699829102,
+        70.98660278320312
+      ],
+      "size": [
+        59.25664138793945,
+        32.88464546203613,
+        50.18660545349121
+      ]
+    },
+    "matrix": [
+      [
+        0.10000000149011612,
+        0.0,
+        0.0,
+        33.56132888793945
+      ],
+      [
+        0.0,
+        0.10000000149011612,
+        0.0,
+        -2.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.10000000149011612,
+        20.799999237060547
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "鼓風機_150FLJ330W_左側_整體網格": {
+    "bounds_cm": {
+      "min": [
+        17.196781158447266,
+        -24.168039321899414,
+        0.19999857246875763
+      ],
+      "max": [
+        41.47261047363281,
+        5.861873626708984,
+        20.799999237060547
+      ],
+      "size": [
+        24.275829315185547,
+        30.0299129486084,
+        20.60000066459179
+      ]
+    },
+    "matrix": [
+      [
+        1.947071837093972e-08,
+        0.04155195504426956,
+        0.09095842391252518,
+        19.161266326904297
+      ],
+      [
+        0.0,
+        -0.09095842391252518,
+        0.04155195504426956,
+        -8.743200302124023
+      ],
+      [
+        0.10000000149011612,
+        -8.090464298504685e-09,
+        -1.7710259925252103e-08,
+        9.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "new_blower_shell_surface_intersections": 0,
+  "new_hood_shell_surface_contacts": 30,
+  "opposite_side_pair_surface_intersections": 0,
+  "new_hood_nonmanifold_edges": 0,
+  "slit_gap_mm": [
+    1.999969407916069,
+    1.999969631433487
+  ],
+  "outlet_clear_samples": 39,
+  "saved_file_reopened_and_original_objects_verified": true,
+  "result_file": "/Users/alissachang/Desktop/大專/第一版.blend",
+  "result_sha256": "9cbd4032dfca2cbca3647c17689262761e2a20d5fb8ba4103d3722af2e30f5d6"
+}

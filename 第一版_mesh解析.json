@@ -1,0 +1,145 @@
+{
+  "mesh_oldptr": "0x7246f15bd34c41a0",
+  "object_oldptr": "0x2f1e8c57b0decf30",
+  "loc": [
+    0.0,
+    0.0,
+    62.5
+  ],
+  "scale": [
+    140.0,
+    50.0,
+    125.0
+  ],
+  "totvert": 792,
+  "totpoly": 675,
+  "totloop": 2926,
+  "bbox_min": [
+    -70.0,
+    -25.0,
+    0.0
+  ],
+  "bbox_max": [
+    70.0,
+    25.00000298023224,
+    125.0
+  ],
+  "attributes": [
+    {
+      "name": "UVMap",
+      "data_type": 6,
+      "domain": 3,
+      "storage_type": 0,
+      "data_ptr": 4450082800180973504
+    },
+    {
+      "name": "sharp_face",
+      "data_type": 0,
+      "domain": 2,
+      "storage_type": 1,
+      "data_ptr": 4450082800180973536
+    },
+    {
+      "name": ".uv_select_vert",
+      "data_type": 0,
+      "domain": 3,
+      "storage_type": 1,
+      "data_ptr": 4450082800180973568
+    },
+    {
+      "name": ".uv_select_edge",
+      "data_type": 0,
+      "domain": 3,
+      "storage_type": 1,
+      "data_ptr": 4450082800180973600
+    },
+    {
+      "name": ".uv_select_face",
+      "data_type": 0,
+      "domain": 2,
+      "storage_type": 1,
+      "data_ptr": 4450082800180973632
+    },
+    {
+      "name": "position",
+      "data_type": 7,
+      "domain": 0,
+      "storage_type": 0,
+      "data_ptr": 4450082800180973664
+    },
+    {
+      "name": ".edge_verts",
+      "data_type": 4,
+      "domain": 1,
+      "storage_type": 0,
+      "data_ptr": 4450082800180973696
+    },
+    {
+      "name": ".corner_vert",
+      "data_type": 3,
+      "domain": 3,
+      "storage_type": 0,
+      "data_ptr": 4450082800180973728
+    },
+    {
+      "name": ".corner_edge",
+      "data_type": 3,
+      "domain": 3,
+      "storage_type": 0,
+      "data_ptr": 4450082800180973760
+    }
+  ],
+  "attribute_arrays": {
+    "UVMap": {
+      "name": "UVMap",
+      "data_type": 6,
+      "domain": 3,
+      "storage_type": 0,
+      "data_ptr": 4450082800180973504,
+      "array_ptr": 4450082800180973776,
+      "array_size": 2926,
+      "is_single": 0
+    },
+    "position": {
+      "name": "position",
+      "data_type": 7,
+      "domain": 0,
+      "storage_type": 0,
+      "data_ptr": 4450082800180973664,
+      "array_ptr": 4450082800180973936,
+      "array_size": 792,
+      "is_single": 0
+    },
+    ".edge_verts": {
+      "name": ".edge_verts",
+      "data_type": 4,
+      "domain": 1,
+      "storage_type": 0,
+      "data_ptr": 4450082800180973696,
+      "array_ptr": 4450082800180973968,
+      "array_size": 1463,
+      "is_single": 0
+    },
+    ".corner_vert": {
+      "name": ".corner_vert",
+      "data_type": 3,
+      "domain": 3,
+      "storage_type": 0,
+      "data_ptr": 4450082800180973728,
+      "array_ptr": 4450082800180974000,
+      "array_size": 2926,
+      "is_single": 0
+    },
+    ".corner_edge": {
+      "name": ".corner_edge",
+      "data_type": 3,
+      "domain": 3,
+      "storage_type": 0,
+      "data_ptr": 4450082800180973760,
+      "array_ptr": 4450082800180974032,
+      "array_size": 2926,
+      "is_single": 0
+    }
+  },
+  "long_curve_candidate_count": 3
+}
